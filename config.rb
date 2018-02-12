@@ -48,3 +48,8 @@ end
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+
+before_build do
+  system("bundle exec rake sync_sapwood")
+end
