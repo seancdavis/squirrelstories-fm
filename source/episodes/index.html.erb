@@ -1,0 +1,7 @@
+<ul>
+  <% data.episodes.each do |episode| %>
+    <li>
+      <%= link_to episode.name, episode.slug, relative: true %>
+    </li>
+  <% end %>
+</ul>

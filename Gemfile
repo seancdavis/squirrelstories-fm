@@ -6,3 +6,8 @@ gem 'middleman-autoprefixer', '~> 2.7'
 # gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
 gem 'rake'
+
+gem 'rest-client'
+gem 'hashie'
+# gem 'json'
+# gem 'yaml'

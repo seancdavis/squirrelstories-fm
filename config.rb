@@ -16,8 +16,8 @@ page '/*.txt', layout: false
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
-data.people.friends.each do |friend|
-  proxy "/friends/#{friend.name}.html", "/templates/friend.html", locals: { friend: friend, title: friend.name }, ignore: true
+data.episodes.each do |episode|
+  proxy "/episodes/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: episode.name }, ignore: true
 end
 
 # Proxy pages
