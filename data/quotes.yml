@@ -1,0 +1,125 @@
+---
+- !ruby/hash:Hashie::Mash
+  id: 2602
+  title: This is another test quote
+  slug: this-is-another-test-quote
+  template_name: Quote
+  publish_at: 
+  created_at: '2018-01-29T11:31:36.667Z'
+  updated_at: '2018-01-29T11:31:36.667Z'
+  body: This is another test quote
+  storyteller: !ruby/hash:Hashie::Mash
+    id: 2367
+    title: Hunter Chapman
+    slug: hunter-chapman
+    template_name: Storyteller
+    publish_at: 
+    created_at: '2017-09-03T13:43:44.850Z'
+    updated_at: '2017-09-03T13:43:44.850Z'
+    name: Hunter Chapman
+  episode: !ruby/hash:Hashie::Mash
+    id: 2368
+    title: Worst Easter Ever
+    slug: worst-easter-ever
+    template_name: Episode
+    publish_at: 
+    created_at: '2017-09-03T13:43:58.086Z'
+    updated_at: '2017-10-28T12:12:57.156Z'
+    number: '01.03'
+    name: Worst Easter Ever
+    date: '2016-02-03'
+    stories: !ruby/array:Hashie::Array
+    - !ruby/hash:Hashie::Mash
+      id: 2457
+      title: Worst Easter Ever
+      slug: worst-easter-ever-2457
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:43.480Z'
+      updated_at: '2017-10-28T11:55:43.480Z'
+      name: Worst Easter Ever
+      date: 11-14-2015
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 2367
+        title: Hunter Chapman
+        slug: hunter-chapman
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2017-09-03T13:43:44.850Z'
+        updated_at: '2017-09-03T13:43:44.850Z'
+        name: Hunter Chapman
+    description: Just your everyday Easter dinner, along with automatic rifles and
+      horse saddle tug of war.
+    audio_file: !ruby/hash:Hashie::Mash
+      id: 2561
+      title: 03 Worst Easter Ever
+      slug: 03-worst-easter-ever
+      template_name: Audio
+      publish_at: 
+      created_at: '2017-10-28T12:10:54.230Z'
+      updated_at: '2017-10-28T12:10:54.230Z'
+      name: 03 Worst Easter Ever
+      url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/03-worst-easter-ever.mp3
+    itunes_url: https://itunes.apple.com/us/podcast/worst-easter-ever/id1069939740?i=1000361850953&mt=2
+- !ruby/hash:Hashie::Mash
+  id: 2601
+  title: This is a test quote
+  slug: this-is-a-test-quote
+  template_name: Quote
+  publish_at: 
+  created_at: '2018-01-29T11:31:16.281Z'
+  updated_at: '2018-01-29T11:31:16.281Z'
+  body: This is a test quote
+  storyteller: !ruby/hash:Hashie::Mash
+    id: 1176
+    title: Sean C Davis
+    slug: sean-c-davis
+    template_name: Storyteller
+    publish_at: 
+    created_at: '2016-12-23T00:20:54.926Z'
+    updated_at: '2016-12-23T00:20:54.926Z'
+    name: Sean C Davis
+  episode: !ruby/hash:Hashie::Mash
+    id: 1
+    title: Squirrels
+    slug: squirrels
+    template_name: Episode
+    publish_at: 
+    created_at: '2016-07-08T19:01:37.826Z'
+    updated_at: '2018-02-02T12:32:18.494Z'
+    number: '01.01'
+    name: Squirrels
+    date: '2016-01-05'
+    stories: !ruby/array:Hashie::Array
+    - !ruby/hash:Hashie::Mash
+      id: 2461
+      title: Squirrels
+      slug: squirrels-2461
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:43.812Z'
+      updated_at: '2017-10-28T11:55:43.812Z'
+      name: Squirrels
+      date: 12-14-2015
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 1176
+        title: Sean C Davis
+        slug: sean-c-davis
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2016-12-23T00:20:54.926Z'
+        updated_at: '2016-12-23T00:20:54.926Z'
+        name: Sean C Davis
+    description: I kick off this crazy adventure by telling you about the time I was
+      assaulted by a squirrel.
+    audio_file: !ruby/hash:Hashie::Mash
+      id: 2558
+      title: 01 Squirrels
+      slug: 01-squirrels
+      template_name: Audio
+      publish_at: 
+      created_at: '2017-10-28T12:07:51.153Z'
+      updated_at: '2017-10-28T12:07:51.153Z'
+      name: 01 Squirrels
+      url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/01-squirrels.mp3
+    itunes_url: https://itunes.apple.com/us/podcast/squirrels/id1069939740?i=359358687&mt=2
