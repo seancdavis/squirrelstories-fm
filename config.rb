@@ -24,6 +24,10 @@ data.quotes.each do |quote|
   proxy "/quotes/#{quote.episode.id}/#{quote.id}/index.html", "/templates/quote.html", locals: { quote: quote, title: 'Squirrel Stories Quote' }, ignore: true
 end
 
+data.pages.each do |page|
+  proxy "/#{page.page_path}/index.html", "/templates/page.html", locals: { page: page, title: "Squirrel Stories | #{page.name}" }, ignore: true
+end
+
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
