@@ -1,1 +1,64 @@
-Footer ...
+<footer class="footer bg-black">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-auto text-center">
+            <a href="/">
+              <%= image_tag 'squirrel-stories-logo-white.svg', class: 'footer--logo' %>
+            </a>
+          </div>
+          <div class="col-xs-6 footer--nav">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Footer Link #1</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Footer Link #1</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Footer Link #1</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Footer Link #1</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Footer Link #1</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <ul class="footer--social-icons mb-4">
+          <li>
+            <a href="#">
+              <%= icon 'facebook' %>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <%= icon 'instagram' %>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <%= icon 'twitter' %>
+            </a>
+          </li>
+        </ul>
+        <div class="footer--email-signup">
+          <p class="text-white mb-2 font-size-small">
+            Get updates when new episodes are available:
+          </p>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Enter Email">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -3,6 +3,20 @@ title: Squirrel Stories
 ---
 
 <%= partial 'partials/site_intro' %>
+<%= partial 'partials/features' %>
 
+<div class="container mt-5">
+  <div class="type--index-title mb-2">
+    <h1>Latest Episodes</h1>
+  </div>
 
+  <% data.episodes.first(2).each do |episode| %>
+    <%= partial 'templates/episode', locals: { episode: episode } %>
+  <% end %>
 
+  <p class="text-center mb-5">
+    <a href="/episodes" class="btn btn-outline-primary px-5">
+      View All Episodes
+    </a>
+  </p>
+</div>
