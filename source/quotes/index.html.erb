@@ -11,7 +11,7 @@ title: Squirrel Stories | Quotes
     <div class="masonry--sizer"></div>
 
     <% data.quotes.first(20).each do |quote| %>
-      <%= partial 'templates/quote', locals: { quote: quote } %>
+      <%= partial 'templates/_quote', locals: { quote: quote } %>
     <% end %>
   </div>
 

@@ -20,6 +20,10 @@ data.episodes.each do |episode|
   proxy "/episodes/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: episode.name }, ignore: true
 end
 
+data.quotes.each do |quote|
+  proxy "/quotes/#{quote.episode.id}/#{quote.id}/index.html", "/templates/quote.html", locals: { quote: quote, title: 'Squirrel Stories Quote' }, ignore: true
+end
+
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
@@ -70,6 +74,16 @@ helpers do
     return 'masonry--text-xl' if text.size <= 32
     return 'masonry--text-lg' if text.size <= 100
     ''
+  end
+
+  def facebook_share_url(url = current_page.path)
+    p = { u: url }.to_param
+    "https://www.facebook.com/sharer/sharer.php?#{p}"
+  end
+
+  def twitter_share_url(text = nil, url = current_page.path)
+    p = { status: url }.to_param
+    "https://twitter.com/home?#{p}"
   end
 
 end

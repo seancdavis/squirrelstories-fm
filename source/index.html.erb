@@ -11,7 +11,7 @@ title: Squirrel Stories
   </div>
 
   <% data.episodes.first(2).each do |episode| %>
-    <%= partial 'templates/episode', locals: { episode: episode } %>
+    <%= partial 'templates/_episode', locals: { episode: episode } %>
   <% end %>
 
   <p class="text-center mb-5">
