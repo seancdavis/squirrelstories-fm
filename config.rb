@@ -53,8 +53,8 @@ helpers do
 
   def active_nav?(type, value)
     case type.to_sym
-    # when :segment
-    #   request.path.split('/').reject(&:blank?).include?(value)
+    when :segment
+      current_page.path.split('/').reject(&:blank?).include?(value)
     when :path
       current_page.path == value
     else

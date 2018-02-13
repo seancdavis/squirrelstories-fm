@@ -1,7 +1,13 @@
-<ul>
-  <% data.episodes.each do |episode| %>
-    <li>
-      <%= link_to episode.name, episode.slug, relative: true %>
-    </li>
+---
+title: Squirrel Stories | Episodes
+---
+
+<div class="page-header bg-triangles">
+  <h1>Episodes</h1>
+</div>
+
+<div class="container mt-5">
+  <% 5.times do %>
+    <%= partial 'templates/episode' %>
   <% end %>
-</ul>
+</div>
