@@ -43,6 +43,25 @@ helpers do
     data.settings.site.title
   end
 
+  def icon(name, options = {})
+    classes = "icon icon-#{name} #{options[:size]} #{options[:class]}"
+    content_tag(:svg, class: classes, 'viewBox': '0 0 32 32') do
+      href = "#{image_path('icons.svg')}##{name}"
+      content_tag(:use, nil, 'xlink:href': href, height: '32', width: '32')
+    end
+  end
+
+  def active_nav?(type, value)
+    case type.to_sym
+    # when :segment
+    #   request.path.split('/').reject(&:blank?).include?(value)
+    when :path
+      current_page.path == value
+    else
+      false
+    end
+  end
+
 end
 
 # Build-specific configuration
