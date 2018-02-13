@@ -1,0 +1,21 @@
+---
+title: Squirrel Stories | Quotes
+---
+
+<div class="page-header bg-triangles">
+  <h1>Quotes</h1>
+</div>
+
+<div class="container my-5">
+  <div class="masonry invisible">
+    <div class="masonry--sizer"></div>
+
+    <% data.quotes.first(20).each do |quote| %>
+      <%= partial 'templates/quote', locals: { quote: quote } %>
+    <% end %>
+  </div>
+
+  <p class="text-center mt-4">
+    <a href="#" class="btn btn-outline-primary px-5">Load More</a>
+  </p>
+</div>
