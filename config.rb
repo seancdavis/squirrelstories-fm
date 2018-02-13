@@ -35,11 +35,15 @@ end
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+
+  def page_title
+    return current_page.metadata[:locals][:title] if current_page.metadata[:locals][:title]
+    return current_page.data.title if current_page.data.title
+    data.settings.site.title
+  end
+
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
@@ -48,7 +52,6 @@ end
 #   activate :minify_css
 #   activate :minify_javascript
 # end
-
 
 before_build do
   system("bundle exec rake sync_sapwood")

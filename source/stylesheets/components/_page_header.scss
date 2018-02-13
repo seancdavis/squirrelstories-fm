@@ -1,0 +1,9 @@
+.page-header {
+  text-align: center;
+  color: $white;
+  padding: 2rem 1rem;
+
+  @include all-headings {
+    font-size: 3.15rem;
+  }
+}

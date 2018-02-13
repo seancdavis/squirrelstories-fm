@@ -1,0 +1,40 @@
+.header {
+
+  a {
+    color: $black;
+    display: inline-block;
+    @include link-variations {
+      color: $black;
+    }
+  }
+
+  .header--menu-trigger {
+    margin: 1rem;
+  }
+
+  .header--logo {
+    background-image: image-url('squirrel-down.svg');
+    background-position: center -1.625rem;
+    background-repeat: no-repeat;
+    background-size: 2.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 13px .75rem;
+  }
+
+  .header--logo-left,
+  .header--logo-right {
+    display: inline-block;
+    width: 6rem;
+  }
+
+  .header--logo-left {
+    margin-right: 1.25rem;
+    text-align: right;
+  }
+
+  .header--logo-right {
+    margin-left: 1.25rem;
+    text-align: left;
+  }
+}

@@ -1,0 +1,16 @@
+.icon {
+  display: inline-block;
+  @include size(1rem);
+  line-height: 1;
+  vertical-align: middle;
+
+  use {
+    fill: currentColor;
+  }
+}
+
+
+.icon--md {
+  height: 2rem;
+  width: 2rem;
+}

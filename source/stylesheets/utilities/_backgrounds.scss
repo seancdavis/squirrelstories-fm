@@ -1,0 +1,36 @@
+.bg-teal {
+  background-color: $teal;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-triangles {
+  background-color: $gray-900;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    background-image: image-url('site-intro-bg.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -1rem;
+    content: ' ';
+    height: 9rem;
+    left: 15%;
+    position: absolute;
+    transform: rotate(-4deg);
+    width: 100%;
+  }
+
+  > * {
+    position: relative;
+  }
+}

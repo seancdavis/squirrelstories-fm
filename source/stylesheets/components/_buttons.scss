@@ -1,0 +1,9 @@
+.btn-black-alpha {
+  background-color: rgba($black, .32);
+  color: $white;
+
+  @include link-variations {
+    background-color: rgba($black, .5);
+    color: $white;
+  }
+}

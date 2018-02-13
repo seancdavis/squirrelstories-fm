@@ -1,0 +1,45 @@
+.main-nav {
+  background-color: rgba($black, .95);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  overflow-y: scroll;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: visibility 0s ease .25s, opacity .25s ease;
+  visibility: hidden;
+  z-index: 99;
+
+  &.active {
+    opacity: 1;
+    transition: visibility .25s ease, opacity .25s ease;
+    visibility: visible;
+  }
+
+  ul {
+    margin: 3rem auto;
+    text-align: center;
+  }
+
+  a {
+    display: inline-block;
+    font-size: 1.5rem;
+    &.active {
+      font-weight: bold;
+    }
+  }
+}
+
+
+.main-nav--close {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+
+  svg {
+    color: $gray-400;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}

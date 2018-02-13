@@ -1,0 +1,110 @@
+.features {
+  border-top: 2px solid $white;
+  position: relative;
+
+  .features--bg-left,
+  .features--bg-right {
+    position: absolute;
+    z-index: -1;
+
+    @include media-breakpoint-up(md) {
+      height: 100%;
+      left: 0;
+      top: 0;
+      width: 50%;
+    }
+  }
+
+  .features--bg-left {
+    background-color: $teal;
+  }
+
+  .features--bg-right {
+    background-color: $yellow;
+    left: 50%;
+  }
+}
+
+.feature {
+  color: $white;
+  padding: 1rem 2rem 3.5rem;
+  position: relative;
+
+  &.feature--left {
+    @include media-breakpoint-up(md) {
+      border-right: 1px solid $white;
+    }
+
+    .feature--cta {
+      @include media-breakpoint-up(md) {
+        left: auto;
+        right: 0;
+      }
+    }
+  }
+
+  &.feature--right {
+    border-top: 2px solid $white;
+    @include media-breakpoint-up(md) {
+      border-left: 1px solid $white;
+      border-top: none;
+    }
+  }
+
+  &.feature--quote-bg {
+    background-color: $teal;
+    background-image: image-url('feature-quote-bg.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+  }
+
+  &.feature--mic-bg {
+    background-color: $yellow;
+    background-image: image-url('feature-mic-bg.svg');
+    background-position: 1rem center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+  }
+
+  .feature--icon {
+    float: left;
+    color: $black;
+
+    svg {
+      margin-left: -1rem;
+      height: 6rem;
+      width: 6rem;
+    }
+
+    svg + svg {
+      margin-left: -1.5rem;
+    }
+
+    + p,
+    + p + p,
+    + p + p + p {
+      margin-left: 5rem;
+    }
+
+    &.feature--icon-double + p,
+    &.feature--icon-double + p + p,
+    &.feature--icon-double + p + p + p {
+      margin-left: 9.75rem;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .feature--cta {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    @include media-breakpoint-up(md) {
+      right: auto;
+    }
+  }
+}
