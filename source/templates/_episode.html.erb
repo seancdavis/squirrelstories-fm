@@ -15,9 +15,10 @@
             <%= episode.description %>
           </p>
           <p class="font-weight-bold font-size-small">
-            <% episode.stories.each do |story| %>
+            <% storytellers = episode.stories.collect(&:storyteller).uniq %>
+            <% storytellers.each do |storyteller| %>
               <a href="#">
-                <%= story.storyteller.name + (story == episode.stories.last ? '' : ',')%>
+                <%= storyteller.name + (storyteller == storytellers.last ? '' : ',')%>
               </a>
             <% end %>
           </p>
