@@ -23,7 +23,7 @@ task :sync_sapwood do
     File.open(dest_file, 'w+') { |file| file.write(collection.to_yaml) }
   end
 
-  write_collection('episodes', 'elements', template: 'Episode', sort_by: 'number', sort_in: 'desc')
+  write_collection('episodes', 'elements', template: 'Episode', sort_by: 'number', sort_in: 'desc', includes: 'quotes')
   write_collection('quotes', 'elements', template: 'Quote')
   write_collection('pages', 'elements', template: 'Page')
 end

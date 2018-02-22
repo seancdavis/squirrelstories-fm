@@ -1,41 +1,45 @@
 <div class="row">
   <article class="episode col-md-10 offset-md-1 col-lg-8 offset-lg-2">
     <h2 class="episode--title text-center">
-      <a class="text-black" href="#">Drugs That Rhyme With Cocaine</a>
+      <a class="text-black" href="<%= episode_path(episode) %>">
+        <%= episode.name %>
+      </a>
     </h2>
     <div class="clearfix">
       <%= image_tag 'tmp-featured-img.png', class: 'episode--image' %>
         <div class="episode--overview">
           <p class="font-size-small">
-            <a href="#">Episode 09</a>
+            <a href="<%= episode_path(episode) %>">Episode <%= episode.number %></a>
           </p>
           <p>
-            Drugs and alcohol can lead to being the worst friend ever. And it can be easier to relive those moments if they are told
-            in the form of a children’s book.
+            <%= episode.description %>
           </p>
           <p class="font-weight-bold font-size-small">
-            <a href="#">Jacob Trevino,</a>
-            &nbsp;
-            <a href="#">Aaron Tyree</a>
+            <% episode.stories.each do |story| %>
+              <a href="#">
+                <%= story.storyteller.name + (story == episode.stories.last ? '' : ',')%>
+              </a>
+            <% end %>
           </p>
           <p class="font-size-small">
-            April 30, 2016
+            <%= Date.parse(episode.date).strftime('%b %d, %Y') %>
           </p>
         </div>
     </div>
-    <div class="line line--small mb-4"></div>
-    <div class="row font-italic text-center font-size-small">
-      <div class="col-sm-6">
-        <p>
-          "Some gift and a quote that happened in the episode that won’t give away anything."
-        </p>
+    <% if episode.quotes.present? %>
+      <div class="line line--small mb-4"></div>
+      <div class="row font-italic text-center font-size-small">
+        <% episode.quotes.first(2).each do |quote| %>
+          <div class="col-sm-6">
+            <p class="episode--quote">
+              <a href="<%= quote_path(quote) %>">
+                "<%= quote.body %>"
+              </a>
+            </p>
+          </div>
+        <% end %>
       </div>
-      <div class="col-sm-6">
-        <p>
-          "Some gift and a quote that happened in the episode that won’t give away anything."
-        </p>
-      </div>
-    </div>
+    <% end %>
     <div class="line line--medium mt-4"></div>
   </article>
 </div>

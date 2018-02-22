@@ -17,7 +17,7 @@ page '/*.txt', layout: false
 # page '/path/to/file.html', layout: 'other_layout'
 
 data.episodes.each do |episode|
-  proxy "/episodes/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: episode.name }, ignore: true
+  proxy "/episodes/#{episode.number}/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: episode.name }, ignore: true
 end
 
 data.quotes.each do |quote|
@@ -88,6 +88,14 @@ helpers do
   def twitter_share_url(text = nil, url = current_page.path)
     p = { status: url }.to_param
     "https://twitter.com/home?#{p}"
+  end
+
+  def episode_path(episode)
+    "/episodes/#{episode.number}/#{episode.slug}"
+  end
+
+  def quote_path(quote)
+    "/quotes/#{quote.episode.id}/#{quote.id}"
   end
 
 end

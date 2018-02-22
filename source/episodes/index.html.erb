@@ -7,7 +7,7 @@ title: Squirrel Stories | Episodes
 </div>
 
 <div class="container mt-5">
-  <% 5.times do %>
-    <%= partial 'templates/_episode' %>
+  <% data.episodes.each do |episode| %>
+    <%= partial 'templates/_episode', locals: { episode: episode } %>
   <% end %>
 </div>

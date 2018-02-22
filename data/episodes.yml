@@ -80,6 +80,7 @@
     name: 20 I Liked It
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/20-i-liked-it.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2409
   title: No Boner No Boner No Boner
@@ -144,6 +145,7 @@
     name: 19 No Boner No Boner No Boner
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/19-no-boner-no-boner-no-boner.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2406
   title: A Pissmass Carol
@@ -226,6 +228,7 @@
     name: 18 A Pissmass Carol
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2404
   title: Abraham Lincoln and a Taxidermied Giraffe
@@ -289,6 +292,7 @@
     name: 17 Abraham Lincoln And A Taxidermied Giraffe
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/17-abraham-lincoln-and-a-taxidermied-giraffe.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2402
   title: The Flesh Of The Redeemer
@@ -352,6 +356,7 @@
     name: 16 The Flesh Of The Redeemer
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/16-the-flesh-of-the-redeemer.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2400
   title: Learning To Ride The Bus
@@ -415,6 +420,7 @@
     name: 15 Learning To Ride The Bus
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/15-learning-to-ride-the-bus.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2397
   title: Romping In The Bathroom
@@ -516,6 +522,7 @@
     name: 14 Romping In The Bathroom
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/14-romping-in-the-bathroom.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2392
   title: College Night ... And Drunk Jimmy
@@ -598,6 +605,7 @@
     name: 13 College Night And Drunk Jimmy
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/13-college-night-and-drunk-jimmy.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2388
   title: Something Died Inside This Woman
@@ -661,6 +669,7 @@
     name: 12 Something Died Inside This Woman
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/12-something-died-inside-this-woman.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2385
   title: The Hated Stranger
@@ -705,6 +714,7 @@
     name: 11 The Hated Stranger
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/11-the-hated-stranger.mp3
   itunes_url: https://itunes.apple.com/us/podcast/casual-racism/id1069939740?i=1000368928123&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2383
   title: Casual Racism
@@ -769,6 +779,7 @@
     name: 10 Casual Racism
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/10-casual-racism.mp3
   itunes_url: https://itunes.apple.com/us/podcast/casual-racism/id1069939740?i=1000368928123&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2381
   title: Drugs That Rhyme With Cocaine
@@ -833,6 +844,7 @@
     name: '09 Drugs That Rhyme With Cocaine'
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/09-drugs-that-rhyme-with-cocaine.mp3
   itunes_url: https://itunes.apple.com/us/podcast/drugs-that-rhyme-with-cocaine/id1069939740?i=367995685&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2378
   title: The Angriest Bagel On The Planet
@@ -914,6 +926,7 @@
     name: '08 The Angriest Bagel On The Planet'
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/08-the-angriest-bagel-on-the-planet.mp3
   itunes_url: https://itunes.apple.com/us/podcast/angriest-bagel-on-planet/id1069939740?i=367148041&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2375
   title: Lawn Turds
@@ -958,6 +971,7 @@
     name: 07 Lawn Turds
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/07-lawn-turds.mp3
   itunes_url: https://itunes.apple.com/us/podcast/night-diving/id1069939740?i=364897212&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2374
   title: Night Diving
@@ -1002,6 +1016,7 @@
     name: 06 Night Diving
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/06-night-diving.mp3
   itunes_url: https://itunes.apple.com/us/podcast/night-diving/id1069939740?i=364897212&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2372
   title: How I Became Employee Of The Month At Arby's
@@ -1046,6 +1061,7 @@
     name: 05 Arbys Employee Of The Month
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/05-arbys-employee-of-the-month.mp3
   itunes_url: https://itunes.apple.com/us/podcast/how-i-became-employee-month/id1069939740?i=364044782&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2370
   title: Shitting My Pants In Front Of My Students
@@ -1089,6 +1105,7 @@
     name: 04 Shitting My Pants In Front Of My Students
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/04-shitting-my-pants-in-front-of-my-students.mp3
   itunes_url: https://itunes.apple.com/us/podcast/shitting-my-pants-in-front/id1069939740?i=363074284&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2368
   title: Worst Easter Ever
@@ -1133,6 +1150,69 @@
     name: 03 Worst Easter Ever
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/03-worst-easter-ever.mp3
   itunes_url: https://itunes.apple.com/us/podcast/worst-easter-ever/id1069939740?i=1000361850953&mt=2
+  quotes: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2602
+    title: This is another test quote
+    slug: this-is-another-test-quote
+    template_name: Quote
+    publish_at: 
+    created_at: '2018-01-29T11:31:36.667Z'
+    updated_at: '2018-01-29T11:31:36.667Z'
+    body: This is another test quote
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2367
+      title: Hunter Chapman
+      slug: hunter-chapman
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:43:44.850Z'
+      updated_at: '2017-09-03T13:43:44.850Z'
+      name: Hunter Chapman
+    episode: !ruby/hash:Hashie::Mash
+      id: 2368
+      title: Worst Easter Ever
+      slug: worst-easter-ever
+      template_name: Episode
+      publish_at: 
+      created_at: '2017-09-03T13:43:58.086Z'
+      updated_at: '2017-10-28T12:12:57.156Z'
+      number: '01.03'
+      name: Worst Easter Ever
+      date: '2016-02-03'
+      stories: !ruby/array:Hashie::Array
+      - !ruby/hash:Hashie::Mash
+        id: 2457
+        title: Worst Easter Ever
+        slug: worst-easter-ever-2457
+        template_name: Story
+        publish_at: 
+        created_at: '2017-10-28T11:55:43.480Z'
+        updated_at: '2017-10-28T11:55:43.480Z'
+        name: Worst Easter Ever
+        date: 11-14-2015
+        storyteller: !ruby/hash:Hashie::Mash
+          id: 2367
+          title: Hunter Chapman
+          slug: hunter-chapman
+          template_name: Storyteller
+          publish_at: 
+          created_at: '2017-09-03T13:43:44.850Z'
+          updated_at: '2017-09-03T13:43:44.850Z'
+          name: Hunter Chapman
+      description: Just your everyday Easter dinner, along with automatic rifles and
+        horse saddle tug of war.
+      audio_file: !ruby/hash:Hashie::Mash
+        id: 2561
+        title: 03 Worst Easter Ever
+        slug: 03-worst-easter-ever
+        template_name: Audio
+        publish_at: 
+        created_at: '2017-10-28T12:10:54.230Z'
+        updated_at: '2017-10-28T12:10:54.230Z'
+        name: 03 Worst Easter Ever
+        url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/03-worst-easter-ever.mp3
+      itunes_url: https://itunes.apple.com/us/podcast/worst-easter-ever/id1069939740?i=1000361850953&mt=2
 - !ruby/hash:Hashie::Mash
   id: 2
   title: Ham
@@ -1177,6 +1257,7 @@
     name: 02 Ham
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/02-ham.mp3
   itunes_url: https://itunes.apple.com/us/podcast/ham/id1069939740?i=1000360978422&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 1
   title: Squirrels
@@ -1221,3 +1302,66 @@
     name: 01 Squirrels
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/01-squirrels.mp3
   itunes_url: https://itunes.apple.com/us/podcast/squirrels/id1069939740?i=359358687&mt=2
+  quotes: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2601
+    title: This is a test quote
+    slug: this-is-a-test-quote
+    template_name: Quote
+    publish_at: 
+    created_at: '2018-01-29T11:31:16.281Z'
+    updated_at: '2018-01-29T11:31:16.281Z'
+    body: This is a test quote
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 1176
+      title: Sean C Davis
+      slug: sean-c-davis
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2016-12-23T00:20:54.926Z'
+      updated_at: '2016-12-23T00:20:54.926Z'
+      name: Sean C Davis
+    episode: !ruby/hash:Hashie::Mash
+      id: 1
+      title: Squirrels
+      slug: squirrels
+      template_name: Episode
+      publish_at: 
+      created_at: '2016-07-08T19:01:37.826Z'
+      updated_at: '2018-02-02T12:32:18.494Z'
+      number: '01.01'
+      name: Squirrels
+      date: '2016-01-05'
+      stories: !ruby/array:Hashie::Array
+      - !ruby/hash:Hashie::Mash
+        id: 2461
+        title: Squirrels
+        slug: squirrels-2461
+        template_name: Story
+        publish_at: 
+        created_at: '2017-10-28T11:55:43.812Z'
+        updated_at: '2017-10-28T11:55:43.812Z'
+        name: Squirrels
+        date: 12-14-2015
+        storyteller: !ruby/hash:Hashie::Mash
+          id: 1176
+          title: Sean C Davis
+          slug: sean-c-davis
+          template_name: Storyteller
+          publish_at: 
+          created_at: '2016-12-23T00:20:54.926Z'
+          updated_at: '2016-12-23T00:20:54.926Z'
+          name: Sean C Davis
+      description: I kick off this crazy adventure by telling you about the time I
+        was assaulted by a squirrel.
+      audio_file: !ruby/hash:Hashie::Mash
+        id: 2558
+        title: 01 Squirrels
+        slug: 01-squirrels
+        template_name: Audio
+        publish_at: 
+        created_at: '2017-10-28T12:07:51.153Z'
+        updated_at: '2017-10-28T12:07:51.153Z'
+        name: 01 Squirrels
+        url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/01-squirrels.mp3
+      itunes_url: https://itunes.apple.com/us/podcast/squirrels/id1069939740?i=359358687&mt=2
