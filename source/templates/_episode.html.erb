@@ -6,26 +6,29 @@
       </a>
     </h2>
     <div class="clearfix">
-      <%= image_tag 'tmp-featured-img.png', class: 'episode--image' %>
-        <div class="episode--overview">
-          <p class="font-size-small">
-            <a href="<%= episode_path(episode) %>">Episode <%= episode.number %></a>
-          </p>
-          <p>
-            <%= episode.description %>
-          </p>
-          <p class="font-weight-bold font-size-small">
-            <% storytellers = episode.stories.collect(&:storyteller).uniq %>
-            <% storytellers.each do |storyteller| %>
-              <a href="#">
-                <%= storyteller.name + (storyteller == storytellers.last ? '' : ',')%>
-              </a>
-            <% end %>
-          </p>
-          <p class="font-size-small">
-            <%= Date.parse(episode.date).strftime('%b %d, %Y') %>
-          </p>
-        </div>
+      <%#= image_tag ix_url(episode.image.try(:url), w: 600, h: 400, fit: 'crop'), class: 'episode--image' %>
+      <!--br-->
+      <%#= ix_img episode.image.try(:url), { w: 600, h: 400, fit: 'crop' }, class: 'episode--image' %>
+      <%= image_tag s3_img_path(episode.image.try(:url)) %>
+      <div class="episode--overview">
+        <p class="font-size-small">
+          <a href="<%= episode_path(episode) %>">Episode <%= episode.number %></a>
+        </p>
+        <p>
+          <%= episode.description %>
+        </p>
+        <p class="font-weight-bold font-size-small">
+          <% storytellers = episode.stories.collect(&:storyteller).uniq %>
+          <% storytellers.each do |storyteller| %>
+            <a href="#">
+              <%= storyteller.name + (storyteller == storytellers.last ? '' : ',')%>
+            </a>
+          <% end %>
+        </p>
+        <p class="font-size-small">
+          <%= Date.parse(episode.date).strftime('%b %d, %Y') %>
+        </p>
+      </div>
     </div>
     <% if episode.quotes.present? %>
       <div class="line line--small mb-4"></div>
