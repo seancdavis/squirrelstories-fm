@@ -30,11 +30,35 @@ $(document).on('ready', () ->
   )
 )
 
+# ---------------------------------------- | Shuffling
+
+(($) ->
+
+  $.fn.shuffle = ->
+    allElems = @get()
+
+    getRandom = (max) ->
+      Math.floor Math.random() * max
+
+    shuffled = $.map(allElems, ->
+      random = getRandom(allElems.length)
+      randEl = $(allElems[random]).clone(true)[0]
+      allElems.splice random, 1
+      randEl
+    )
+    @each (i) ->
+      $(this).replaceWith $(shuffled[i])
+      return
+    $ shuffled
+
+  return
+) jQuery
+
 # ---------------------------------------- | Random Quote
 
 $(document).on('ready', () ->
   for quoteSet in $('[data-random-quotes]')
     n = parseInt($(quoteSet).data('random-quotes'))
-    quotes = _.shuffle($(quoteSet).find('.quote--random').toArray())
-    $(quote).addClass('quote--random-show') for quote in _.take(quotes, n)
+    quotes = $(quoteSet).find('.quote--random').shuffle().toArray()
+    $(quote).addClass('quote--random-show') for quote in quotes.slice(0, n)
 )
