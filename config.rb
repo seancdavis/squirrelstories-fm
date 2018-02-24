@@ -98,6 +98,74 @@ helpers do
     "/quotes/#{quote.episode.id}/#{quote.id}"
   end
 
+  def s3_img_path(s3_url)
+    return '' if s3_url.blank?
+    URI.parse(s3_url).path[1..-1]
+  end
+
+  def ix_client
+    @ix_client ||= Imgix::Client.new(host: 'sapwood.imgix.net', secure_url_token: 'qmNcr67W7y89zkKZ')
+  end
+
+  def ix_url(image_url, opts = {})
+    return '' if image_url.blank?
+    options = { auto: 'format' }.merge(opts)
+    img_path = URI.parse(image_url).path
+    ix_client.path(img_path).to_url(options)
+  end
+
+  def ix_breakpoint_width(breakpoint)
+    case breakpoint.to_sym
+    when :sm
+      576
+    when :md
+      768
+    when :lg
+      992
+    when :xl
+      1200
+    end
+  end
+
+  def ix_img_size(breakpoint, rem)
+    "(min-width: #{ix_breakpoint_width(breakpoint)}px) #{16 * rem}w"
+  end
+
+  def ix_img_sizes(sizes)
+    output = []
+    sizes.each { |bp, sz| output << ix_img_size(bp, sz) }
+    output << '100vw'
+    output.join(',')
+  end
+
+  def ix_max_img_size(sizes, ratio)
+    max_size = ix_breakpoint_width(sizes.sort_by{ |_k, v| v }.first.first)
+    sizes.each do |bp, sz|
+      size = sz * 16
+      max_size = size if size > max_size
+    end
+    ((max_size * 2) + 50).round(-2)
+  end
+
+  def ix_srcset(url, sizes, ratio)
+    output = []
+    max_size = ix_max_img_size(sizes, ratio)
+    (max_size / 100).times do |idx|
+      width = (idx + 1) * 100
+      height = width / ratio
+      output << "#{ix_url(url, w: width, h: height, fit: 'crop')} #{width}w"
+    end
+    output.join(',')
+  end
+
+  def ix_img(orig_url, opts = {})
+    return '' if orig_url.blank?
+    sizes = ix_max_img_size(opts[:sizes], opts[:ratio])
+    srcset = ix_srcset(orig_url, opts[:sizes], opts[:ratio])
+    orig_src = ix_url(orig_url)
+    "<img src=\"#{orig_src}\" srcset=\"#{srcset}\" sizes=\"#{sizes}\" class=\"#{opts[:class]}\">"
+  end
+
 end
 
 # Build-specific configuration
