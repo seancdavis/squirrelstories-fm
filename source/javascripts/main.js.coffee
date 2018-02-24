@@ -29,3 +29,12 @@ $(document).on('ready', () ->
       $(selector).toggleClass(classes)
   )
 )
+
+# ---------------------------------------- | Random Quote
+
+$(document).on('ready', () ->
+  for quoteSet in $('[data-random-quotes]')
+    n = parseInt($(quoteSet).data('random-quotes'))
+    quotes = _.shuffle($(quoteSet).find('.quote--random').toArray())
+    $(quote).addClass('quote--random-show') for quote in _.take(quotes, n)
+)

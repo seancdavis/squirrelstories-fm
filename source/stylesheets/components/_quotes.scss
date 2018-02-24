@@ -8,7 +8,6 @@
 
 
 .quote--offset-top {
-  // transform: translateY(-50%);
   margin-top: -3rem;
   position: relative;
   z-index: 1;
@@ -26,5 +25,14 @@
   svg {
     height: 1.75rem;
     width: 1.75rem;
+  }
+}
+
+
+.quote--random {
+  display: none;
+
+  &.quote--random-show {
+    display: block;
   }
 }
