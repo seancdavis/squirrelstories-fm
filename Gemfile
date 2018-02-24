@@ -6,6 +6,5 @@ gem 'middleman-autoprefixer', '~> 2.7'
 gem 'rake'
 
 gem 'hashie'
-# gem 'imgix'
-gem 'middleman-imgix'
+gem 'imgix'
 gem 'rest-client'

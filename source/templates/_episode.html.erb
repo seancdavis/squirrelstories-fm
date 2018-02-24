@@ -8,8 +8,9 @@
     <div class="clearfix">
       <%#= image_tag ix_url(episode.image.try(:url), w: 600, h: 400, fit: 'crop'), class: 'episode--image' %>
       <!--br-->
+      <%= ix_img episode.image.try(:url), class: 'episode--image', ratio: 1.5, sizes: { sm: 15, md: 20, lg: 25 } %>
       <%#= ix_img episode.image.try(:url), { w: 600, h: 400, fit: 'crop' }, class: 'episode--image' %>
-      <%= image_tag s3_img_path(episode.image.try(:url)) %>
+      <%#= image_tag episode.image.try(:url), class: 'episode--image' %>
       <div class="episode--overview">
         <p class="font-size-small">
           <a href="<%= episode_path(episode) %>">Episode <%= episode.number %></a>
