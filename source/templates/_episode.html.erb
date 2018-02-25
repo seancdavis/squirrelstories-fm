@@ -29,9 +29,9 @@
     </div>
     <% if episode.quotes.present? %>
       <div class="line line--small mb-4"></div>
-      <div class="row font-italic text-center font-size-small">
-        <% episode.quotes.first(2).each do |quote| %>
-          <div class="col-sm-6">
+      <div class="row font-italic text-center font-size-small" data-random-quotes="2">
+        <% episode.quotes.each do |quote| %>
+          <div class="col-sm-6 quote--random">
             <p class="episode--quote">
               <a href="<%= quote_path(quote) %>">
                 "<%= quote.body %>"
