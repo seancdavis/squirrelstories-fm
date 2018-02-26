@@ -20,6 +20,13 @@ data.episodes.each do |episode|
   proxy "/episodes/#{episode.number}/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: episode.name }, ignore: true
 end
 
+storytellers = []
+data.episodes.collect(&:stories).flatten.each { |story| storytellers << story.storyteller }
+
+storytellers.uniq.each do |storyteller|
+  proxy "/storyteller/#{storyteller.id}-#{storyteller.slug}/index.html", "/templates/_storyteller.html", locals: { storyteller: storyteller, title: storyteller.name }, ignore: true
+end
+
 data.quotes.each do |quote|
   proxy "/quotes/#{quote.episode.id}/#{quote.id}/index.html", "/templates/quote.html", locals: { quote: quote, title: 'Squirrel Stories Quote' }, ignore: true
 end
@@ -98,6 +105,10 @@ helpers do
     "/quotes/#{quote.episode.id}/#{quote.id}"
   end
 
+  def storyteller_path(storyteller)
+    "/storyteller/#{storyteller.id}-#{storyteller.slug}"
+  end
+
   def s3_img_path(s3_url)
     return '' if s3_url.blank?
     URI.parse(s3_url).path[1..-1]
@@ -171,10 +182,13 @@ end
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+  activate :gzip
+  activate :asset_hash
+  activate :minify_html
+end
 
 before_build do
   system("bundle exec rake sync_sapwood")
