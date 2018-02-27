@@ -18,8 +18,8 @@
             <%= Date.parse(episode.date).strftime('%b %d, %Y') %>
           </p>
           <p>
-            <a href="#" class="mr-2"><%= icon 'apple', class: 'icon--md' %></a>
-            <a href="#" class=""><%= icon 'google-play', class: 'icon--md' %></a>
+            <a href="<%= episode.itunes_url %>" target="_blank" class="mr-2"><%= icon 'apple', class: 'icon--md' %></a>
+            <a href="<%= episode.google_play_url %>" target="_blank" class=""><%= icon 'google-play', class: 'icon--md' %></a>
           </p>
         </div>
       </div>

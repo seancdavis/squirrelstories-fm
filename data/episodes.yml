@@ -6,7 +6,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T14:03:05.988Z'
-  updated_at: '2018-02-27T12:32:57.647Z'
+  updated_at: '2018-02-27T23:10:26.658Z'
   number: '01.20'
   name: I Liked It!
   date: '2017-02-15'
@@ -105,7 +105,7 @@
       xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge.jpg
       xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge_crop.jpg
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
-  google_play_url: ''
+  google_play_url: https://play.google.com/music/m/Dd24bjchze3la2b6kgdmujkq3fu?t=I_Liked_It-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2409
