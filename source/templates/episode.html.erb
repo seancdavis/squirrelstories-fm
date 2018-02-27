@@ -14,14 +14,6 @@
           <p>
             <%= episode.description %>
           </p>
-          <p class="font-weight-bold font-size-small">
-            <% storytellers = episode.stories.collect(&:storyteller).uniq %>
-            <% storytellers.each do |storyteller| %>
-              <a href="<%= storyteller_path(storyteller) %>">
-                <%= storyteller.name + (storyteller == storytellers.last ? '' : ',')%>
-              </a>
-            <% end %>
-          </p>
           <p class="font-size-small mb-3">
             <%= Date.parse(episode.date).strftime('%b %d, %Y') %>
           </p>
@@ -34,7 +26,7 @@
       <h3 class="episode--stories-heading text-center">Stories</h3>
       <% episode.stories.each do |story| %>
         <h4><%= story.name %></h4>
-        <p class="episode--story--storyteller">
+        <p class="episode--story--storyteller font-weight-bold">
           <a href="<%= storyteller_path(story.storyteller) %>"><%= story.storyteller.name %></a>
         </p>
         <p><%= story.description %></p>
