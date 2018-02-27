@@ -16,7 +16,7 @@
     template_name: Episode
     publish_at: 
     created_at: '2017-09-03T14:03:05.988Z'
-    updated_at: '2018-02-27T12:32:57.647Z'
+    updated_at: '2018-02-27T23:10:26.658Z'
     number: '01.20'
     name: I Liked It!
     date: '2017-02-15'
@@ -28,9 +28,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:44.393Z'
-      updated_at: '2017-10-28T11:55:44.393Z'
+      updated_at: '2018-02-27T21:45:30.539Z'
       name: Intersection Underwear
-      date: 02-22-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2398
         title: Katie Davis
@@ -40,6 +39,9 @@
         created_at: '2017-09-03T13:57:03.953Z'
         updated_at: '2017-09-03T13:57:03.953Z'
         name: Katie Davis
+      description: What happens when ...
+      date: 02-22-2016
+      raw_audio: 
     - !ruby/hash:Hashie::Mash
       id: 2463
       title: Winking At Strangers
@@ -113,7 +115,7 @@
         xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge.jpg
         xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge_crop.jpg
     itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
-    google_play_url: ''
+    google_play_url: https://play.google.com/music/m/Dd24bjchze3la2b6kgdmujkq3fu?t=I_Liked_It-Squirrel_Stories
     quotes: !ruby/array:Hashie::Array []
   - !ruby/hash:Hashie::Mash
     id: 2400
@@ -196,7 +198,7 @@
     template_name: Episode
     publish_at: 
     created_at: '2017-09-03T14:03:05.988Z'
-    updated_at: '2018-02-27T12:32:57.647Z'
+    updated_at: '2018-02-27T23:10:26.658Z'
     number: '01.20'
     name: I Liked It!
     date: '2017-02-15'
@@ -208,9 +210,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:44.393Z'
-      updated_at: '2017-10-28T11:55:44.393Z'
+      updated_at: '2018-02-27T21:45:30.539Z'
       name: Intersection Underwear
-      date: 02-22-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2398
         title: Katie Davis
@@ -220,6 +221,9 @@
         created_at: '2017-09-03T13:57:03.953Z'
         updated_at: '2017-09-03T13:57:03.953Z'
         name: Katie Davis
+      description: What happens when ...
+      date: 02-22-2016
+      raw_audio: 
       episode: !ruby/hash:Hashie::Mash
         id: 2411
         title: I Liked It!
@@ -227,7 +231,7 @@
         template_name: Episode
         publish_at: 
         created_at: '2017-09-03T14:03:05.988Z'
-        updated_at: '2018-02-27T12:32:57.647Z'
+        updated_at: '2018-02-27T23:10:26.658Z'
         number: '01.20'
         name: I Liked It!
         date: '2017-02-15'
@@ -239,9 +243,8 @@
           template_name: Story
           publish_at: 
           created_at: '2017-10-28T11:55:44.393Z'
-          updated_at: '2017-10-28T11:55:44.393Z'
+          updated_at: '2018-02-27T21:45:30.539Z'
           name: Intersection Underwear
-          date: 02-22-2016
           storyteller: !ruby/hash:Hashie::Mash
             id: 2398
             title: Katie Davis
@@ -251,6 +254,9 @@
             created_at: '2017-09-03T13:57:03.953Z'
             updated_at: '2017-09-03T13:57:03.953Z'
             name: Katie Davis
+          description: What happens when ...
+          date: 02-22-2016
+          raw_audio: 
         - !ruby/hash:Hashie::Mash
           id: 2463
           title: Winking At Strangers
@@ -325,7 +331,7 @@
             xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge.jpg
             xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge_crop.jpg
         itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
-        google_play_url: ''
+        google_play_url: https://play.google.com/music/m/Dd24bjchze3la2b6kgdmujkq3fu?t=I_Liked_It-Squirrel_Stories
         quotes: []
     - !ruby/hash:Hashie::Mash
       id: 2463
@@ -400,7 +406,7 @@
         xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge.jpg
         xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge_crop.jpg
     itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
-    google_play_url: ''
+    google_play_url: https://play.google.com/music/m/Dd24bjchze3la2b6kgdmujkq3fu?t=I_Liked_It-Squirrel_Stories
     quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2382
@@ -419,7 +425,7 @@
     template_name: Episode
     publish_at: 
     created_at: '2017-09-03T14:03:05.988Z'
-    updated_at: '2018-02-27T12:32:57.647Z'
+    updated_at: '2018-02-27T23:10:26.658Z'
     number: '01.20'
     name: I Liked It!
     date: '2017-02-15'
@@ -431,9 +437,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:44.393Z'
-      updated_at: '2017-10-28T11:55:44.393Z'
+      updated_at: '2018-02-27T21:45:30.539Z'
       name: Intersection Underwear
-      date: 02-22-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2398
         title: Katie Davis
@@ -443,6 +448,9 @@
         created_at: '2017-09-03T13:57:03.953Z'
         updated_at: '2017-09-03T13:57:03.953Z'
         name: Katie Davis
+      description: What happens when ...
+      date: 02-22-2016
+      raw_audio: 
       episode: !ruby/hash:Hashie::Mash
         id: 2411
         title: I Liked It!
@@ -450,7 +458,7 @@
         template_name: Episode
         publish_at: 
         created_at: '2017-09-03T14:03:05.988Z'
-        updated_at: '2018-02-27T12:32:57.647Z'
+        updated_at: '2018-02-27T23:10:26.658Z'
         number: '01.20'
         name: I Liked It!
         date: '2017-02-15'
@@ -462,9 +470,8 @@
           template_name: Story
           publish_at: 
           created_at: '2017-10-28T11:55:44.393Z'
-          updated_at: '2017-10-28T11:55:44.393Z'
+          updated_at: '2018-02-27T21:45:30.539Z'
           name: Intersection Underwear
-          date: 02-22-2016
           storyteller: !ruby/hash:Hashie::Mash
             id: 2398
             title: Katie Davis
@@ -474,6 +481,9 @@
             created_at: '2017-09-03T13:57:03.953Z'
             updated_at: '2017-09-03T13:57:03.953Z'
             name: Katie Davis
+          description: What happens when ...
+          date: 02-22-2016
+          raw_audio: 
         - !ruby/hash:Hashie::Mash
           id: 2463
           title: Winking At Strangers
@@ -548,7 +558,7 @@
             xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge.jpg
             xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge_crop.jpg
         itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
-        google_play_url: ''
+        google_play_url: https://play.google.com/music/m/Dd24bjchze3la2b6kgdmujkq3fu?t=I_Liked_It-Squirrel_Stories
         quotes: []
     - !ruby/hash:Hashie::Mash
       id: 2463
@@ -576,7 +586,7 @@
         template_name: Episode
         publish_at: 
         created_at: '2017-09-03T14:03:05.988Z'
-        updated_at: '2018-02-27T12:32:57.647Z'
+        updated_at: '2018-02-27T23:10:26.658Z'
         number: '01.20'
         name: I Liked It!
         date: '2017-02-15'
@@ -588,9 +598,8 @@
           template_name: Story
           publish_at: 
           created_at: '2017-10-28T11:55:44.393Z'
-          updated_at: '2017-10-28T11:55:44.393Z'
+          updated_at: '2018-02-27T21:45:30.539Z'
           name: Intersection Underwear
-          date: 02-22-2016
           storyteller: !ruby/hash:Hashie::Mash
             id: 2398
             title: Katie Davis
@@ -600,6 +609,9 @@
             created_at: '2017-09-03T13:57:03.953Z'
             updated_at: '2017-09-03T13:57:03.953Z'
             name: Katie Davis
+          description: What happens when ...
+          date: 02-22-2016
+          raw_audio: 
           episode: !ruby/hash:Hashie::Mash
             id: 2411
             title: I Liked It!
@@ -607,7 +619,7 @@
             template_name: Episode
             publish_at: 
             created_at: '2017-09-03T14:03:05.988Z'
-            updated_at: '2018-02-27T12:32:57.647Z'
+            updated_at: '2018-02-27T23:10:26.658Z'
             number: '01.20'
             name: I Liked It!
             date: '2017-02-15'
@@ -619,9 +631,8 @@
               template_name: Story
               publish_at: 
               created_at: '2017-10-28T11:55:44.393Z'
-              updated_at: '2017-10-28T11:55:44.393Z'
+              updated_at: '2018-02-27T21:45:30.539Z'
               name: Intersection Underwear
-              date: 02-22-2016
               storyteller: !ruby/hash:Hashie::Mash
                 id: 2398
                 title: Katie Davis
@@ -631,6 +642,9 @@
                 created_at: '2017-09-03T13:57:03.953Z'
                 updated_at: '2017-09-03T13:57:03.953Z'
                 name: Katie Davis
+              description: What happens when ...
+              date: 02-22-2016
+              raw_audio: 
             - !ruby/hash:Hashie::Mash
               id: 2463
               title: Winking At Strangers
@@ -705,7 +719,7 @@
                 xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge.jpg
                 xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge_crop.jpg
             itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
-            google_play_url: ''
+            google_play_url: https://play.google.com/music/m/Dd24bjchze3la2b6kgdmujkq3fu?t=I_Liked_It-Squirrel_Stories
             quotes: !ruby/array:Hashie::Array []
         - !ruby/hash:Hashie::Mash
           id: 2463
@@ -781,7 +795,7 @@
             xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge.jpg
             xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge_crop.jpg
         itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
-        google_play_url: ''
+        google_play_url: https://play.google.com/music/m/Dd24bjchze3la2b6kgdmujkq3fu?t=I_Liked_It-Squirrel_Stories
         quotes: []
     - !ruby/hash:Hashie::Mash
       id: 2492
@@ -837,7 +851,7 @@
         xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge.jpg
         xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge_crop.jpg
     itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
-    google_play_url: ''
+    google_play_url: https://play.google.com/music/m/Dd24bjchze3la2b6kgdmujkq3fu?t=I_Liked_It-Squirrel_Stories
     quotes: !ruby/array:Hashie::Array []
   - !ruby/hash:Hashie::Mash
     id: 2383

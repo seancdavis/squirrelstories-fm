@@ -45,3 +45,49 @@
     color: $body-color;
   }
 }
+
+
+.episode--stories-heading {
+  margin: 1.5rem auto;
+  position: relative;
+
+  &:before {
+    background: $gray-400;
+    content: ' ';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    z-index: -2;
+  }
+
+  &:after {
+    background: $white;
+    content: ' ';
+    height: 1rem;
+    left: calc(50% - 5rem);
+    position: absolute;
+    top: .5rem;
+    width: 10rem;
+    z-index: -1;
+  }
+}
+
+
+.episode--story-heading {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+
+
+.episode--story--storyteller a {
+  font-size: .85rem;
+}
+
+
+.episode--story--body {
+  font-size: .9rem;
+}
