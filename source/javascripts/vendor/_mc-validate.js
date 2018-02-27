@@ -1,5 +1,5 @@
 // MC
-(function($) {
+export const mcValidate = (function($) {
   var err_style = '';
   try {
       err_style = mc_custom_error_style;

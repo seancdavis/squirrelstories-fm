@@ -2,7 +2,7 @@
 'use strict';
 
 // MC
-(function($) {
+const mcValidate = (function($) {
   var err_style = '';
   try {
       err_style = mc_custom_error_style;
@@ -226,9 +226,114 @@
 
 }(jQuery));
 
-// import * as test_component from './components/_test_component';
+const shuffleElements = (function($) {
 
-// TODO: Bring in other components
+  $.fn.shuffle = function() {
+
+    var allElems = this.get(),
+      getRandom = function(max) {
+        return Math.floor(Math.random() * max);
+      },
+      shuffled = $.map(allElems, function() {
+        var random = getRandom(allElems.length),
+          randEl = $(allElems[random]).clone(true)[0];
+        allElems.splice(random, 1);
+        return randEl;
+      });
+
+    this.each(function(i) {
+      $(this).replaceWith($(shuffled[i]));
+    });
+
+    return $(shuffled);
+
+  };
+
+})(jQuery);
+
+const activeToggle = $(document).on('ready', () =>
+  $(document).on('click', '[data-active-toggle]', function(event) {
+    if(
+      $(event.target).is('[data-block-active-toggle]') ||
+      ($(event.target).parents('[data-block-active-toggle]').length > 0)
+    ) { return true; }
+    event.preventDefault();
+    const object = $(this).data('active-toggle');
+    for (let selector in object) {
+      const classes = object[selector];
+      $(selector).toggleClass(classes);
+    }
+  })
+);
+
+const randomQuote = $(document).on('ready', function() {
+  for (let quoteSet of $('[data-random-quotes]')) {
+    const n = parseInt($(quoteSet).data('random-quotes'));
+    const quotes = $(quoteSet).find('.quote--random').shuffle().toArray();
+    for (let quote of quotes.slice(0, n)) {
+      $(quote).addClass('quote--random-show');
+    }
+  }
+});
+
+const initGrid = $(document).ready(() => setTimeout(Grid.init, 10));
+
+class Grid {
+
+  static init() {
+    $('.masonry').masonry({
+      percentPosition: true,
+      columnWidth: '.masonry--sizer',
+      itemSelector: '.masonry--tile',
+      gutter: 16
+    });
+    return $('.masonry').removeClass('invisible');
+  }
+}
+
+const initPagination = $(document).on('ready', () => {
+  for (let container of $('[data-pagination]')) {
+    new Pagination(container);
+  }
+});
+
+class Pagination {
+
+  constructor(container) {
+    this.currentPage = 0;
+    this.showNextPage = this.showNextPage.bind(this);
+    this.container = $(container);
+    this.paginationName = this.container.data('pagination');
+    this.pageLength = this.container.data('page-length') || 10;
+    this.initPages();
+    this.showNextPage();
+    this.bindClickEvent();
+  }
+
+  initPages() {
+    const iterable = this.container.find('.paginated');
+    for (let idx = 0; idx < iterable.length; idx++) {
+      const item = iterable[idx];
+      const pageNumber = parseInt((idx + this.pageLength) / this.pageLength);
+      $(item).attr('data-page', pageNumber);
+    }
+  }
+
+  showNextPage(event = null) {
+    this.currentPage++;
+    this.container.find(`[data-page='${this.currentPage}']`).addClass('paginated--show');
+    Grid.init();
+    if (this.container.find(`[data-page='${this.currentPage + 1}']`).length === 0) {
+      $(`[data-pagination-loader='${this.paginationName}']`).hide();
+    }
+  }
+
+  bindClickEvent() {
+    $(`[data-pagination-loader='${this.paginationName}']`).click(this.showNextPage);
+  }
+}
+
+// Vendor
 
 }());
 //# sourceMappingURL=application.js.map
