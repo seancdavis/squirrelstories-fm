@@ -8,22 +8,28 @@
           <%= icon 'acorn-quote' %>
           <%= icon 'acorn-quote' %>
         </div>
-        <span data-random-quotes="1">
-          <% data.quotes.each do |quote| %>
-            <span class="quote--random">
-              <p class="font-size-large font-weight-bold">
-                <%= quote.body %>
-              </p>
-              <p class="font-size-small text-right">
-                <%= quote.storyteller.name %>
-              </p>
-              <p class="font-size-small text-right">
-                <a href="#" class="text-black-alpha">Episode <%= quote.episode.number %></a>
-              </p>
-            </span>
-          <% end %>
-        </span>
-        <a href="/quotes" class="feature--cta btn btn-black-alpha px-5">View All Quotes</a>
+        <% if data.quotes.present? %>
+          <span data-random-quotes="1">
+            <% data.quotes.each do |quote| %>
+              <span class="quote--random">
+                <p class="font-size-large font-weight-bold">
+                  <%= quote.body %>
+                </p>
+                <p class="font-size-small text-right">
+                  <%= quote.storyteller.name %>
+                </p>
+                <p class="font-size-small text-right">
+                  <a href="#" class="text-black-alpha">Episode <%= quote.episode.number %></a>
+                </p>
+              </span>
+            <% end %>
+          </span>
+          <a href="/quotes" class="feature--cta btn btn-black-alpha px-5">View All Quotes</a>
+        <% else %>
+          <p class="font-size-large font-weight-bold">
+            Quotes coming soon ...
+          </p>
+        <% end %>
       </div>
       <div class="col-md-6 feature feature--right feature--mic-bg">
         <div class="feature--icon">

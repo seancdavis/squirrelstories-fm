@@ -10,7 +10,10 @@
       <a class="nav-link <%= 'active' if active_nav?(:segment, 'episodes') %>" href="/episodes">Episodes</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link <%= 'active' if active_nav?(:segment, 'quotes') %>" href="/quotes">Quotes</a>
+      <a class="nav-link <%= 'active' if active_nav?(:segment, 'quotes') %>" href="/quotes">
+        Quotes
+        <%= '(Coming Soon)' unless data.quotes.present? %>
+      </a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="https://www.patreon.com/squirrelstories" target="_blank">Support The Show</a>
