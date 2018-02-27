@@ -8,7 +8,7 @@ title: Episodes | Squirrel Stories
 
 <div class="container mt-5" data-pagination="episodes" data-page-length="10">
   <% data.episodes.each do |episode| %>
-    <%= partial 'templates/_episode', locals: { episode: episode } %>
+    <%= partial 'templates/_episode', locals: { episode: episode, paginated: true } %>
   <% end %>
 
   <p class="text-center my-4">
