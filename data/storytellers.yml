@@ -1,0 +1,993 @@
+---
+- !ruby/hash:Hashie::Mash
+  id: 2419
+  title: Sergio Garcia
+  slug: sergio-garcia
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-10-28T11:41:00.528Z'
+  updated_at: '2017-10-28T11:41:00.528Z'
+  name: Sergio Garcia
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2491
+    title: Abe Lincoln & A Taxidermied Giraffe
+    slug: abe-lincoln-and-a-taxidermied-giraffe
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:46.283Z'
+    updated_at: '2017-10-28T11:55:46.283Z'
+    name: Abe Lincoln & A Taxidermied Giraffe
+    date: '08-01-2016'
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2419
+      title: Sergio Garcia
+      slug: sergio-garcia
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-10-28T11:41:00.528Z'
+      updated_at: '2017-10-28T11:41:00.528Z'
+      name: Sergio Garcia
+- !ruby/hash:Hashie::Mash
+  id: 2373
+  title: Kathryn Sturm
+  slug: kathryn-sturm
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:46:33.136Z'
+  updated_at: '2017-09-03T13:46:33.136Z'
+  name: Kathryn Sturm
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2477
+    title: Irish Cow Pastures
+    slug: irish-cow-pastures
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:45.145Z'
+    updated_at: '2017-10-28T11:55:45.145Z'
+    name: Irish Cow Pastures
+    date: 04-11-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2373
+      title: Kathryn Sturm
+      slug: kathryn-sturm
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:46:33.136Z'
+      updated_at: '2017-09-03T13:46:33.136Z'
+      name: Kathryn Sturm
+  - !ruby/hash:Hashie::Mash
+    id: 2465
+    title: Night Diving
+    slug: night-diving-2465
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.144Z'
+    updated_at: '2017-10-28T11:55:44.144Z'
+    name: Night Diving
+    date: 02-22-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2373
+      title: Kathryn Sturm
+      slug: kathryn-sturm
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:46:33.136Z'
+      updated_at: '2017-09-03T13:46:33.136Z'
+      name: Kathryn Sturm
+- !ruby/hash:Hashie::Mash
+  id: 2405
+  title: Tina Cisneros
+  slug: tina-cisneros
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T14:00:25.599Z'
+  updated_at: '2017-09-03T14:00:25.599Z'
+  name: Tina Cisneros
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2504
+    title: Thanksgiving 2005
+    slug: thanksgiving-2005
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:47.570Z'
+    updated_at: '2017-10-28T11:55:47.570Z'
+    name: Thanksgiving 2005
+    date: 12-05-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2405
+      title: Tina Cisneros
+      slug: tina-cisneros
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T14:00:25.599Z'
+      updated_at: '2017-09-03T14:00:25.599Z'
+      name: Tina Cisneros
+  - !ruby/hash:Hashie::Mash
+    id: 2505
+    title: Thanksgiving 2010
+    slug: thanksgiving-2010
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:47.649Z'
+    updated_at: '2017-10-28T11:55:47.649Z'
+    name: Thanksgiving 2010
+    date: 12-05-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2405
+      title: Tina Cisneros
+      slug: tina-cisneros
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T14:00:25.599Z'
+      updated_at: '2017-09-03T14:00:25.599Z'
+      name: Tina Cisneros
+- !ruby/hash:Hashie::Mash
+  id: 2386
+  title: Erin Fox
+  slug: erin-fox
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:52:14.908Z'
+  updated_at: '2017-09-03T13:52:14.908Z'
+  name: Erin Fox
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2506
+    title: A Pissmass Carol
+    slug: a-pissmass-carol-2506
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:47.727Z'
+    updated_at: '2017-10-28T11:55:47.727Z'
+    name: A Pissmass Carol
+    date: 12-05-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2386
+      title: Erin Fox
+      slug: erin-fox
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:52:14.908Z'
+      updated_at: '2017-09-03T13:52:14.908Z'
+      name: Erin Fox
+  - !ruby/hash:Hashie::Mash
+    id: 2485
+    title: Something Died Inside This Woman
+    slug: something-died-inside-this-woman-2485
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:45.776Z'
+    updated_at: '2017-10-28T11:55:45.776Z'
+    name: Something Died Inside This Woman
+    date: 06-06-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2386
+      title: Erin Fox
+      slug: erin-fox
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:52:14.908Z'
+      updated_at: '2017-09-03T13:52:14.908Z'
+      name: Erin Fox
+- !ruby/hash:Hashie::Mash
+  id: 2382
+  title: Will Johnson
+  slug: will-johnson
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:50:23.880Z'
+  updated_at: '2017-09-03T13:50:23.880Z'
+  name: Will Johnson
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2476
+    title: Casual Racism at Wal-Mart
+    slug: casual-racism-at-wal-mart
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:45.068Z'
+    updated_at: '2017-10-28T11:55:45.068Z'
+    name: Casual Racism at Wal-Mart
+    date: 04-11-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2382
+      title: Will Johnson
+      slug: will-johnson
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:50:23.880Z'
+      updated_at: '2017-09-03T13:50:23.880Z'
+      name: Will Johnson
+  - !ruby/hash:Hashie::Mash
+    id: 2492
+    title: I Liked It
+    slug: i-liked-it-2492
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:46.372Z'
+    updated_at: '2017-10-28T11:55:46.372Z'
+    name: I Liked It
+    date: '08-01-2016'
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2382
+      title: Will Johnson
+      slug: will-johnson
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:50:23.880Z'
+      updated_at: '2017-09-03T13:50:23.880Z'
+      name: Will Johnson
+- !ruby/hash:Hashie::Mash
+  id: 2366
+  title: Lora Staiger
+  slug: lora-staiger
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:41:40.108Z'
+  updated_at: '2017-09-03T13:41:40.108Z'
+  name: Lora Staiger
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2475
+    title: White Power
+    slug: white-power
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.991Z'
+    updated_at: '2017-10-28T11:55:44.991Z'
+    name: White Power
+    date: 04-11-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2366
+      title: Lora Staiger
+      slug: lora-staiger
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:41:40.108Z'
+      updated_at: '2017-09-03T13:41:40.108Z'
+      name: Lora Staiger
+  - !ruby/hash:Hashie::Mash
+    id: 2456
+    title: Ham
+    slug: ham-2456
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:43.385Z'
+    updated_at: '2017-10-28T11:55:43.385Z'
+    name: Ham
+    date: '09-19-2015'
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2366
+      title: Lora Staiger
+      slug: lora-staiger
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:41:40.108Z'
+      updated_at: '2017-09-03T13:41:40.108Z'
+      name: Lora Staiger
+  - !ruby/hash:Hashie::Mash
+    id: 2466
+    title: Lawn Turds
+    slug: lawn-turds-2466
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.231Z'
+    updated_at: '2017-10-28T11:55:44.231Z'
+    name: Lawn Turds
+    date: 02-22-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2366
+      title: Lora Staiger
+      slug: lora-staiger
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:41:40.108Z'
+      updated_at: '2017-09-03T13:41:40.108Z'
+      name: Lora Staiger
+  - !ruby/hash:Hashie::Mash
+    id: 2460
+    title: Romping In The Bathroom
+    slug: romping-in-the-bathroom-2460
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:43.727Z'
+    updated_at: '2017-10-28T11:55:43.727Z'
+    name: Romping In The Bathroom
+    date: 11-14-2015
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2366
+      title: Lora Staiger
+      slug: lora-staiger
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:41:40.108Z'
+      updated_at: '2017-09-03T13:41:40.108Z'
+      name: Lora Staiger
+- !ruby/hash:Hashie::Mash
+  id: 2389
+  title: Katie Harten
+  slug: katie-harten
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:53:22.962Z'
+  updated_at: '2017-09-03T13:53:22.962Z'
+  name: Katie Harten
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2486
+    title: Jaeger vs. Pants
+    slug: jaeger-vs-pants
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:45.853Z'
+    updated_at: '2017-10-28T11:55:45.853Z'
+    name: Jaeger vs. Pants
+    date: 06-06-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2389
+      title: Katie Harten
+      slug: katie-harten
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:53:22.962Z'
+      updated_at: '2017-09-03T13:53:22.962Z'
+      name: Katie Harten
+- !ruby/hash:Hashie::Mash
+  id: 2390
+  title: Miranda Leurk
+  slug: miranda-leurk
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:53:27.563Z'
+  updated_at: '2017-09-03T13:53:27.563Z'
+  name: Miranda Leurk
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2484
+    title: Drunk Jimmy
+    slug: drunk-jimmy
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:45.692Z'
+    updated_at: '2017-10-28T11:55:45.692Z'
+    name: Drunk Jimmy
+    date: 06-06-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2390
+      title: Miranda Leurk
+      slug: miranda-leurk
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:53:27.563Z'
+      updated_at: '2017-09-03T13:53:27.563Z'
+      name: Miranda Leurk
+- !ruby/hash:Hashie::Mash
+  id: 2391
+  title: Dante Zannoni
+  slug: dante-zannoni
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:53:32.571Z'
+  updated_at: '2017-09-03T13:53:32.571Z'
+  name: Dante Zannoni
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2483
+    title: Cheesy Poofs Flooded My Bar
+    slug: cheesy-poofs-flooded-my-bar
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:45.615Z'
+    updated_at: '2017-10-28T11:55:45.615Z'
+    name: Cheesy Poofs Flooded My Bar
+    date: 06-06-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2391
+      title: Dante Zannoni
+      slug: dante-zannoni
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:53:32.571Z'
+      updated_at: '2017-09-03T13:53:32.571Z'
+      name: Dante Zannoni
+- !ruby/hash:Hashie::Mash
+  id: 2380
+  title: Aaron Tyree
+  slug: aaron-tyree
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:49:43.494Z'
+  updated_at: '2017-09-03T13:49:43.494Z'
+  name: Aaron Tyree
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2473
+    title: Lake Drugs
+    slug: lake-drugs
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.826Z'
+    updated_at: '2017-10-28T11:55:44.826Z'
+    name: Lake Drugs
+    date: 04-11-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2380
+      title: Aaron Tyree
+      slug: aaron-tyree
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:49:43.494Z'
+      updated_at: '2017-09-03T13:49:43.494Z'
+      name: Aaron Tyree
+  - !ruby/hash:Hashie::Mash
+    id: 2487
+    title: Catholic Funeral Crackers
+    slug: catholic-funeral-crackers
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:45.930Z'
+    updated_at: '2017-10-28T11:55:45.930Z'
+    name: Catholic Funeral Crackers
+    date: '08-01-2016'
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2380
+      title: Aaron Tyree
+      slug: aaron-tyree
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:49:43.494Z'
+      updated_at: '2017-09-03T13:49:43.494Z'
+      name: Aaron Tyree
+- !ruby/hash:Hashie::Mash
+  id: 2379
+  title: Jacob Trevino
+  slug: jacob-trevino
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:49:40.579Z'
+  updated_at: '2017-09-03T13:49:40.579Z'
+  name: Jacob Trevino
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2474
+    title: Drugs That Rhyme With Cocaine
+    slug: drugs-that-rhyme-with-cocaine-2474
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.905Z'
+    updated_at: '2017-10-28T11:55:44.905Z'
+    name: Drugs That Rhyme With Cocaine
+    date: 04-11-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2379
+      title: Jacob Trevino
+      slug: jacob-trevino
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:49:40.579Z'
+      updated_at: '2017-09-03T13:49:40.579Z'
+      name: Jacob Trevino
+- !ruby/hash:Hashie::Mash
+  id: 2371
+  title: Eric Staiger
+  slug: eric-staiger
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:45:11.011Z'
+  updated_at: '2017-09-03T13:45:11.011Z'
+  name: Eric Staiger
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2464
+    title: How I Became Employee Of The Month At Arby's
+    slug: how-i-became-employee-of-the-month-at-arbys-2464
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.057Z'
+    updated_at: '2017-10-28T11:55:44.057Z'
+    name: How I Became Employee Of The Month At Arby's
+    date: 02-22-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2371
+      title: Eric Staiger
+      slug: eric-staiger
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:45:11.011Z'
+      updated_at: '2017-09-03T13:45:11.011Z'
+      name: Eric Staiger
+  - !ruby/hash:Hashie::Mash
+    id: 2459
+    title: No Bathroom Stalls
+    slug: no-bathroom-stalls
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:43.638Z'
+    updated_at: '2017-10-28T11:55:43.638Z'
+    name: No Bathroom Stalls
+    date: 11-14-2015
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2371
+      title: Eric Staiger
+      slug: eric-staiger
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:45:11.011Z'
+      updated_at: '2017-09-03T13:45:11.011Z'
+      name: Eric Staiger
+- !ruby/hash:Hashie::Mash
+  id: 2398
+  title: Katie Davis
+  slug: katie-davis
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:57:03.953Z'
+  updated_at: '2017-09-03T13:57:03.953Z'
+  name: Katie Davis
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2468
+    title: Intersection Underwear
+    slug: intersection-underwear
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.393Z'
+    updated_at: '2017-10-28T11:55:44.393Z'
+    name: Intersection Underwear
+    date: 02-22-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2398
+      title: Katie Davis
+      slug: katie-davis
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:57:03.953Z'
+      updated_at: '2017-09-03T13:57:03.953Z'
+      name: Katie Davis
+  - !ruby/hash:Hashie::Mash
+    id: 2490
+    title: Learning To Ride The Bus
+    slug: learning-to-ride-the-bus-2490
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:46.187Z'
+    updated_at: '2017-10-28T11:55:46.187Z'
+    name: Learning To Ride The Bus
+    date: '08-01-2016'
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2398
+      title: Katie Davis
+      slug: katie-davis
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:57:03.953Z'
+      updated_at: '2017-09-03T13:57:03.953Z'
+      name: Katie Davis
+- !ruby/hash:Hashie::Mash
+  id: 2410
+  title: Alfredo Mena
+  slug: alfredo-mena
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T14:02:20.064Z'
+  updated_at: '2017-09-03T14:02:20.064Z'
+  name: Alfredo Mena
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2463
+    title: Winking At Strangers
+    slug: winking-at-strangers
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:43.976Z'
+    updated_at: '2017-10-28T11:55:43.976Z'
+    name: Winking At Strangers
+    date: 12-25-2015
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2410
+      title: Alfredo Mena
+      slug: alfredo-mena
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T14:02:20.064Z'
+      updated_at: '2017-09-03T14:02:20.064Z'
+      name: Alfredo Mena
+- !ruby/hash:Hashie::Mash
+  id: 2399
+  title: Jason Hightower
+  slug: jason-hightower
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:57:07.534Z'
+  updated_at: '2017-09-03T13:57:07.534Z'
+  name: Jason Hightower
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2489
+    title: Visiting Grandpa
+    slug: visiting-grandpa
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:46.090Z'
+    updated_at: '2017-10-28T11:55:46.090Z'
+    name: Visiting Grandpa
+    date: '08-01-2016'
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2399
+      title: Jason Hightower
+      slug: jason-hightower
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:57:07.534Z'
+      updated_at: '2017-09-03T13:57:07.534Z'
+      name: Jason Hightower
+- !ruby/hash:Hashie::Mash
+  id: 2423
+  title: Brian Price
+  slug: brian-price
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-10-28T11:41:00.763Z'
+  updated_at: '2017-10-28T11:41:00.763Z'
+  name: Brian Price
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2498
+    title: No Boner
+    slug: no-boner
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:47.077Z'
+    updated_at: '2017-10-28T11:55:47.077Z'
+    name: No Boner
+    date: 11-07-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2423
+      title: Brian Price
+      slug: brian-price
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-10-28T11:41:00.763Z'
+      updated_at: '2017-10-28T11:41:00.763Z'
+      name: Brian Price
+- !ruby/hash:Hashie::Mash
+  id: 2407
+  title: Michael Holder
+  slug: michael-holder
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T14:01:16.394Z'
+  updated_at: '2017-09-03T14:01:16.394Z'
+  name: Michael Holder
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2494
+    title: Minimally Intrusive
+    slug: minimally-intrusive
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:46.696Z'
+    updated_at: '2017-10-28T11:55:46.696Z'
+    name: Minimally Intrusive
+    date: 10-03-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2407
+      title: Michael Holder
+      slug: michael-holder
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T14:01:16.394Z'
+      updated_at: '2017-09-03T14:01:16.394Z'
+      name: Michael Holder
+- !ruby/hash:Hashie::Mash
+  id: 2393
+  title: Claire Bryson
+  slug: claire-bryson
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:54:55.870Z'
+  updated_at: '2017-09-03T13:54:55.870Z'
+  name: Claire Bryson
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2488
+    title: Romping In The Bathroom
+    slug: romping-in-the-bathroom-2488
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:46.006Z'
+    updated_at: '2017-10-28T11:55:46.006Z'
+    name: Romping In The Bathroom
+    date: '08-01-2016'
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2393
+      title: Claire Bryson
+      slug: claire-bryson
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:54:55.870Z'
+      updated_at: '2017-09-03T13:54:55.870Z'
+      name: Claire Bryson
+- !ruby/hash:Hashie::Mash
+  id: 2394
+  title: Warren Harrison
+  slug: warren-harrison
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:54:59.352Z'
+  updated_at: '2017-09-03T13:54:59.352Z'
+  name: Warren Harrison
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2458
+    title: Crack Of The Door
+    slug: crack-of-the-door
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:43.560Z'
+    updated_at: '2017-10-28T11:55:43.560Z'
+    name: Crack Of The Door
+    date: 11-14-2015
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2394
+      title: Warren Harrison
+      slug: warren-harrison
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:54:59.352Z'
+      updated_at: '2017-09-03T13:54:59.352Z'
+      name: Warren Harrison
+- !ruby/hash:Hashie::Mash
+  id: 2369
+  title: Kelly White
+  slug: kelly-white
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:44:27.446Z'
+  updated_at: '2017-09-03T13:44:27.446Z'
+  name: Kelly White
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2462
+    title: Shitting My Pants In Front Of My Students
+    slug: shitting-my-pants-in-front-of-my-students-2462
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:43.889Z'
+    updated_at: '2017-10-28T11:55:43.889Z'
+    name: Shitting My Pants In Front Of My Students
+    date: 12-25-2015
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2369
+      title: Kelly White
+      slug: kelly-white
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:44:27.446Z'
+      updated_at: '2017-09-03T13:44:27.446Z'
+      name: Kelly White
+- !ruby/hash:Hashie::Mash
+  id: 2387
+  title: Derek Vogel
+  slug: derek-vogel
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:52:19.025Z'
+  updated_at: '2017-09-03T13:52:19.025Z'
+  name: Derek Vogel
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2479
+    title: Pit Toilets
+    slug: pit-toilets
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:45.301Z'
+    updated_at: '2017-10-28T11:55:45.301Z'
+    name: Pit Toilets
+    date: 05-29-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2387
+      title: Derek Vogel
+      slug: derek-vogel
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:52:19.025Z'
+      updated_at: '2017-09-03T13:52:19.025Z'
+      name: Derek Vogel
+- !ruby/hash:Hashie::Mash
+  id: 1176
+  title: Sean C Davis
+  slug: sean-c-davis
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2016-12-23T00:20:54.926Z'
+  updated_at: '2016-12-23T00:20:54.926Z'
+  name: Sean C Davis
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2461
+    title: Squirrels
+    slug: squirrels-2461
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:43.812Z'
+    updated_at: '2017-10-28T11:55:43.812Z'
+    name: Squirrels
+    date: 12-14-2015
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 1176
+      title: Sean C Davis
+      slug: sean-c-davis
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2016-12-23T00:20:54.926Z'
+      updated_at: '2016-12-23T00:20:54.926Z'
+      name: Sean C Davis
+- !ruby/hash:Hashie::Mash
+  id: 2377
+  title: Rome Ntukogu
+  slug: rome-ntukogu
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:48:40.091Z'
+  updated_at: '2017-09-03T13:48:40.091Z'
+  name: Rome Ntukogu
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2471
+    title: Banana Eye Contact
+    slug: banana-eye-contact
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.666Z'
+    updated_at: '2017-10-28T11:55:44.666Z'
+    name: Banana Eye Contact
+    date: 04-11-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2377
+      title: Rome Ntukogu
+      slug: rome-ntukogu
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:48:40.091Z'
+      updated_at: '2017-09-03T13:48:40.091Z'
+      name: Rome Ntukogu
+  - !ruby/hash:Hashie::Mash
+    id: 2470
+    title: The Angriest Bagel On The Planet
+    slug: the-angriest-bagel-on-the-planet-2470
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.580Z'
+    updated_at: '2017-10-28T11:55:44.580Z'
+    name: The Angriest Bagel On The Planet
+    date: 04-11-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2377
+      title: Rome Ntukogu
+      slug: rome-ntukogu
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:48:40.091Z'
+      updated_at: '2017-09-03T13:48:40.091Z'
+      name: Rome Ntukogu
+- !ruby/hash:Hashie::Mash
+  id: 2376
+  title: Autumn Heisler
+  slug: autumn-heisler
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:48:29.511Z'
+  updated_at: '2017-09-03T13:48:29.511Z'
+  name: Autumn Heisler
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2472
+    title: Dicks & Dairy Queen
+    slug: dicks-and-dairy-queen
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:44.750Z'
+    updated_at: '2017-10-28T11:55:44.750Z'
+    name: Dicks & Dairy Queen
+    date: 04-11-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2376
+      title: Autumn Heisler
+      slug: autumn-heisler
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:48:29.511Z'
+      updated_at: '2017-09-03T13:48:29.511Z'
+      name: Autumn Heisler
+- !ruby/hash:Hashie::Mash
+  id: 2401
+  title: Karl Spaeth
+  slug: karl-spaeth
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:58:14.045Z'
+  updated_at: '2017-09-03T13:58:14.045Z'
+  name: Karl Spaeth
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2493
+    title: Picking Flowers
+    slug: picking-flowers
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:46.527Z'
+    updated_at: '2017-10-28T11:55:46.527Z'
+    name: Picking Flowers
+    date: 10-03-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2401
+      title: Karl Spaeth
+      slug: karl-spaeth
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:58:14.045Z'
+      updated_at: '2017-09-03T13:58:14.045Z'
+      name: Karl Spaeth
+- !ruby/hash:Hashie::Mash
+  id: 2384
+  title: Sean Brendan Garner
+  slug: sean-brendan-garner
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:51:29.782Z'
+  updated_at: '2017-09-03T13:51:29.782Z'
+  name: Sean Brendan Garner
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2482
+    title: The Hated Stranger
+    slug: the-hated-stranger-2482
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:45.538Z'
+    updated_at: '2017-10-28T11:55:45.538Z'
+    name: The Hated Stranger
+    date: 06-06-2016
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2384
+      title: Sean Brendan Garner
+      slug: sean-brendan-garner
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:51:29.782Z'
+      updated_at: '2017-09-03T13:51:29.782Z'
+      name: Sean Brendan Garner
+- !ruby/hash:Hashie::Mash
+  id: 2367
+  title: Hunter Chapman
+  slug: hunter-chapman
+  template_name: Storyteller
+  publish_at: 
+  created_at: '2017-09-03T13:43:44.850Z'
+  updated_at: '2017-09-03T13:43:44.850Z'
+  name: Hunter Chapman
+  stories: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2457
+    title: Worst Easter Ever
+    slug: worst-easter-ever-2457
+    template_name: Story
+    publish_at: 
+    created_at: '2017-10-28T11:55:43.480Z'
+    updated_at: '2017-10-28T11:55:43.480Z'
+    name: Worst Easter Ever
+    date: 11-14-2015
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2367
+      title: Hunter Chapman
+      slug: hunter-chapman
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:43:44.850Z'
+      updated_at: '2017-09-03T13:43:44.850Z'
+      name: Hunter Chapman

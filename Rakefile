@@ -17,13 +17,34 @@ task :sync_sapwood do
     JSON.parse(req.body).map { |el| Hashie::Mash.new(el) }
   end
 
-  def write_collection(filename, api_path, options = {})
-    collection = api_get(api_path, options)
+  def write_collection(filename, collection)
     dest_file = File.expand_path("data/#{filename}.yml", File.dirname(__FILE__))
     File.open(dest_file, 'w+') { |file| file.write(collection.to_yaml) }
   end
 
-  write_collection('episodes', 'elements', template: 'Episode', sort_by: 'number', sort_in: 'desc', includes: 'quotes')
-  write_collection('quotes', 'elements', template: 'Quote')
-  write_collection('pages', 'elements', template: 'Page')
+  def write_collection_from_api(filename, api_path, options = {})
+    collection = api_get(api_path, options)
+    write_collection(filename, collection)
+  end
+
+  # Episodes
+  episodes = api_get('elements', template: 'Episode')
+  write_collection('episodes', episodes)
+
+  # Quotes
+  write_collection_from_api('quotes', 'elements', template: 'Quote')
+
+  # Pages
+  write_collection_from_api('pages', 'elements', template: 'Page')
+
+  # Storytellers
+  published_stories = []
+  storytellers = []
+  episodes.each { |episode| published_stories << episode.stories }
+  published_stories.flatten.uniq.group_by(&:storyteller).each do |storyteller, stories|
+    storyteller.stories = stories
+    storytellers << storyteller
+  end
+  write_collection('storytellers', storytellers)
+
 end
