@@ -6,7 +6,7 @@
   template_name: Page
   publish_at: 
   created_at: '2018-02-12T11:41:44.381Z'
-  updated_at: '2018-02-12T12:55:56.005Z'
+  updated_at: '2018-02-27T03:12:13.059Z'
   name: Share Your Story
   body: "<p class=\"font-size-large text-center\">\r\n  So, you have that one embarrassing,
     goofy, or totally strange story you\r\n  love to share at parties, do you? Fantastic!\r\n</p>\r\n\r\n<p
@@ -50,6 +50,8 @@
     \ <li>\r\n    Any audio file format is acceptable. You're best to just leave the\r\n
     \   file what it is by default after being exported from your phone or\r\n    audio
     recorder.\r\n  </li>\r\n</ul>"
+  meta_description: Share your story with Squirrel Stories for a chance to be featured
+    on an upcoming episode!
   template: Share
   page_path: share-your-story
 - !ruby/hash:Hashie::Mash
@@ -59,7 +61,7 @@
   template_name: Page
   publish_at: 
   created_at: '2018-02-12T11:44:34.258Z'
-  updated_at: '2018-02-12T12:25:41.560Z'
+  updated_at: '2018-02-27T03:12:45.340Z'
   name: Story Release Agreement
   body: "<p>\r\n  I hereby grant to Sean C Davis for Squirrel Stories, his subsidiaries,\r\n
     \ affiliates, agents, successors, and assigns the right and permission to\r\n
@@ -88,5 +90,6 @@
     \ limitation, the payment of all penalties, fines, judgments, awards, decrees,\r\n
     \ attorneys' fees and related costs or expenses, and reimbursement of to Sean
     C\r\n  Davis for Squirrel Stories for all legal fees, expenses and cost incurred.\r\n</p>\r\n"
+  meta_description: It's all that legal nonsense. that no one really cares about.
   template: Default
   page_path: release-agreement

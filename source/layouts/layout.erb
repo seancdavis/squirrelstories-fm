@@ -5,10 +5,25 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title>
-      <%= page_title %>
-    </title>
+
+    <title><%= page_title %></title>
+    <meta name="description" content="<%= page_description %>">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="<%= page_description %>">
+    <meta name="twitter:site" content="<%= data.settings.site.twitter_handle %>">
+    <meta name="twitter:title" content="<%= page_title %>">
+    <meta name="twitter:description" content="<%= page_description %>">
+    <meta name="twitter:creator" content="<%= data.settings.site.creator_twitter_handle %>">
+    <meta name="twitter:image" content="<%= page_image %>">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="<%= page_title %>">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="<%= data.settings.site.base_url %><%= current_page.url %>">
+    <meta property="og:image" content="<%= page_image %>">
+    <meta property="og:description" content="<%= page_description %>">
+    <meta property="og:site_name" content="<%= data.settings.site.title %>">
 
     <%= stylesheet_link_tag 'main' %>
 

@@ -1,2 +1,6 @@
 site:
   title: Squirrel Stories
+  description: A squirrel story is that story you love to tell at parties. It's embarrassing. It's goofy. It's strange.
+  base_url: https://squirrelstories.fm
+  twitter_handle: '@squirrelpodcast'
+  creator_twitter_handle: '@scdavis41'

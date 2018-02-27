@@ -17,19 +17,19 @@ page '/*.txt', layout: false
 # page '/path/to/file.html', layout: 'other_layout'
 
 data.episodes.each do |episode|
-  proxy "/episodes/#{episode.number}/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: "#{episode.name} | Squirrel Stories" }, ignore: true
+  proxy "/episodes/#{episode.number}/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: "#{episode.name} | Squirrel Stories", description: episode.description, ix_image: episode.image.try(:url) }, ignore: true
 end
 
 data.storytellers.each do |storyteller|
-  proxy "/storyteller/#{storyteller.id}-#{storyteller.slug}/index.html", "/templates/storyteller.html", locals: { storyteller: storyteller, title: "Episodes with #{storyteller.name} | Squirrel Stories" }, ignore: true
+  proxy "/storyteller/#{storyteller.id}-#{storyteller.slug}/index.html", "/templates/storyteller.html", locals: { storyteller: storyteller, title: "Episodes with #{storyteller.name} | Squirrel Stories", description: "Episodes with stories told by #{storyteller.name}" }, ignore: true
 end
 
 data.quotes.each do |quote|
-  proxy "/quotes/#{quote.episode.id}/#{quote.id}/index.html", "/templates/quote.html", locals: { quote: quote, title: "Quote from Episode #{quote.episode.number} | Squirrel Stories" }, ignore: true
+  proxy "/quotes/#{quote.episode.id}/#{quote.id}/index.html", "/templates/quote.html", locals: { quote: quote, title: "Quote from Episode #{quote.episode.number} | Squirrel Stories", description: "A quote by #{quote.storyteller.name} from episode #{quote.episode.number}" }, ignore: true
 end
 
 data.pages.each do |page|
-  proxy "/#{page.page_path}/index.html", "/templates/page.html", locals: { page: page, title: "#{page.name} | Squirrel Stories" }, ignore: true
+  proxy "/#{page.page_path}/index.html", "/templates/page.html", locals: { page: page, title: "#{page.name} | Squirrel Stories", description: page.meta_description }, ignore: true
 end
 
 # Proxy pages
@@ -53,6 +53,21 @@ helpers do
     return current_page.metadata[:locals][:title] if current_page.metadata[:locals][:title]
     return current_page.data.title if current_page.data.title
     data.settings.site.title
+  end
+
+  def page_description
+    return current_page.metadata[:locals][:description] if current_page.metadata[:locals][:description]
+    return current_page.data.description if current_page.data.description
+    data.settings.site.description
+  end
+
+  def page_image
+    return current_page.metadata[:locals][:image] if current_page.metadata[:locals][:image]
+    return current_page.data.image if current_page.data.image
+    if current_page.metadata[:locals][:ix_image]
+      return ix_url(current_page.metadata[:locals][:ix_image], w: 1200, h: 1200, fit: 'crop')
+    end
+    data.settings.site.base_url + image_path('squirrel-stories-logo--teal--og.png')
   end
 
   def icon(name, options = {})
