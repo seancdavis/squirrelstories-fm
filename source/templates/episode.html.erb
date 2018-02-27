@@ -38,7 +38,9 @@
           <a href="<%= storyteller_path(story.storyteller) %>"><%= story.storyteller.name %></a>
         </p>
         <p><%= story.description %></p>
-        <div class="line line--small"></div>
+        <% unless story == episode.stories.last %>
+          <div class="line line--small"></div>
+        <% end %>
       <% end %>
       <% if episode.quotes.present? %>
         <div class="line line--small"></div>
@@ -53,8 +55,8 @@
             </div>
           <% end %>
         </div>
-      <% end %>
       <div class="line line--medium"></div>
+      <% end %>
     </article>
   </div>
   <!--p class="text-center mb-5">
