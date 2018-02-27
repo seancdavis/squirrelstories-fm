@@ -1,7 +1,7 @@
 export default {
-  input: './source/javascripts/_application.js',
+  input: './source/javascripts/manifest.js',
   output: {
-    file: './.tmp/dist/javascripts/application.js',
+    file: './.tmp/dist/javascripts/main.js',
     sourcemap: true,
     format: 'iife',
     name: 'squirrelstories_fm',

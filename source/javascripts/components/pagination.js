@@ -1,4 +1,4 @@
-import { Grid } from './_grid';
+import { Grid } from './grid';
 
 export const initPagination = $(document).on('ready', () => {
   for (let container of $('[data-pagination]')) {

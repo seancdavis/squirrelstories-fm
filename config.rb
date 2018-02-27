@@ -41,6 +41,10 @@ end
 proxy "/_headers", "/templates/headers", ignore: true
 
 ignore 'templates/*'
+ignore 'javascripts/manifest.js'
+ignore 'javascripts/components/*'
+ignore 'javascripts/utilities/*'
+ignore 'javascripts/vendor/*'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
@@ -206,7 +210,7 @@ end
 
 configure :build do
   activate :minify_css
-  activate :minify_javascript
+  # activate :minify_javascript
   activate :gzip
   activate :asset_hash
   activate :minify_html
