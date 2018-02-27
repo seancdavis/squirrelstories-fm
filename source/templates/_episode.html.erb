@@ -17,7 +17,7 @@
         <p class="font-weight-bold font-size-small">
           <% storytellers = episode.stories.collect(&:storyteller).uniq %>
           <% storytellers.each do |storyteller| %>
-            <a href="#">
+            <a href="<%= storyteller_path(storyteller) %>">
               <%= storyteller.name + (storyteller == storytellers.last ? '' : ',')%>
             </a>
           <% end %>

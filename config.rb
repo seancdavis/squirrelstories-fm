@@ -20,11 +20,10 @@ data.episodes.each do |episode|
   proxy "/episodes/#{episode.number}/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: episode.name }, ignore: true
 end
 
-storytellers = []
-data.episodes.collect(&:stories).flatten.each { |story| storytellers << story.storyteller }
-
-storytellers.uniq.each do |storyteller|
-  proxy "/storyteller/#{storyteller.id}-#{storyteller.slug}/index.html", "/templates/_storyteller.html", locals: { storyteller: storyteller, title: storyteller.name }, ignore: true
+data.episodes.each do |episode|
+  episode.stories.each do |story|
+    proxy "/storyteller/#{story.storyteller.id}-#{story.storyteller.slug}/index.html", "/templates/storyteller.html", locals: { storyteller: story.storyteller, title: story.storyteller.name }, ignore: true
+  end
 end
 
 data.quotes.each do |quote|
