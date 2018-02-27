@@ -17,19 +17,19 @@ page '/*.txt', layout: false
 # page '/path/to/file.html', layout: 'other_layout'
 
 data.episodes.each do |episode|
-  proxy "/episodes/#{episode.number}/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: episode.name }, ignore: true
+  proxy "/episodes/#{episode.number}/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: "#{episode.name} | Squirrel Stories" }, ignore: true
 end
 
 data.storytellers.each do |storyteller|
-  proxy "/storyteller/#{storyteller.id}-#{storyteller.slug}/index.html", "/templates/storyteller.html", locals: { storyteller: storyteller, title: storyteller.name }, ignore: true
+  proxy "/storyteller/#{storyteller.id}-#{storyteller.slug}/index.html", "/templates/storyteller.html", locals: { storyteller: storyteller, title: "Episodes with #{storyteller.name} | Squirrel Stories" }, ignore: true
 end
 
 data.quotes.each do |quote|
-  proxy "/quotes/#{quote.episode.id}/#{quote.id}/index.html", "/templates/quote.html", locals: { quote: quote, title: 'Squirrel Stories Quote' }, ignore: true
+  proxy "/quotes/#{quote.episode.id}/#{quote.id}/index.html", "/templates/quote.html", locals: { quote: quote, title: "Quote from Episode #{quote.episode.number} | Squirrel Stories" }, ignore: true
 end
 
 data.pages.each do |page|
-  proxy "/#{page.page_path}/index.html", "/templates/page.html", locals: { page: page, title: "Squirrel Stories | #{page.name}" }, ignore: true
+  proxy "/#{page.page_path}/index.html", "/templates/page.html", locals: { page: page, title: "#{page.name} | Squirrel Stories" }, ignore: true
 end
 
 # Proxy pages
