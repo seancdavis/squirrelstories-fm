@@ -18,9 +18,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.393Z'
-    updated_at: '2017-10-28T11:55:44.393Z'
+    updated_at: '2018-02-27T21:45:30.539Z'
     name: Intersection Underwear
-    date: 02-22-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2398
       title: Katie Davis
@@ -30,6 +29,9 @@
       created_at: '2017-09-03T13:57:03.953Z'
       updated_at: '2017-09-03T13:57:03.953Z'
       name: Katie Davis
+    description: What happens when ...
+    date: 02-22-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2463
     title: Winking At Strangers

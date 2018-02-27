@@ -31,6 +31,15 @@
           </p>
         </div>
       </div>
+      <h3 class="episode--stories-heading text-center">Stories</h3>
+      <% episode.stories.each do |story| %>
+        <h4><%= story.name %></h4>
+        <p class="episode--story--storyteller">
+          <a href="<%= storyteller_path(story.storyteller) %>"><%= story.storyteller.name %></a>
+        </p>
+        <p><%= story.description %></p>
+        <div class="line line--small"></div>
+      <% end %>
       <% if episode.quotes.present? %>
         <div class="line line--small"></div>
         <div class="row font-italic text-center font-size-small" data-random-quotes="<%= episode.quotes.size %>">
