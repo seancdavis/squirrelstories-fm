@@ -32,6 +32,8 @@ data.pages.each do |page|
   proxy "/#{page.page_path}/index.html", "/templates/page.html", locals: { page: page, title: "#{page.name} | Squirrel Stories", description: page.meta_description }, ignore: true
 end
 
+proxy "/_headers", "/templates/headers", ignore: true
+
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
