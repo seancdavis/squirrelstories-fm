@@ -9,7 +9,7 @@
       <%= ix_img episode.image.try(:url), class: 'episode--image', ratio: 1.5, sizes: { sm: 15, md: 20, lg: 25 } %>
       <div class="episode--overview">
         <p class="font-size-small">
-          <a href="<%= episode_path(episode) %>">Episode <%= episode.number %></a>
+          <a href="<%= episode_path(episode) %>"><strong>Episode <%= episode.number %></strong></a>
         </p>
         <p>
           <%= episode.description %>

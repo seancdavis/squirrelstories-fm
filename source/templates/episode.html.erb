@@ -1,1 +1,54 @@
-This is the episode's show view ...
+<div class="page-header bg-triangles">
+  <h1><%= episode.title %></h1>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    <article class="episode col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      <div class="clearfix">
+        <%= ix_img episode.image.try(:url), class: 'episode--image', ratio: 1.5, sizes: { sm: 15, md: 20, lg: 25 } %>
+        <div class="episode--overview mb-5">
+          <p class="font-size-small">
+            <strong>Episode <%= episode.number %></strong>
+          </p>
+          <p>
+            <%= episode.description %>
+          </p>
+          <p class="font-weight-bold font-size-small">
+            <% storytellers = episode.stories.collect(&:storyteller).uniq %>
+            <% storytellers.each do |storyteller| %>
+              <a href="<%= storyteller_path(storyteller) %>">
+                <%= storyteller.name + (storyteller == storytellers.last ? '' : ',')%>
+              </a>
+            <% end %>
+          </p>
+          <p class="font-size-small mb-3">
+            <%= Date.parse(episode.date).strftime('%b %d, %Y') %>
+          </p>
+          <p>
+            <a href="#" class="mr-2"><%= icon 'apple', class: 'icon--md' %></a>
+            <a href="#" class=""><%= icon 'google-play', class: 'icon--md' %></a>
+          </p>
+        </div>
+      </div>
+      <% if episode.quotes.present? %>
+        <div class="line line--small"></div>
+        <div class="row font-italic text-center font-size-small" data-random-quotes="<%= episode.quotes.size %>">
+          <% episode.quotes.each do |quote| %>
+            <div class="col-sm-6 quote--random mt-3 mb-3">
+              <p class="episode--quote m-0">
+                <a href="<%= quote_path(quote) %>">
+                  "<%= quote.body %>"
+                </a>
+              </p>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+      <div class="line line--medium"></div>
+    </article>
+  </div>
+  <!--p class="text-center mb-5">
+    <a href="#" class="btn btn-outline-primary">Load Random Episode</a>
+  </p-->
+</div>

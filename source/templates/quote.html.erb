@@ -19,7 +19,7 @@
         </li>
       </ul>
       <p class="mb-2">
-        <a href="/episodes/<%= quote.episode.slug %>">
+        <a href="<%= episode_path(quote.episode) %>">
           <strong>Episode <%= quote.episode.number %>: <%= quote.episode.name %></strong>
         </a>
       </p>
