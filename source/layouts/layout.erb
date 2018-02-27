@@ -12,11 +12,6 @@
 
     <%= stylesheet_link_tag 'main' %>
 
-    <%= javascript_include_tag 'jquery' %>
-    <%= javascript_include_tag 'masonry' %>
-    <%#= javascript_include_tag 'dom-to-image' %>
-    <%= javascript_include_tag 'main' %>
-
     <link rel="shortcut icon" type="image/x-icon" href="<%= image_path('favicon.ico') %>">
   </head>
 
@@ -27,6 +22,10 @@
     <%= yield %>
 
     <%= partial 'partials/footer' %>
+
+    <%= javascript_include_tag 'jquery.min' %>
+    <%= javascript_include_tag 'masonry.min' %>
+    <%= javascript_include_tag 'main' %>
 
   </body>
 
