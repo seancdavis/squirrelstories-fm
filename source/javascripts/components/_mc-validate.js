@@ -1,6 +1,3 @@
-(function () {
-'use strict';
-
 // MC
 (function($) {
   var err_style = '';
@@ -120,7 +117,8 @@
           url += "?";
           url += parameters;
           window.open(url);
-        }        // Example errors - Note: You only get one back at a time even if you submit several that are bad.
+        };
+        // Example errors - Note: You only get one back at a time even if you submit several that are bad.
         // Error structure - number indicates the index of the merge field that was invalid, then details
         // Object {result: "error", msg: "6 - Please enter the date"}
         // Object {result: "error", msg: "4 - Please enter a value"}
@@ -168,7 +166,7 @@
             }
         }
     }
-  };
+  }
 
   window.mc.mce_validator = $("#mc-embedded-subscribe-form").validate({
 
@@ -225,10 +223,3 @@
     });
 
 }(jQuery));
-
-// import * as test_component from './components/_test_component';
-
-// TODO: Bring in other components
-
-}());
-//# sourceMappingURL=application.js.map

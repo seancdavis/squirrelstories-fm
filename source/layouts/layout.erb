@@ -55,9 +55,20 @@
 
     <%= partial 'partials/footer' %>
 
-    <%= javascript_include_tag 'jquery.min' %>
-    <%= javascript_include_tag 'masonry.min' %>
-    <%= javascript_include_tag 'main' %>
+    <%#= javascript_include_tag 'jquery.min' %>
+    <%#= javascript_include_tag 'masonry.min' %>
+    <%#= javascript_include_tag 'main' %>
+
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/4.2.1/masonry.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"
+            integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i"
+            crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.min.js"></script>
+
     <%= javascript_include_tag 'application' %>
 
   </body>
