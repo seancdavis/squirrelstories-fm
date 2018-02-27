@@ -1,1 +1,282 @@
---- []
+---
+- !ruby/hash:Hashie::Mash
+  id: 2614
+  title: Another quote
+  slug: another-quote
+  template_name: Quote
+  publish_at: 
+  created_at: '2018-02-27T18:06:54.605Z'
+  updated_at: '2018-02-27T18:06:54.605Z'
+  body: Another quote
+  storyteller: !ruby/hash:Hashie::Mash
+    id: 2380
+    title: Aaron Tyree
+    slug: aaron-tyree
+    template_name: Storyteller
+    publish_at: 
+    created_at: '2017-09-03T13:49:43.494Z'
+    updated_at: '2017-09-03T13:49:43.494Z'
+    name: Aaron Tyree
+  episode: !ruby/hash:Hashie::Mash
+    id: 2406
+    title: A Pissmass Carol
+    slug: a-pissmass-carol
+    template_name: Episode
+    publish_at: 
+    created_at: '2017-09-03T14:00:59.649Z'
+    updated_at: '2017-10-28T13:14:49.197Z'
+    number: '01.18'
+    name: A Pissmass Carol
+    date: '2017-01-04'
+    stories: !ruby/array:Hashie::Array
+    - !ruby/hash:Hashie::Mash
+      id: 2504
+      title: Thanksgiving 2005
+      slug: thanksgiving-2005
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:47.570Z'
+      updated_at: '2017-10-28T11:55:47.570Z'
+      name: Thanksgiving 2005
+      date: 12-05-2016
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 2405
+        title: Tina Cisneros
+        slug: tina-cisneros
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2017-09-03T14:00:25.599Z'
+        updated_at: '2017-09-03T14:00:25.599Z'
+        name: Tina Cisneros
+    - !ruby/hash:Hashie::Mash
+      id: 2506
+      title: A Pissmass Carol
+      slug: a-pissmass-carol-2506
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:47.727Z'
+      updated_at: '2017-10-28T11:55:47.727Z'
+      name: A Pissmass Carol
+      date: 12-05-2016
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 2386
+        title: Erin Fox
+        slug: erin-fox
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2017-09-03T13:52:14.908Z'
+        updated_at: '2017-09-03T13:52:14.908Z'
+        name: Erin Fox
+    - !ruby/hash:Hashie::Mash
+      id: 2505
+      title: Thanksgiving 2010
+      slug: thanksgiving-2010
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:47.649Z'
+      updated_at: '2017-10-28T11:55:47.649Z'
+      name: Thanksgiving 2010
+      date: 12-05-2016
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 2405
+        title: Tina Cisneros
+        slug: tina-cisneros
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2017-09-03T14:00:25.599Z'
+        updated_at: '2017-09-03T14:00:25.599Z'
+        name: Tina Cisneros
+    description: The holidays mean school pageants and family time and drinking too
+      much and peeing your pants.
+    audio_file: !ruby/hash:Hashie::Mash
+      id: 2573
+      title: 18 A Pissmass Carol
+      slug: 18-a-pissmass-carol
+      template_name: Audio
+      publish_at: 
+      created_at: '2017-10-28T12:28:43.573Z'
+      updated_at: '2017-10-28T12:28:43.573Z'
+      name: 18 A Pissmass Carol
+      url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
+    itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+- !ruby/hash:Hashie::Mash
+  id: 2612
+  title: 'Test #1'
+  slug: test-1
+  template_name: Quote
+  publish_at: 
+  created_at: '2018-02-27T17:56:24.529Z'
+  updated_at: '2018-02-27T17:56:24.529Z'
+  body: 'Test #1'
+  storyteller: !ruby/hash:Hashie::Mash
+    id: 2380
+    title: Aaron Tyree
+    slug: aaron-tyree
+    template_name: Storyteller
+    publish_at: 
+    created_at: '2017-09-03T13:49:43.494Z'
+    updated_at: '2017-09-03T13:49:43.494Z'
+    name: Aaron Tyree
+  episode: !ruby/hash:Hashie::Mash
+    id: 2404
+    title: Abraham Lincoln and a Taxidermied Giraffe
+    slug: abraham-lincoln-and-a-taxidermied-giraffe
+    template_name: Episode
+    publish_at: 
+    created_at: '2017-09-03T14:00:12.588Z'
+    updated_at: '2017-10-28T13:14:24.323Z'
+    number: '01.17'
+    name: Abraham Lincoln and a Taxidermied Giraffe
+    date: '2016-11-16'
+    stories: !ruby/array:Hashie::Array
+    - !ruby/hash:Hashie::Mash
+      id: 2491
+      title: Abe Lincoln & A Taxidermied Giraffe
+      slug: abe-lincoln-and-a-taxidermied-giraffe
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:46.283Z'
+      updated_at: '2017-10-28T11:55:46.283Z'
+      name: Abe Lincoln & A Taxidermied Giraffe
+      date: '08-01-2016'
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 2419
+        title: Sergio Garcia
+        slug: sergio-garcia
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2017-10-28T11:41:00.528Z'
+        updated_at: '2017-10-28T11:41:00.528Z'
+        name: Sergio Garcia
+    - !ruby/hash:Hashie::Mash
+      id: 2477
+      title: Irish Cow Pastures
+      slug: irish-cow-pastures
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:45.145Z'
+      updated_at: '2017-10-28T11:55:45.145Z'
+      name: Irish Cow Pastures
+      date: 04-11-2016
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 2373
+        title: Kathryn Sturm
+        slug: kathryn-sturm
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2017-09-03T13:46:33.136Z'
+        updated_at: '2017-09-03T13:46:33.136Z'
+        name: Kathryn Sturm
+    description: We all receive injuries from time to time, but typically those injuries
+      aren't caused by cows or by U.S. presidents.
+    audio_file: !ruby/hash:Hashie::Mash
+      id: 2575
+      title: 17 Abraham Lincoln And A Taxidermied Giraffe
+      slug: 17-abraham-lincoln-and-a-taxidermied-giraffe
+      template_name: Audio
+      publish_at: 
+      created_at: '2017-10-28T12:30:46.620Z'
+      updated_at: '2017-10-28T12:30:46.620Z'
+      name: 17 Abraham Lincoln And A Taxidermied Giraffe
+      url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/17-abraham-lincoln-and-a-taxidermied-giraffe.mp3
+    itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+- !ruby/hash:Hashie::Mash
+  id: 2613
+  title: 'Test #2'
+  slug: test-2
+  template_name: Quote
+  publish_at: 
+  created_at: '2018-02-27T17:56:32.694Z'
+  updated_at: '2018-02-27T17:56:32.694Z'
+  body: 'Test #2'
+  storyteller: !ruby/hash:Hashie::Mash
+    id: 2380
+    title: Aaron Tyree
+    slug: aaron-tyree
+    template_name: Storyteller
+    publish_at: 
+    created_at: '2017-09-03T13:49:43.494Z'
+    updated_at: '2017-09-03T13:49:43.494Z'
+    name: Aaron Tyree
+  episode: !ruby/hash:Hashie::Mash
+    id: 2406
+    title: A Pissmass Carol
+    slug: a-pissmass-carol
+    template_name: Episode
+    publish_at: 
+    created_at: '2017-09-03T14:00:59.649Z'
+    updated_at: '2017-10-28T13:14:49.197Z'
+    number: '01.18'
+    name: A Pissmass Carol
+    date: '2017-01-04'
+    stories: !ruby/array:Hashie::Array
+    - !ruby/hash:Hashie::Mash
+      id: 2504
+      title: Thanksgiving 2005
+      slug: thanksgiving-2005
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:47.570Z'
+      updated_at: '2017-10-28T11:55:47.570Z'
+      name: Thanksgiving 2005
+      date: 12-05-2016
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 2405
+        title: Tina Cisneros
+        slug: tina-cisneros
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2017-09-03T14:00:25.599Z'
+        updated_at: '2017-09-03T14:00:25.599Z'
+        name: Tina Cisneros
+    - !ruby/hash:Hashie::Mash
+      id: 2506
+      title: A Pissmass Carol
+      slug: a-pissmass-carol-2506
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:47.727Z'
+      updated_at: '2017-10-28T11:55:47.727Z'
+      name: A Pissmass Carol
+      date: 12-05-2016
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 2386
+        title: Erin Fox
+        slug: erin-fox
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2017-09-03T13:52:14.908Z'
+        updated_at: '2017-09-03T13:52:14.908Z'
+        name: Erin Fox
+    - !ruby/hash:Hashie::Mash
+      id: 2505
+      title: Thanksgiving 2010
+      slug: thanksgiving-2010
+      template_name: Story
+      publish_at: 
+      created_at: '2017-10-28T11:55:47.649Z'
+      updated_at: '2017-10-28T11:55:47.649Z'
+      name: Thanksgiving 2010
+      date: 12-05-2016
+      storyteller: !ruby/hash:Hashie::Mash
+        id: 2405
+        title: Tina Cisneros
+        slug: tina-cisneros
+        template_name: Storyteller
+        publish_at: 
+        created_at: '2017-09-03T14:00:25.599Z'
+        updated_at: '2017-09-03T14:00:25.599Z'
+        name: Tina Cisneros
+    description: The holidays mean school pageants and family time and drinking too
+      much and peeing your pants.
+    audio_file: !ruby/hash:Hashie::Mash
+      id: 2573
+      title: 18 A Pissmass Carol
+      slug: 18-a-pissmass-carol
+      template_name: Audio
+      publish_at: 
+      created_at: '2017-10-28T12:28:43.573Z'
+      updated_at: '2017-10-28T12:28:43.573Z'
+      name: 18 A Pissmass Carol
+      url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
+    itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
