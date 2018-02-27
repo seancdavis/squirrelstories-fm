@@ -28,7 +28,7 @@ task :sync_sapwood do
   end
 
   # Episodes
-  episodes = api_get('elements', template: 'Episode')
+  episodes = api_get('elements', template: 'Episode', sort_by: 'number', sort_in: 'desc', includes: 'quotes')
   write_collection('episodes', episodes)
 
   # Quotes
@@ -40,9 +40,15 @@ task :sync_sapwood do
   # Storytellers
   published_stories = []
   storytellers = []
-  episodes.each { |episode| published_stories << episode.stories }
+  episodes.each do |episode|
+    episode.stories.each do |story|
+      story.episode = episode
+      published_stories << story
+    end
+  end
   published_stories.flatten.uniq.group_by(&:storyteller).each do |storyteller, stories|
-    storyteller.stories = stories
+    # storyteller.stories = stories
+    storyteller.episodes = stories.collect(&:episode)
     storytellers << storyteller
   end
   write_collection('storytellers', storytellers)

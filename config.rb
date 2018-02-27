@@ -20,14 +20,8 @@ data.episodes.each do |episode|
   proxy "/episodes/#{episode.number}/#{episode.slug}/index.html", "/templates/episode.html", locals: { episode: episode, title: episode.name }, ignore: true
 end
 
-storytellers = []
-
-data.episodes.each do |episode|
-  # puts storytellers
-  episode.stories.each do |story|
-    proxy "/storyteller/#{story.storyteller.id}-#{story.storyteller.slug}/index.html", "/templates/storyteller.html", locals: { storyteller: story.storyteller, title: story.storyteller.name }, ignore: true
-    # storytellers.push(story.storyteller)
-  end
+data.storytellers.each do |storyteller|
+  proxy "/storyteller/#{storyteller.id}-#{storyteller.slug}/index.html", "/templates/storyteller.html", locals: { storyteller: storyteller, title: storyteller.name }, ignore: true
 end
 
 data.quotes.each do |quote|

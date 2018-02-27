@@ -1,1 +1,10 @@
-<p>Storyteller page ...</p>
+<div class="page-header bg-triangles">
+  <h1>Episodes with <%= storyteller.name %></h1>
+</div>
+
+<div class="container mt-5">
+  <% storyteller.episodes.each do |episode| %>
+    <%= partial 'templates/_episode', locals: { episode: episode } %>
+  <% end %>
+</div>
+
