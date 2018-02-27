@@ -25,13 +25,13 @@
       </div>
       <h3 class="episode--stories-heading text-center">Stories</h3>
       <% episode.stories.each do |story| %>
-        <h4><%= story.name %></h4>
+        <h4 class="episode--story-heading"><%= story.name %></h4>
         <p class="episode--story--storyteller font-weight-bold">
           <a href="<%= storyteller_path(story.storyteller) %>"><%= story.storyteller.name %></a>
         </p>
-        <p><%= story.description %></p>
+        <p class="episode--story--body"><%= story.description %></p>
         <% unless story == episode.stories.last %>
-          <div class="line line--small"></div>
+          <div class="line line--small mt-5 mb-4"></div>
         <% end %>
       <% end %>
       <% if episode.quotes.present? %>
