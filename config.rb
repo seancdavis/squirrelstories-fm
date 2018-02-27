@@ -5,6 +5,12 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :external_pipeline,
+  name: :rollup,
+  command: build? ? 'npm run build:clean' : 'npm run dev',
+  source: '.tmp/dist',
+  latency: 1
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -33,6 +39,8 @@ data.pages.each do |page|
 end
 
 proxy "/_headers", "/templates/headers", ignore: true
+
+ignore 'templates/*'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/

@@ -1,0 +1,1 @@
+{"version":3,"file":"application.js","sources":["../../../source/javascripts/_application.js"],"sourcesContent":["$(document).ready(function() {\n  console.log('HELLO WORLD')\n});\n"],"names":[],"mappings":";;;AAAA,CAAC,CAAC,QAAQ,CAAC,CAAC,KAAK,CAAC,WAAW;EAC3B,OAAO,CAAC,GAAG,CAAC,aAAa,EAAC;CAC3B,CAAC,CAAC;;;;"}
