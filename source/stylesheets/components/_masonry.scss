@@ -1,10 +1,14 @@
 .masonry.masonry--static-colors {
-  .masonry--tile:nth-child(1) {
+  a:nth-last-child(3) .masonry--tile {
     background-color: $teal;
     color: $white;
   }
-  .masonry--tile:nth-child(2) {
+  a:nth-last-child(2) .masonry--tile {
     background-color: $yellow;
+    color: $white;
+  }
+  a:last-child .masonry--tile {
+    background-color: $gray-400;
     color: $white;
   }
 }
