@@ -32,7 +32,8 @@
 .quote--random {
   display: none;
 
-  &.quote--random-show {
+  &.quote--random-show:not(.paginated),
+  &.quote--random-show.paginated--show {
     display: block;
   }
 }

@@ -72,12 +72,20 @@ class Pagination
   constructor: (container) ->
     @container = $(container)
     @paginationName = @container.data('pagination')
+    @pageLength = @container.data('page-length') || 10
+    @initPages()
     @showNextPage()
     @bindClickEvent()
+
+  initPages: ->
+    for item, idx in @container.find('.paginated')
+      pageNumber = parseInt((idx + @pageLength) / @pageLength)
+      $(item).attr('data-page', pageNumber)
 
   showNextPage: (event = null) =>
     @currentPage++
     @container.find("[data-page='#{@currentPage}']").addClass('paginated--show')
+    Grid.init()
     if @container.find("[data-page='#{@currentPage + 1}']").length == 0
       $("[data-pagination-loader='#{@paginationName}']").hide()
 

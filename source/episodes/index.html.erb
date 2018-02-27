@@ -6,11 +6,9 @@ title: Episodes | Squirrel Stories
   <h1>Episodes</h1>
 </div>
 
-<div class="container mt-5" data-pagination="episodes">
-  <% data.episodes.each_slice(10).each_with_index do |episodes, idx| %>
-    <% episodes.each do |episode| %>
-      <%= partial 'templates/_episode', locals: { episode: episode, page_number: idx + 1 } %>
-    <% end %>
+<div class="container mt-5" data-pagination="episodes" data-page-length="10">
+  <% data.episodes.each do |episode| %>
+    <%= partial 'templates/_episode', locals: { episode: episode } %>
   <% end %>
 
   <p class="text-center my-4">
