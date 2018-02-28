@@ -1,0 +1,16 @@
+<%= render 'site_intro' %>
+<%= render 'features' %>
+
+<div class="container mt-5">
+  <div class="type--index-title mb-2">
+    <h1>Latest Episodes</h1>
+  </div>
+
+  <%= render partial: 'episodes/episode', collection: @episodes %>
+
+  <p class="text-center mb-5">
+    <a href="<%= episodes_path %>" class="btn btn-outline-primary px-5">
+      View All Episodes
+    </a>
+  </p>
+</div>

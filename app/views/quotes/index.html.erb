@@ -1,0 +1,14 @@
+<div class="page-header bg-triangles">
+  <h1>Quotes</h1>
+</div>
+
+<div class="container my-5">
+  <div class="masonry invisible">
+    <div class="masonry--sizer"></div>
+    <%= render partial: 'quote', collection: @quotes %>
+  </div>
+
+  <p class="text-center mt-4">
+    <a href="#" class="btn btn-outline-primary px-5">Load More</a>
+  </p>
+</div>

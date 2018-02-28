@@ -1,28 +1,5 @@
 {
-  "name": "squirrelstories-fm",
-  "version": "1.0.0",
-  "description": "squirrelstories.fm",
-  "scripts": {
-    "clean": "rimraf ./.tmp/dist",
-    "build:clean": "npm run clean && npm run build",
-    "dev": "rollup -c -w",
-    "build": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/seancdavis/squirrelstories-middleman.git"
-  },
-  "author": "Sean C Davis",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/seancdavis/squirrelstories-middleman/issues"
-  },
-  "homepage": "https://github.com/seancdavis/squirrelstories-middleman#readme",
-  "devDependencies": {
-    "jquery": "^3.3.1",
-    "rimraf": "^2.6.2",
-    "rollup": "^0.56.3",
-    "rollup-watch": "^4.3.1"
-  }
+  "name": "SquirrelStories",
+  "private": true,
+  "dependencies": {}
 }

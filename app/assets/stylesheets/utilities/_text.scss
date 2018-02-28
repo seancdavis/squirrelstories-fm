@@ -1,0 +1,15 @@
+.text-black-alpha {
+  color: rgba($black, .32);
+
+  @include link-variations {
+    color: rgba($black, .5);
+  }
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-gray-800 {
+  color: $gray-800;
+}

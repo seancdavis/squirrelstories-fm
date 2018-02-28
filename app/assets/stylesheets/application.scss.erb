@@ -1,0 +1,13 @@
+<% if Rails.env.development? || Rails.env.test? %>
+@import 'base/variables';
+@import 'vendor/bootstrap_overrides';
+@import 'bootstrap/functions';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+<% else %>
+@import 'vendor/base';
+<% end %>
+
+@import 'base/modules';
+@import 'utilities/**/*';
+@import 'components/**/*';

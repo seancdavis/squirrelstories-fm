@@ -1,0 +1,25 @@
+<div class="main-nav">
+  <a href="javascript:void(0)" class="main-nav--close" data-active-toggle='{ ".main-nav": "active" }'>
+    <%= icon 'close' %>
+  </a>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link <%= 'active' if active_nav?(:path, '/') %>" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link <%= 'active' if active_nav?(:segment, 'episodes') %>" href="<%= episodes_path %>">Episodes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link <%= 'active' if active_nav?(:segment, 'quotes') %>" href="<%= quotes_path %>">Quotes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.patreon.com/squirrelstories" target="_blank">Support The Show</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/share-your-story">Share Your Story</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Merchandise</a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,54 @@
+<div class="page-header bg-triangles">
+  <h1>
+    <%= @episode.name %>
+  </h1>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    <article class="episode col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      <div class="clearfix">
+        <%= image_tag 'tmp-featured-img.png', class: 'episode--image' %>
+        <div class="episode--overview mb-5">
+          <p class="font-size-small">
+            <a href="#">Episode 09</a>
+          </p>
+          <p>
+            Drugs and alcohol can lead to being the worst friend ever. And it can be easier to relive those moments if they are told
+            in the form of a children’s book.
+          </p>
+          <p class="font-weight-bold font-size-small">
+            <a href="#">Jacob Trevino,</a>
+            &nbsp;
+            <a href="#">Aaron Tyree</a>
+          </p>
+          <p class="font-size-small mb-3">
+            April 30, 2016
+          </p>
+          <p>
+            <a href="#" class="btn btn-primary mr-2">Download</a>
+            <a href="#" class="mr-2"><%= icon 'apple', class: 'icon--md' %></a>
+            <a href="#" class=""><%= icon 'google-play', class: 'icon--md' %></a>
+          </p>
+        </div>
+        <div class="line line--small mb-4"></div>
+        <div class="row font-italic text-center font-size-small mb-4">
+          <div class="col-sm-6">
+            <p>
+              "Some gift and a quote that happened in the episode that won’t give away anything."
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p>
+              "Some gift and a quote that happened in the episode that won’t give away anything."
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="line line--medium"></div>
+    </article>
+  </div>
+  <p class="text-center mb-5">
+    <a href="#" class="btn btn-outline-primary">Load Random Episode</a>
+  </p>
+</div>
