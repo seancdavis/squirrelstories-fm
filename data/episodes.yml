@@ -83,13 +83,13 @@
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/20-i-liked-it.mp3
   image: !ruby/hash:Hashie::Mash
     id: 2605
-    title: '01.01'
+    title: '01.20'
     slug: '01'
     template_name: Image
     publish_at: 
     created_at: '2018-02-23T10:41:56.885Z'
-    updated_at: '2018-02-23T10:42:22.259Z'
-    name: '01.01'
+    updated_at: '2018-02-28T10:38:45.922Z'
+    name: '01.20'
     photographer_name: Tomi Tapio K
     photographer_url: https://www.flickr.com/photos/tomitapio/4053123799
     url: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel.jpg
@@ -277,7 +277,207 @@
     name: 18 A Pissmass Carol
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
-  quotes: !ruby/array:Hashie::Array []
+  quotes: !ruby/array:Hashie::Array
+  - !ruby/hash:Hashie::Mash
+    id: 2614
+    title: Another quote
+    slug: another-quote
+    template_name: Quote
+    publish_at: 
+    created_at: '2018-02-27T18:06:54.605Z'
+    updated_at: '2018-02-27T18:06:54.605Z'
+    body: Another quote
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2380
+      title: Aaron Tyree
+      slug: aaron-tyree
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:49:43.494Z'
+      updated_at: '2017-09-03T13:49:43.494Z'
+      name: Aaron Tyree
+    episode: !ruby/hash:Hashie::Mash
+      id: 2406
+      title: A Pissmass Carol
+      slug: a-pissmass-carol
+      template_name: Episode
+      publish_at: 
+      created_at: '2017-09-03T14:00:59.649Z'
+      updated_at: '2017-10-28T13:14:49.197Z'
+      number: '01.18'
+      name: A Pissmass Carol
+      date: '2017-01-04'
+      stories: !ruby/array:Hashie::Array
+      - !ruby/hash:Hashie::Mash
+        id: 2504
+        title: Thanksgiving 2005
+        slug: thanksgiving-2005
+        template_name: Story
+        publish_at: 
+        created_at: '2017-10-28T11:55:47.570Z'
+        updated_at: '2017-10-28T11:55:47.570Z'
+        name: Thanksgiving 2005
+        date: 12-05-2016
+        storyteller: !ruby/hash:Hashie::Mash
+          id: 2405
+          title: Tina Cisneros
+          slug: tina-cisneros
+          template_name: Storyteller
+          publish_at: 
+          created_at: '2017-09-03T14:00:25.599Z'
+          updated_at: '2017-09-03T14:00:25.599Z'
+          name: Tina Cisneros
+      - !ruby/hash:Hashie::Mash
+        id: 2506
+        title: A Pissmass Carol
+        slug: a-pissmass-carol-2506
+        template_name: Story
+        publish_at: 
+        created_at: '2017-10-28T11:55:47.727Z'
+        updated_at: '2017-10-28T11:55:47.727Z'
+        name: A Pissmass Carol
+        date: 12-05-2016
+        storyteller: !ruby/hash:Hashie::Mash
+          id: 2386
+          title: Erin Fox
+          slug: erin-fox
+          template_name: Storyteller
+          publish_at: 
+          created_at: '2017-09-03T13:52:14.908Z'
+          updated_at: '2017-09-03T13:52:14.908Z'
+          name: Erin Fox
+      - !ruby/hash:Hashie::Mash
+        id: 2505
+        title: Thanksgiving 2010
+        slug: thanksgiving-2010
+        template_name: Story
+        publish_at: 
+        created_at: '2017-10-28T11:55:47.649Z'
+        updated_at: '2017-10-28T11:55:47.649Z'
+        name: Thanksgiving 2010
+        date: 12-05-2016
+        storyteller: !ruby/hash:Hashie::Mash
+          id: 2405
+          title: Tina Cisneros
+          slug: tina-cisneros
+          template_name: Storyteller
+          publish_at: 
+          created_at: '2017-09-03T14:00:25.599Z'
+          updated_at: '2017-09-03T14:00:25.599Z'
+          name: Tina Cisneros
+      description: The holidays mean school pageants and family time and drinking
+        too much and peeing your pants.
+      audio_file: !ruby/hash:Hashie::Mash
+        id: 2573
+        title: 18 A Pissmass Carol
+        slug: 18-a-pissmass-carol
+        template_name: Audio
+        publish_at: 
+        created_at: '2017-10-28T12:28:43.573Z'
+        updated_at: '2017-10-28T12:28:43.573Z'
+        name: 18 A Pissmass Carol
+        url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
+      itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  - !ruby/hash:Hashie::Mash
+    id: 2613
+    title: 'Test #2'
+    slug: test-2
+    template_name: Quote
+    publish_at: 
+    created_at: '2018-02-27T17:56:32.694Z'
+    updated_at: '2018-02-27T17:56:32.694Z'
+    body: 'Test #2'
+    storyteller: !ruby/hash:Hashie::Mash
+      id: 2380
+      title: Aaron Tyree
+      slug: aaron-tyree
+      template_name: Storyteller
+      publish_at: 
+      created_at: '2017-09-03T13:49:43.494Z'
+      updated_at: '2017-09-03T13:49:43.494Z'
+      name: Aaron Tyree
+    episode: !ruby/hash:Hashie::Mash
+      id: 2406
+      title: A Pissmass Carol
+      slug: a-pissmass-carol
+      template_name: Episode
+      publish_at: 
+      created_at: '2017-09-03T14:00:59.649Z'
+      updated_at: '2017-10-28T13:14:49.197Z'
+      number: '01.18'
+      name: A Pissmass Carol
+      date: '2017-01-04'
+      stories: !ruby/array:Hashie::Array
+      - !ruby/hash:Hashie::Mash
+        id: 2504
+        title: Thanksgiving 2005
+        slug: thanksgiving-2005
+        template_name: Story
+        publish_at: 
+        created_at: '2017-10-28T11:55:47.570Z'
+        updated_at: '2017-10-28T11:55:47.570Z'
+        name: Thanksgiving 2005
+        date: 12-05-2016
+        storyteller: !ruby/hash:Hashie::Mash
+          id: 2405
+          title: Tina Cisneros
+          slug: tina-cisneros
+          template_name: Storyteller
+          publish_at: 
+          created_at: '2017-09-03T14:00:25.599Z'
+          updated_at: '2017-09-03T14:00:25.599Z'
+          name: Tina Cisneros
+      - !ruby/hash:Hashie::Mash
+        id: 2506
+        title: A Pissmass Carol
+        slug: a-pissmass-carol-2506
+        template_name: Story
+        publish_at: 
+        created_at: '2017-10-28T11:55:47.727Z'
+        updated_at: '2017-10-28T11:55:47.727Z'
+        name: A Pissmass Carol
+        date: 12-05-2016
+        storyteller: !ruby/hash:Hashie::Mash
+          id: 2386
+          title: Erin Fox
+          slug: erin-fox
+          template_name: Storyteller
+          publish_at: 
+          created_at: '2017-09-03T13:52:14.908Z'
+          updated_at: '2017-09-03T13:52:14.908Z'
+          name: Erin Fox
+      - !ruby/hash:Hashie::Mash
+        id: 2505
+        title: Thanksgiving 2010
+        slug: thanksgiving-2010
+        template_name: Story
+        publish_at: 
+        created_at: '2017-10-28T11:55:47.649Z'
+        updated_at: '2017-10-28T11:55:47.649Z'
+        name: Thanksgiving 2010
+        date: 12-05-2016
+        storyteller: !ruby/hash:Hashie::Mash
+          id: 2405
+          title: Tina Cisneros
+          slug: tina-cisneros
+          template_name: Storyteller
+          publish_at: 
+          created_at: '2017-09-03T14:00:25.599Z'
+          updated_at: '2017-09-03T14:00:25.599Z'
+          name: Tina Cisneros
+      description: The holidays mean school pageants and family time and drinking
+        too much and peeing your pants.
+      audio_file: !ruby/hash:Hashie::Mash
+        id: 2573
+        title: 18 A Pissmass Carol
+        slug: 18-a-pissmass-carol
+        template_name: Audio
+        publish_at: 
+        created_at: '2017-10-28T12:28:43.573Z'
+        updated_at: '2017-10-28T12:28:43.573Z'
+        name: 18 A Pissmass Carol
+        url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
+      itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
 - !ruby/hash:Hashie::Mash
   id: 2404
   title: Abraham Lincoln and a Taxidermied Giraffe
@@ -343,23 +543,23 @@
   itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
   quotes: !ruby/array:Hashie::Array
   - !ruby/hash:Hashie::Mash
-    id: 2607
-    title: And yet another quote that says something else
-    slug: and-yet-another-quote-that-says-something-else
+    id: 2612
+    title: 'Test #1'
+    slug: test-1
     template_name: Quote
     publish_at: 
-    created_at: '2018-02-24T13:27:51.789Z'
-    updated_at: '2018-02-24T13:27:51.789Z'
-    body: And yet another quote that says something else
+    created_at: '2018-02-27T17:56:24.529Z'
+    updated_at: '2018-02-27T17:56:24.529Z'
+    body: 'Test #1'
     storyteller: !ruby/hash:Hashie::Mash
-      id: 2443
-      title: Becky Blank
-      slug: becky-blank
+      id: 2380
+      title: Aaron Tyree
+      slug: aaron-tyree
       template_name: Storyteller
       publish_at: 
-      created_at: '2017-10-28T11:41:01.941Z'
-      updated_at: '2017-10-28T11:41:01.941Z'
-      name: Becky Blank
+      created_at: '2017-09-03T13:49:43.494Z'
+      updated_at: '2017-09-03T13:49:43.494Z'
+      name: Aaron Tyree
     episode: !ruby/hash:Hashie::Mash
       id: 2404
       title: Abraham Lincoln and a Taxidermied Giraffe
@@ -909,91 +1109,7 @@
     name: 10 Casual Racism
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/10-casual-racism.mp3
   itunes_url: https://itunes.apple.com/us/podcast/casual-racism/id1069939740?i=1000368928123&mt=2
-  quotes: !ruby/array:Hashie::Array
-  - !ruby/hash:Hashie::Mash
-    id: 2608
-    title: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
-      odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-    slug: duis-mollis-est-non-commodo-luctus-nisi-erat-porttitor-ligula-eget-lacinia-odio-sem-nec-elit-cras-justo-odio-dapibus-ac-facilisis-in-egestas-eget-quam
-    template_name: Quote
-    publish_at: 
-    created_at: '2018-02-24T13:28:11.006Z'
-    updated_at: '2018-02-24T13:28:11.006Z'
-    body: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
-      odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-    storyteller: !ruby/hash:Hashie::Mash
-      id: 2435
-      title: Crimson MacDonald
-      slug: crimson-macdonald
-      template_name: Storyteller
-      publish_at: 
-      created_at: '2017-10-28T11:41:01.462Z'
-      updated_at: '2017-10-28T11:41:01.462Z'
-      name: Crimson MacDonald
-    episode: !ruby/hash:Hashie::Mash
-      id: 2383
-      title: Casual Racism
-      slug: casual-racism
-      template_name: Episode
-      publish_at: 
-      created_at: '2017-09-03T13:51:08.772Z'
-      updated_at: '2017-10-28T13:11:19.069Z'
-      number: '01.10'
-      name: Casual Racism
-      date: '2016-05-17'
-      stories: !ruby/array:Hashie::Array
-      - !ruby/hash:Hashie::Mash
-        id: 2476
-        title: Casual Racism at Wal-Mart
-        slug: casual-racism-at-wal-mart
-        template_name: Story
-        publish_at: 
-        created_at: '2017-10-28T11:55:45.068Z'
-        updated_at: '2017-10-28T11:55:45.068Z'
-        name: Casual Racism at Wal-Mart
-        date: 04-11-2016
-        storyteller: !ruby/hash:Hashie::Mash
-          id: 2382
-          title: Will Johnson
-          slug: will-johnson
-          template_name: Storyteller
-          publish_at: 
-          created_at: '2017-09-03T13:50:23.880Z'
-          updated_at: '2017-09-03T13:50:23.880Z'
-          name: Will Johnson
-      - !ruby/hash:Hashie::Mash
-        id: 2475
-        title: White Power
-        slug: white-power
-        template_name: Story
-        publish_at: 
-        created_at: '2017-10-28T11:55:44.991Z'
-        updated_at: '2017-10-28T11:55:44.991Z'
-        name: White Power
-        date: 04-11-2016
-        storyteller: !ruby/hash:Hashie::Mash
-          id: 2366
-          title: Lora Staiger
-          slug: lora-staiger
-          template_name: Storyteller
-          publish_at: 
-          created_at: '2017-09-03T13:41:40.108Z'
-          updated_at: '2017-09-03T13:41:40.108Z'
-          name: Lora Staiger
-      description: Walmarts, especially the one in Fort Mitchell (Kentucky), are hubs
-        of uncomfortable oddities, but are they as uncomfortable as late-night bus
-        rides in Seattle?
-      audio_file: !ruby/hash:Hashie::Mash
-        id: 2565
-        title: 10 Casual Racism
-        slug: 10-casual-racism
-        template_name: Audio
-        publish_at: 
-        created_at: '2017-10-28T12:16:49.869Z'
-        updated_at: '2017-10-28T12:16:49.869Z'
-        name: 10 Casual Racism
-        url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/10-casual-racism.mp3
-      itunes_url: https://itunes.apple.com/us/podcast/casual-racism/id1069939740?i=1000368928123&mt=2
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2381
   title: Drugs That Rhyme With Cocaine
@@ -1327,7 +1443,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:43:58.086Z'
-  updated_at: '2017-10-28T12:12:57.156Z'
+  updated_at: '2018-02-28T11:04:29.703Z'
   number: '01.03'
   name: Worst Easter Ever
   date: '2016-02-03'
@@ -1339,9 +1455,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:43.480Z'
-    updated_at: '2017-10-28T11:55:43.480Z'
+    updated_at: '2018-02-28T11:03:06.784Z'
     name: Worst Easter Ever
-    date: 11-14-2015
     storyteller: !ruby/hash:Hashie::Mash
       id: 2367
       title: Hunter Chapman
@@ -1351,8 +1466,12 @@
       created_at: '2017-09-03T13:43:44.850Z'
       updated_at: '2017-09-03T13:43:44.850Z'
       name: Hunter Chapman
-  description: Just your everyday Easter dinner, along with automatic rifles and horse
-    saddle tug of war.
+    description: Just your everyday Easter dinner, along with automatic rifles and
+      horse saddle tug of war.
+    date: 11-14-2015
+    raw_audio: 
+  description: Easter dinner is a time for family celebration. A time for eating,
+    drinking, laughing, and throwing each other down the stairs.
   audio_file: !ruby/hash:Hashie::Mash
     id: 2561
     title: 03 Worst Easter Ever
@@ -1363,70 +1482,32 @@
     updated_at: '2017-10-28T12:10:54.230Z'
     name: 03 Worst Easter Ever
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/03-worst-easter-ever.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/worst-easter-ever/id1069939740?i=1000361850953&mt=2
-  quotes: !ruby/array:Hashie::Array
-  - !ruby/hash:Hashie::Mash
-    id: 2602
-    title: This is another test quote
-    slug: this-is-another-test-quote
-    template_name: Quote
+  image: !ruby/hash:Hashie::Mash
+    id: 2618
+    title: '01.03'
+    slug: 01-2618
+    template_name: Image
     publish_at: 
-    created_at: '2018-01-29T11:31:36.667Z'
-    updated_at: '2018-01-29T11:31:36.667Z'
-    body: This is another test quote
-    storyteller: !ruby/hash:Hashie::Mash
-      id: 2367
-      title: Hunter Chapman
-      slug: hunter-chapman
-      template_name: Storyteller
-      publish_at: 
-      created_at: '2017-09-03T13:43:44.850Z'
-      updated_at: '2017-09-03T13:43:44.850Z'
-      name: Hunter Chapman
-    episode: !ruby/hash:Hashie::Mash
-      id: 2368
-      title: Worst Easter Ever
-      slug: worst-easter-ever
-      template_name: Episode
-      publish_at: 
-      created_at: '2017-09-03T13:43:58.086Z'
-      updated_at: '2017-10-28T12:12:57.156Z'
-      number: '01.03'
-      name: Worst Easter Ever
-      date: '2016-02-03'
-      stories: !ruby/array:Hashie::Array
-      - !ruby/hash:Hashie::Mash
-        id: 2457
-        title: Worst Easter Ever
-        slug: worst-easter-ever-2457
-        template_name: Story
-        publish_at: 
-        created_at: '2017-10-28T11:55:43.480Z'
-        updated_at: '2017-10-28T11:55:43.480Z'
-        name: Worst Easter Ever
-        date: 11-14-2015
-        storyteller: !ruby/hash:Hashie::Mash
-          id: 2367
-          title: Hunter Chapman
-          slug: hunter-chapman
-          template_name: Storyteller
-          publish_at: 
-          created_at: '2017-09-03T13:43:44.850Z'
-          updated_at: '2017-09-03T13:43:44.850Z'
-          name: Hunter Chapman
-      description: Just your everyday Easter dinner, along with automatic rifles and
-        horse saddle tug of war.
-      audio_file: !ruby/hash:Hashie::Mash
-        id: 2561
-        title: 03 Worst Easter Ever
-        slug: 03-worst-easter-ever
-        template_name: Audio
-        publish_at: 
-        created_at: '2017-10-28T12:10:54.230Z'
-        updated_at: '2017-10-28T12:10:54.230Z'
-        name: 03 Worst Easter Ever
-        url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/03-worst-easter-ever.mp3
-      itunes_url: https://itunes.apple.com/us/podcast/worst-easter-ever/id1069939740?i=1000361850953&mt=2
+    created_at: '2018-02-28T10:41:54.204Z'
+    updated_at: '2018-02-28T10:42:09.955Z'
+    name: '01.03'
+    photographer_name: Taylor Ann Wright
+    photographer_url: https://unsplash.com/@taylorannwright
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054124/01.03-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/worst-easter-ever/id1069939740?i=1000361850953&mt=2
+  google_play_url: https://play.google.com/music/m/De44ybfjkr6776bxfkjkrqht5yi?t=Worst_Easter_Ever-Squirrel_Stories
+  quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2
   title: Ham
@@ -1434,7 +1515,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2016-07-08T19:04:12.056Z'
-  updated_at: '2017-10-28T12:12:40.197Z'
+  updated_at: '2018-02-28T11:01:54.840Z'
   number: '01.02'
   name: Ham
   date: '2016-01-19'
@@ -1446,9 +1527,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:43.385Z'
-    updated_at: '2017-10-28T11:55:43.385Z'
+    updated_at: '2018-02-28T11:00:59.556Z'
     name: Ham
-    date: '09-19-2015'
     storyteller: !ruby/hash:Hashie::Mash
       id: 2366
       title: Lora Staiger
@@ -1458,6 +1538,11 @@
       created_at: '2017-09-03T13:41:40.108Z'
       updated_at: '2017-09-03T13:41:40.108Z'
       name: Lora Staiger
+    description: Lora likes ham. A lot. So much that she waited until her parents
+      left to make a run at the refrigerator. But when her parents return home too
+      soon, chaos ensues.
+    date: '09-19-2015'
+    raw_audio: 
   description: Find out what happens when my friend, Lora, as a child, hid a ham in
     an extra bedroom in her parent's new house.
   audio_file: !ruby/hash:Hashie::Mash
@@ -1470,7 +1555,31 @@
     updated_at: '2017-10-28T12:08:56.119Z'
     name: 02 Ham
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/02-ham.mp3
+  image: !ruby/hash:Hashie::Mash
+    id: 2615
+    title: '01.02'
+    slug: 01-2615
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:39:13.159Z'
+    updated_at: '2018-02-28T10:39:43.032Z'
+    name: '01.02'
+    photographer_name: Tj Holowaychuk
+    photographer_url: https://unsplash.com/@tjholowaychuk
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053846/01.02-squirrel_xlarge_crop.jpg
   itunes_url: https://itunes.apple.com/us/podcast/ham/id1069939740?i=1000360978422&mt=2
+  google_play_url: https://play.google.com/music/m/Dgqstraaizivysyoafwcpgrbtv4?t=Ham-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 1
@@ -1479,7 +1588,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2016-07-08T19:01:37.826Z'
-  updated_at: '2018-02-02T12:32:18.494Z'
+  updated_at: '2018-02-28T10:49:49.620Z'
   number: '01.01'
   name: Squirrels
   date: '2016-01-05'
@@ -1491,9 +1600,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:43.812Z'
-    updated_at: '2017-10-28T11:55:43.812Z'
+    updated_at: '2018-02-28T10:49:38.562Z'
     name: Squirrels
-    date: 12-14-2015
     storyteller: !ruby/hash:Hashie::Mash
       id: 1176
       title: Sean C Davis
@@ -1503,6 +1611,10 @@
       created_at: '2016-12-23T00:20:54.926Z'
       updated_at: '2016-12-23T00:20:54.926Z'
       name: Sean C Davis
+    description: Sean turns your everyday concert hangover into a duel with a squirrel,
+      while others look on in astonishment.
+    date: 12-14-2015
+    raw_audio: 
   description: I kick off this crazy adventure by telling you about the time I was
     assaulted by a squirrel.
   audio_file: !ruby/hash:Hashie::Mash
@@ -1515,67 +1627,29 @@
     updated_at: '2017-10-28T12:07:51.153Z'
     name: 01 Squirrels
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/01-squirrels.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/squirrels/id1069939740?i=359358687&mt=2
-  quotes: !ruby/array:Hashie::Array
-  - !ruby/hash:Hashie::Mash
-    id: 2601
-    title: This is a test quote
-    slug: this-is-a-test-quote
-    template_name: Quote
+  image: !ruby/hash:Hashie::Mash
+    id: 2616
+    title: '01.01'
+    slug: 01-2616
+    template_name: Image
     publish_at: 
-    created_at: '2018-01-29T11:31:16.281Z'
-    updated_at: '2018-01-29T11:31:16.281Z'
-    body: This is a test quote
-    storyteller: !ruby/hash:Hashie::Mash
-      id: 1176
-      title: Sean C Davis
-      slug: sean-c-davis
-      template_name: Storyteller
-      publish_at: 
-      created_at: '2016-12-23T00:20:54.926Z'
-      updated_at: '2016-12-23T00:20:54.926Z'
-      name: Sean C Davis
-    episode: !ruby/hash:Hashie::Mash
-      id: 1
-      title: Squirrels
-      slug: squirrels
-      template_name: Episode
-      publish_at: 
-      created_at: '2016-07-08T19:01:37.826Z'
-      updated_at: '2018-02-02T12:32:18.494Z'
-      number: '01.01'
-      name: Squirrels
-      date: '2016-01-05'
-      stories: !ruby/array:Hashie::Array
-      - !ruby/hash:Hashie::Mash
-        id: 2461
-        title: Squirrels
-        slug: squirrels-2461
-        template_name: Story
-        publish_at: 
-        created_at: '2017-10-28T11:55:43.812Z'
-        updated_at: '2017-10-28T11:55:43.812Z'
-        name: Squirrels
-        date: 12-14-2015
-        storyteller: !ruby/hash:Hashie::Mash
-          id: 1176
-          title: Sean C Davis
-          slug: sean-c-davis
-          template_name: Storyteller
-          publish_at: 
-          created_at: '2016-12-23T00:20:54.926Z'
-          updated_at: '2016-12-23T00:20:54.926Z'
-          name: Sean C Davis
-      description: I kick off this crazy adventure by telling you about the time I
-        was assaulted by a squirrel.
-      audio_file: !ruby/hash:Hashie::Mash
-        id: 2558
-        title: 01 Squirrels
-        slug: 01-squirrels
-        template_name: Audio
-        publish_at: 
-        created_at: '2017-10-28T12:07:51.153Z'
-        updated_at: '2017-10-28T12:07:51.153Z'
-        name: 01 Squirrels
-        url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/01-squirrels.mp3
-      itunes_url: https://itunes.apple.com/us/podcast/squirrels/id1069939740?i=359358687&mt=2
+    created_at: '2018-02-28T10:40:27.255Z'
+    updated_at: '2018-02-28T10:40:37.721Z'
+    name: '01.01'
+    photographer_name: Vincent van Zalinge
+    photographer_url: https://unsplash.com/@vincentvanzalinge
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-053944/01.01-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/squirrels/id1069939740?i=1000359358687&mt=2
+  google_play_url: https://play.google.com/music/m/Di5epywe7qpnumufdaxbcjjoriq?t=Squirrels-Squirrel_Stories
+  quotes: !ruby/array:Hashie::Array []
