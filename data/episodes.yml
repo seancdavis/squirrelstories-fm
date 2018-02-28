@@ -1399,7 +1399,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:45:00.318Z'
-  updated_at: '2017-10-28T12:43:18.465Z'
+  updated_at: '2018-02-28T11:07:46.513Z'
   number: '01.04'
   name: Shitting My Pants In Front Of My Students
   date: '2016-02-17'
@@ -1411,9 +1411,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:43.889Z'
-    updated_at: '2017-10-28T11:55:43.889Z'
+    updated_at: '2018-02-28T11:07:23.277Z'
     name: Shitting My Pants In Front Of My Students
-    date: 12-25-2015
     storyteller: !ruby/hash:Hashie::Mash
       id: 2369
       title: Kelly White
@@ -1423,6 +1422,9 @@
       created_at: '2017-09-03T13:44:27.446Z'
       updated_at: '2017-09-03T13:44:27.446Z'
       name: Kelly White
+    description: The title really says it all, doesn't it?
+    date: 12-25-2015
+    raw_audio: 
   description: When you have to go, but you're in charge of a group of children.
   audio_file: !ruby/hash:Hashie::Mash
     id: 2564
@@ -1434,7 +1436,31 @@
     updated_at: '2017-10-28T12:16:06.337Z'
     name: 04 Shitting My Pants In Front Of My Students
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/04-shitting-my-pants-in-front-of-my-students.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/shitting-my-pants-in-front/id1069939740?i=363074284&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2619
+    title: '01.04'
+    slug: 01-2619
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:42:47.337Z'
+    updated_at: '2018-02-28T10:43:10.988Z'
+    name: '01.04'
+    photographer_name: Cristina Schek
+    photographer_url: https://unsplash.com/@cristinaschek
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054201/01.04-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/shitting-my-pants-in-front-of-my-students/id1069939740?i=1000363074284&mt=2
+  google_play_url: https://play.google.com/music/m/D3ba2brrpx3gx535522yfyjuwhe?t=Shitting_My_Pants_In_Front_Of_My_Students-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2368
