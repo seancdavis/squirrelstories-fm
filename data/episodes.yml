@@ -6,7 +6,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T14:03:05.988Z'
-  updated_at: '2018-02-27T23:10:26.658Z'
+  updated_at: '2018-02-28T12:09:38.316Z'
   number: '01.20'
   name: I Liked It!
   date: '2017-02-15'
@@ -18,7 +18,7 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.393Z'
-    updated_at: '2018-02-27T21:45:30.539Z'
+    updated_at: '2018-02-28T12:09:24.870Z'
     name: Intersection Underwear
     storyteller: !ruby/hash:Hashie::Mash
       id: 2398
@@ -29,7 +29,8 @@
       created_at: '2017-09-03T13:57:03.953Z'
       updated_at: '2017-09-03T13:57:03.953Z'
       name: Katie Davis
-    description: What happens when ...
+    description: How many pairs of underwear did you wear today? Katie may have an
+      extra one for you.
     date: 02-22-2016
     raw_audio: 
   - !ruby/hash:Hashie::Mash
@@ -39,9 +40,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:43.976Z'
-    updated_at: '2017-10-28T11:55:43.976Z'
+    updated_at: '2018-02-28T12:08:51.975Z'
     name: Winking At Strangers
-    date: 12-25-2015
     storyteller: !ruby/hash:Hashie::Mash
       id: 2410
       title: Alfredo Mena
@@ -51,6 +51,10 @@
       created_at: '2017-09-03T14:02:20.064Z'
       updated_at: '2017-09-03T14:02:20.064Z'
       name: Alfredo Mena
+    description: 'Here''s a lesson: don''t wink at strangers. It''s weird. Karma gets
+      you back for it.'
+    date: 12-25-2015
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2492
     title: I Liked It
@@ -58,9 +62,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:46.372Z'
-    updated_at: '2017-10-28T11:55:46.372Z'
+    updated_at: '2018-02-28T12:08:26.581Z'
     name: I Liked It
-    date: '08-01-2016'
     storyteller: !ruby/hash:Hashie::Mash
       id: 2382
       title: Will Johnson
@@ -70,6 +73,10 @@
       created_at: '2017-09-03T13:50:23.880Z'
       updated_at: '2017-09-03T13:50:23.880Z'
       name: Will Johnson
+    description: Overhearing conversations can be a fascinating experience. And yet,
+      not knowing the entire context can drive someone mad.
+    date: '08-01-2016'
+    raw_audio: 
   description: The things we say and the things we do aren't always what they seem.
   audio_file: !ruby/hash:Hashie::Mash
     id: 2574
@@ -104,7 +111,7 @@
       large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_large_crop.jpg
       xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge.jpg
       xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-053951/01.20-squirrel_xlarge_crop.jpg
-  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  itunes_url: https://itunes.apple.com/us/podcast/i-liked-it/id1069939740?i=1000381282519&mt=2
   google_play_url: https://play.google.com/music/m/Dd24bjchze3la2b6kgdmujkq3fu?t=I_Liked_It-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
@@ -114,30 +121,35 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T14:02:06.944Z'
-  updated_at: '2018-02-23T11:08:47.627Z'
+  updated_at: '2018-02-28T12:07:42.801Z'
   number: '01.19'
   name: No Boner No Boner No Boner
   date: '2017-01-18'
   stories: !ruby/array:Hashie::Array
   - !ruby/hash:Hashie::Mash
     id: 2498
-    title: No Boner
+    title: No Boner No Boner No Boner
     slug: no-boner
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:47.077Z'
-    updated_at: '2017-10-28T11:55:47.077Z'
-    name: No Boner
-    date: 11-07-2016
+    updated_at: '2018-02-28T12:06:18.640Z'
+    name: No Boner No Boner No Boner
     storyteller: !ruby/hash:Hashie::Mash
       id: 2423
-      title: Brian Price
+      title: Brian
       slug: brian-price
       template_name: Storyteller
       publish_at: 
       created_at: '2017-10-28T11:41:00.763Z'
-      updated_at: '2017-10-28T11:41:00.763Z'
-      name: Brian Price
+      updated_at: '2018-02-28T12:06:27.873Z'
+      name: Brian
+    description: Look, guys, we've all been there. Suppressing bodily functions during
+      the teenage years isn't the easiest thing to do. And sometimes we can focus
+      so much on that thing that we don't even consider what other disaster looms
+      for us.
+    date: 11-07-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2494
     title: Minimally Intrusive
@@ -145,9 +157,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:46.696Z'
-    updated_at: '2017-10-28T11:55:46.696Z'
+    updated_at: '2018-02-28T12:07:26.307Z'
     name: Minimally Intrusive
-    date: 10-03-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2407
       title: Michael Holder
@@ -157,6 +168,10 @@
       created_at: '2017-09-03T14:01:16.394Z'
       updated_at: '2017-09-03T14:01:16.394Z'
       name: Michael Holder
+    description: Nothing will stand in Michael's way of acquiring wine. Seriously,
+      he wants that wine.
+    date: 10-03-2016
+    raw_audio: 
   description: While attempting to keep everything our raging hormones in check, and
     when just trying to get some wine from the drug store, that's when everything
     goes horribly, horribly wrong.
@@ -193,7 +208,8 @@
       large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-060733/01.19-squirrel_large_crop.jpg
       xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180223-060733/01.19-squirrel_xlarge.jpg
       xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180223-060733/01.19-squirrel_xlarge_crop.jpg
-  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  itunes_url: https://itunes.apple.com/us/podcast/no-boner-no-boner-no-boner/id1069939740?i=1000380159763&mt=2
+  google_play_url: https://play.google.com/music/m/Dvstsqhrqxeyszugqcd2aqrxcxm?t=No_Boner_No_Boner_No_Boner-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2406
@@ -202,7 +218,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T14:00:59.649Z'
-  updated_at: '2017-10-28T13:14:49.197Z'
+  updated_at: '2018-02-28T12:04:58.107Z'
   number: '01.18'
   name: A Pissmass Carol
   date: '2017-01-04'
@@ -214,9 +230,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:47.570Z'
-    updated_at: '2017-10-28T11:55:47.570Z'
+    updated_at: '2018-02-28T12:03:19.199Z'
     name: Thanksgiving 2005
-    date: 12-05-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2405
       title: Tina Cisneros
@@ -226,6 +241,10 @@
       created_at: '2017-09-03T14:00:25.599Z'
       updated_at: '2017-09-03T14:00:25.599Z'
       name: Tina Cisneros
+    description: In the first of two tales, Tina takes us back to 2005 and recounts
+      Thanksgiving with her family.
+    date: 12-05-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2506
     title: A Pissmass Carol
@@ -233,9 +252,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:47.727Z'
-    updated_at: '2017-10-28T11:55:47.727Z'
+    updated_at: '2018-02-28T12:04:37.304Z'
     name: A Pissmass Carol
-    date: 12-05-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2386
       title: Erin Fox
@@ -245,6 +263,10 @@
       created_at: '2017-09-03T13:52:14.908Z'
       updated_at: '2017-09-03T13:52:14.908Z'
       name: Erin Fox
+    description: Something is bound to go horribly wrong while trying to coordinate
+      the efforts of a class of small children.
+    date: 12-05-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2505
     title: Thanksgiving 2010
@@ -252,9 +274,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:47.649Z'
-    updated_at: '2017-10-28T11:55:47.649Z'
+    updated_at: '2018-02-28T12:03:59.311Z'
     name: Thanksgiving 2010
-    date: 12-05-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2405
       title: Tina Cisneros
@@ -264,6 +285,10 @@
       created_at: '2017-09-03T14:00:25.599Z'
       updated_at: '2017-09-03T14:00:25.599Z'
       name: Tina Cisneros
+    description: Tina's back, for more Thanksgiving dinner, five years later, and
+      she's angstier than ever.
+    date: 12-05-2016
+    raw_audio: 
   description: The holidays mean school pageants and family time and drinking too
     much and peeing your pants.
   audio_file: !ruby/hash:Hashie::Mash
@@ -276,7 +301,31 @@
     updated_at: '2017-10-28T12:28:43.573Z'
     name: 18 A Pissmass Carol
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2631
+    title: '01.18'
+    slug: 01-2631
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:49:23.775Z'
+    updated_at: '2018-02-28T11:02:23.253Z'
+    name: '01.18'
+    photographer_name: ''
+    photographer_url: ''
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/a-pissmass-carol/id1069939740?i=1000379624267&mt=2
+  google_play_url: https://play.google.com/music/m/D76ny2cfj7snqfaw2oc7jlu2ini?t=A_Pissmass_Carol-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array
   - !ruby/hash:Hashie::Mash
     id: 2614
@@ -303,7 +352,7 @@
       template_name: Episode
       publish_at: 
       created_at: '2017-09-03T14:00:59.649Z'
-      updated_at: '2017-10-28T13:14:49.197Z'
+      updated_at: '2018-02-28T12:04:58.107Z'
       number: '01.18'
       name: A Pissmass Carol
       date: '2017-01-04'
@@ -315,9 +364,8 @@
         template_name: Story
         publish_at: 
         created_at: '2017-10-28T11:55:47.570Z'
-        updated_at: '2017-10-28T11:55:47.570Z'
+        updated_at: '2018-02-28T12:03:19.199Z'
         name: Thanksgiving 2005
-        date: 12-05-2016
         storyteller: !ruby/hash:Hashie::Mash
           id: 2405
           title: Tina Cisneros
@@ -327,6 +375,10 @@
           created_at: '2017-09-03T14:00:25.599Z'
           updated_at: '2017-09-03T14:00:25.599Z'
           name: Tina Cisneros
+        description: In the first of two tales, Tina takes us back to 2005 and recounts
+          Thanksgiving with her family.
+        date: 12-05-2016
+        raw_audio: 
       - !ruby/hash:Hashie::Mash
         id: 2506
         title: A Pissmass Carol
@@ -334,9 +386,8 @@
         template_name: Story
         publish_at: 
         created_at: '2017-10-28T11:55:47.727Z'
-        updated_at: '2017-10-28T11:55:47.727Z'
+        updated_at: '2018-02-28T12:04:37.304Z'
         name: A Pissmass Carol
-        date: 12-05-2016
         storyteller: !ruby/hash:Hashie::Mash
           id: 2386
           title: Erin Fox
@@ -346,6 +397,10 @@
           created_at: '2017-09-03T13:52:14.908Z'
           updated_at: '2017-09-03T13:52:14.908Z'
           name: Erin Fox
+        description: Something is bound to go horribly wrong while trying to coordinate
+          the efforts of a class of small children.
+        date: 12-05-2016
+        raw_audio: 
       - !ruby/hash:Hashie::Mash
         id: 2505
         title: Thanksgiving 2010
@@ -353,9 +408,8 @@
         template_name: Story
         publish_at: 
         created_at: '2017-10-28T11:55:47.649Z'
-        updated_at: '2017-10-28T11:55:47.649Z'
+        updated_at: '2018-02-28T12:03:59.311Z'
         name: Thanksgiving 2010
-        date: 12-05-2016
         storyteller: !ruby/hash:Hashie::Mash
           id: 2405
           title: Tina Cisneros
@@ -365,6 +419,10 @@
           created_at: '2017-09-03T14:00:25.599Z'
           updated_at: '2017-09-03T14:00:25.599Z'
           name: Tina Cisneros
+        description: Tina's back, for more Thanksgiving dinner, five years later,
+          and she's angstier than ever.
+        date: 12-05-2016
+        raw_audio: 
       description: The holidays mean school pageants and family time and drinking
         too much and peeing your pants.
       audio_file: !ruby/hash:Hashie::Mash
@@ -377,7 +435,31 @@
         updated_at: '2017-10-28T12:28:43.573Z'
         name: 18 A Pissmass Carol
         url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
-      itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+      image: !ruby/hash:Hashie::Mash
+        id: 2631
+        title: '01.18'
+        slug: 01-2631
+        template_name: Image
+        publish_at: 
+        created_at: '2018-02-28T10:49:23.775Z'
+        updated_at: '2018-02-28T11:02:23.253Z'
+        name: '01.18'
+        photographer_name: ''
+        photographer_url: ''
+        url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel.jpg
+        versions: !ruby/hash:Hashie::Mash
+          xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall.jpg
+          xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall_crop.jpg
+          small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small.jpg
+          small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small_crop.jpg
+          medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium.jpg
+          medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium_crop.jpg
+          large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large.jpg
+          large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large_crop.jpg
+          xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge.jpg
+          xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge_crop.jpg
+      itunes_url: https://itunes.apple.com/us/podcast/a-pissmass-carol/id1069939740?i=1000379624267&mt=2
+      google_play_url: https://play.google.com/music/m/D76ny2cfj7snqfaw2oc7jlu2ini?t=A_Pissmass_Carol-Squirrel_Stories
   - !ruby/hash:Hashie::Mash
     id: 2613
     title: 'Test #2'
@@ -403,7 +485,7 @@
       template_name: Episode
       publish_at: 
       created_at: '2017-09-03T14:00:59.649Z'
-      updated_at: '2017-10-28T13:14:49.197Z'
+      updated_at: '2018-02-28T12:04:58.107Z'
       number: '01.18'
       name: A Pissmass Carol
       date: '2017-01-04'
@@ -415,9 +497,8 @@
         template_name: Story
         publish_at: 
         created_at: '2017-10-28T11:55:47.570Z'
-        updated_at: '2017-10-28T11:55:47.570Z'
+        updated_at: '2018-02-28T12:03:19.199Z'
         name: Thanksgiving 2005
-        date: 12-05-2016
         storyteller: !ruby/hash:Hashie::Mash
           id: 2405
           title: Tina Cisneros
@@ -427,6 +508,10 @@
           created_at: '2017-09-03T14:00:25.599Z'
           updated_at: '2017-09-03T14:00:25.599Z'
           name: Tina Cisneros
+        description: In the first of two tales, Tina takes us back to 2005 and recounts
+          Thanksgiving with her family.
+        date: 12-05-2016
+        raw_audio: 
       - !ruby/hash:Hashie::Mash
         id: 2506
         title: A Pissmass Carol
@@ -434,9 +519,8 @@
         template_name: Story
         publish_at: 
         created_at: '2017-10-28T11:55:47.727Z'
-        updated_at: '2017-10-28T11:55:47.727Z'
+        updated_at: '2018-02-28T12:04:37.304Z'
         name: A Pissmass Carol
-        date: 12-05-2016
         storyteller: !ruby/hash:Hashie::Mash
           id: 2386
           title: Erin Fox
@@ -446,6 +530,10 @@
           created_at: '2017-09-03T13:52:14.908Z'
           updated_at: '2017-09-03T13:52:14.908Z'
           name: Erin Fox
+        description: Something is bound to go horribly wrong while trying to coordinate
+          the efforts of a class of small children.
+        date: 12-05-2016
+        raw_audio: 
       - !ruby/hash:Hashie::Mash
         id: 2505
         title: Thanksgiving 2010
@@ -453,9 +541,8 @@
         template_name: Story
         publish_at: 
         created_at: '2017-10-28T11:55:47.649Z'
-        updated_at: '2017-10-28T11:55:47.649Z'
+        updated_at: '2018-02-28T12:03:59.311Z'
         name: Thanksgiving 2010
-        date: 12-05-2016
         storyteller: !ruby/hash:Hashie::Mash
           id: 2405
           title: Tina Cisneros
@@ -465,6 +552,10 @@
           created_at: '2017-09-03T14:00:25.599Z'
           updated_at: '2017-09-03T14:00:25.599Z'
           name: Tina Cisneros
+        description: Tina's back, for more Thanksgiving dinner, five years later,
+          and she's angstier than ever.
+        date: 12-05-2016
+        raw_audio: 
       description: The holidays mean school pageants and family time and drinking
         too much and peeing your pants.
       audio_file: !ruby/hash:Hashie::Mash
@@ -477,7 +568,31 @@
         updated_at: '2017-10-28T12:28:43.573Z'
         name: 18 A Pissmass Carol
         url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
-      itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+      image: !ruby/hash:Hashie::Mash
+        id: 2631
+        title: '01.18'
+        slug: 01-2631
+        template_name: Image
+        publish_at: 
+        created_at: '2018-02-28T10:49:23.775Z'
+        updated_at: '2018-02-28T11:02:23.253Z'
+        name: '01.18'
+        photographer_name: ''
+        photographer_url: ''
+        url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel.jpg
+        versions: !ruby/hash:Hashie::Mash
+          xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall.jpg
+          xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall_crop.jpg
+          small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small.jpg
+          small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small_crop.jpg
+          medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium.jpg
+          medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium_crop.jpg
+          large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large.jpg
+          large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large_crop.jpg
+          xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge.jpg
+          xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge_crop.jpg
+      itunes_url: https://itunes.apple.com/us/podcast/a-pissmass-carol/id1069939740?i=1000379624267&mt=2
+      google_play_url: https://play.google.com/music/m/D76ny2cfj7snqfaw2oc7jlu2ini?t=A_Pissmass_Carol-Squirrel_Stories
 - !ruby/hash:Hashie::Mash
   id: 2404
   title: Abraham Lincoln and a Taxidermied Giraffe
@@ -485,7 +600,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T14:00:12.588Z'
-  updated_at: '2017-10-28T13:14:24.323Z'
+  updated_at: '2018-02-28T12:02:43.836Z'
   number: '01.17'
   name: Abraham Lincoln and a Taxidermied Giraffe
   date: '2016-11-16'
@@ -497,9 +612,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:46.283Z'
-    updated_at: '2017-10-28T11:55:46.283Z'
+    updated_at: '2018-02-28T12:02:12.720Z'
     name: Abe Lincoln & A Taxidermied Giraffe
-    date: '08-01-2016'
     storyteller: !ruby/hash:Hashie::Mash
       id: 2419
       title: Sergio Garcia
@@ -509,6 +623,11 @@
       created_at: '2017-10-28T11:41:00.528Z'
       updated_at: '2017-10-28T11:41:00.528Z'
       name: Sergio Garcia
+    description: Sergio tends to find himself in the most unusual of scenarios. Sergio
+      likes to party. This time Sergio ends up in the middle of a music video, and
+      it gets weird.
+    date: '08-01-2016'
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2477
     title: Irish Cow Pastures
@@ -516,9 +635,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:45.145Z'
-    updated_at: '2017-10-28T11:55:45.145Z'
+    updated_at: '2018-02-28T12:01:16.584Z'
     name: Irish Cow Pastures
-    date: 04-11-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2373
       title: Kathryn Sturm
@@ -528,6 +646,10 @@
       created_at: '2017-09-03T13:46:33.136Z'
       updated_at: '2017-09-03T13:46:33.136Z'
       name: Kathryn Sturm
+    description: When it's time to meet someone for dinner, don't cut through the
+      cow pasture. Don't do it!
+    date: 04-11-2016
+    raw_audio: 
   description: We all receive injuries from time to time, but typically those injuries
     aren't caused by cows or by U.S. presidents.
   audio_file: !ruby/hash:Hashie::Mash
@@ -540,7 +662,31 @@
     updated_at: '2017-10-28T12:30:46.620Z'
     name: 17 Abraham Lincoln And A Taxidermied Giraffe
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/17-abraham-lincoln-and-a-taxidermied-giraffe.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2629
+    title: '01.17'
+    slug: 01-2629
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:49:13.576Z'
+    updated_at: '2018-02-28T10:55:57.632Z'
+    name: '01.17'
+    photographer_name: Anthony Intraversato
+    photographer_url: https://unsplash.com/@anthonyintraversato
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/abraham-lincoln-and-a-taxidermied-giraffe/id1069939740?i=1000377972364&mt=2
+  google_play_url: https://play.google.com/music/m/Dc3tx23rgs63fgeoiino6xclrza?t=Abraham_Lincoln_and_a_Taxidermied_Giraffe-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array
   - !ruby/hash:Hashie::Mash
     id: 2612
@@ -567,7 +713,7 @@
       template_name: Episode
       publish_at: 
       created_at: '2017-09-03T14:00:12.588Z'
-      updated_at: '2017-10-28T13:14:24.323Z'
+      updated_at: '2018-02-28T12:02:43.836Z'
       number: '01.17'
       name: Abraham Lincoln and a Taxidermied Giraffe
       date: '2016-11-16'
@@ -579,9 +725,8 @@
         template_name: Story
         publish_at: 
         created_at: '2017-10-28T11:55:46.283Z'
-        updated_at: '2017-10-28T11:55:46.283Z'
+        updated_at: '2018-02-28T12:02:12.720Z'
         name: Abe Lincoln & A Taxidermied Giraffe
-        date: '08-01-2016'
         storyteller: !ruby/hash:Hashie::Mash
           id: 2419
           title: Sergio Garcia
@@ -591,6 +736,11 @@
           created_at: '2017-10-28T11:41:00.528Z'
           updated_at: '2017-10-28T11:41:00.528Z'
           name: Sergio Garcia
+        description: Sergio tends to find himself in the most unusual of scenarios.
+          Sergio likes to party. This time Sergio ends up in the middle of a music
+          video, and it gets weird.
+        date: '08-01-2016'
+        raw_audio: 
       - !ruby/hash:Hashie::Mash
         id: 2477
         title: Irish Cow Pastures
@@ -598,9 +748,8 @@
         template_name: Story
         publish_at: 
         created_at: '2017-10-28T11:55:45.145Z'
-        updated_at: '2017-10-28T11:55:45.145Z'
+        updated_at: '2018-02-28T12:01:16.584Z'
         name: Irish Cow Pastures
-        date: 04-11-2016
         storyteller: !ruby/hash:Hashie::Mash
           id: 2373
           title: Kathryn Sturm
@@ -610,6 +759,10 @@
           created_at: '2017-09-03T13:46:33.136Z'
           updated_at: '2017-09-03T13:46:33.136Z'
           name: Kathryn Sturm
+        description: When it's time to meet someone for dinner, don't cut through
+          the cow pasture. Don't do it!
+        date: 04-11-2016
+        raw_audio: 
       description: We all receive injuries from time to time, but typically those
         injuries aren't caused by cows or by U.S. presidents.
       audio_file: !ruby/hash:Hashie::Mash
@@ -622,7 +775,31 @@
         updated_at: '2017-10-28T12:30:46.620Z'
         name: 17 Abraham Lincoln And A Taxidermied Giraffe
         url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/17-abraham-lincoln-and-a-taxidermied-giraffe.mp3
-      itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+      image: !ruby/hash:Hashie::Mash
+        id: 2629
+        title: '01.17'
+        slug: 01-2629
+        template_name: Image
+        publish_at: 
+        created_at: '2018-02-28T10:49:13.576Z'
+        updated_at: '2018-02-28T10:55:57.632Z'
+        name: '01.17'
+        photographer_name: Anthony Intraversato
+        photographer_url: https://unsplash.com/@anthonyintraversato
+        url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel.jpg
+        versions: !ruby/hash:Hashie::Mash
+          xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xsmall.jpg
+          xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xsmall_crop.jpg
+          small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_small.jpg
+          small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_small_crop.jpg
+          medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_medium.jpg
+          medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_medium_crop.jpg
+          large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_large.jpg
+          large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_large_crop.jpg
+          xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xlarge.jpg
+          xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xlarge_crop.jpg
+      itunes_url: https://itunes.apple.com/us/podcast/abraham-lincoln-and-a-taxidermied-giraffe/id1069939740?i=1000377972364&mt=2
+      google_play_url: https://play.google.com/music/m/Dc3tx23rgs63fgeoiino6xclrza?t=Abraham_Lincoln_and_a_Taxidermied_Giraffe-Squirrel_Stories
 - !ruby/hash:Hashie::Mash
   id: 2402
   title: The Flesh Of The Redeemer
@@ -630,7 +807,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:58:52.701Z'
-  updated_at: '2017-10-28T13:13:55.011Z'
+  updated_at: '2018-02-28T12:00:39.402Z'
   number: '01.16'
   name: The Flesh Of The Redeemer
   date: '2016-11-02'
@@ -642,9 +819,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:46.527Z'
-    updated_at: '2017-10-28T11:55:46.527Z'
+    updated_at: '2018-02-28T11:58:44.604Z'
     name: Picking Flowers
-    date: 10-03-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2401
       title: Karl Spaeth
@@ -654,16 +830,19 @@
       created_at: '2017-09-03T13:58:14.045Z'
       updated_at: '2017-09-03T13:58:14.045Z'
       name: Karl Spaeth
+    description: Being hungover can lead to desperate times. And desperate times are
+      calling ...
+    date: 10-03-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2487
-    title: Catholic Funeral Crackers
+    title: Funeral Crackers
     slug: catholic-funeral-crackers
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:45.930Z'
-    updated_at: '2017-10-28T11:55:45.930Z'
-    name: Catholic Funeral Crackers
-    date: '08-01-2016'
+    updated_at: '2018-02-28T12:00:06.647Z'
+    name: Funeral Crackers
     storyteller: !ruby/hash:Hashie::Mash
       id: 2380
       title: Aaron Tyree
@@ -673,6 +852,11 @@
       created_at: '2017-09-03T13:49:43.494Z'
       updated_at: '2017-09-03T13:49:43.494Z'
       name: Aaron Tyree
+    description: Aaron was distraught after the death of a close friend. The ensuing
+      Catholic funeral ceremony caught him very much off guard. He recounts the tale
+      with as much blasphemous might he could muster.
+    date: '08-01-2016'
+    raw_audio: 
   description: Sometimes we're unintentionally racist, but this time we're unintentionally
     blasphemous.
   audio_file: !ruby/hash:Hashie::Mash
@@ -685,7 +869,31 @@
     updated_at: '2017-10-28T12:31:16.591Z'
     name: 16 The Flesh Of The Redeemer
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/16-the-flesh-of-the-redeemer.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2632
+    title: '01.16'
+    slug: 01-2632
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:49:28.099Z'
+    updated_at: '2018-02-28T11:01:26.288Z'
+    name: '01.16'
+    photographer_name: Nicola Gadler
+    photographer_url: https://unsplash.com/@gadler_nicola
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.16-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/the-flesh-of-the-redeemer/id1069939740?i=1000377438537&mt=2
+  google_play_url: https://play.google.com/music/m/D3pe7glbpeqg67r2lozxq3ex3ju?t=The_Flesh_Of_The_Redeemer-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2400
@@ -694,7 +902,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:57:46.937Z'
-  updated_at: '2017-10-28T13:13:20.915Z'
+  updated_at: '2018-02-28T11:57:57.002Z'
   number: '01.15'
   name: Learning To Ride The Bus
   date: '2016-10-19'
@@ -706,9 +914,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:46.187Z'
-    updated_at: '2017-10-28T11:55:46.187Z'
+    updated_at: '2018-02-28T11:57:31.089Z'
     name: Learning To Ride The Bus
-    date: '08-01-2016'
     storyteller: !ruby/hash:Hashie::Mash
       id: 2398
       title: Katie Davis
@@ -718,6 +925,10 @@
       created_at: '2017-09-03T13:57:03.953Z'
       updated_at: '2017-09-03T13:57:03.953Z'
       name: Katie Davis
+    description: Being in a new city is a scary experience. Couple that with riding
+      public transportation for the first time and something is bound to go wrong.
+    date: '08-01-2016'
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2489
     title: Visiting Grandpa
@@ -725,9 +936,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:46.090Z'
-    updated_at: '2017-10-28T11:55:46.090Z'
+    updated_at: '2018-02-28T11:57:01.082Z'
     name: Visiting Grandpa
-    date: '08-01-2016'
     storyteller: !ruby/hash:Hashie::Mash
       id: 2399
       title: Jason Hightower
@@ -737,6 +947,11 @@
       created_at: '2017-09-03T13:57:07.534Z'
       updated_at: '2017-09-03T13:57:07.534Z'
       name: Jason Hightower
+    description: We don't often have serious or heartwarming stories on Squirrel Stories,
+      but this story Jason tells us about visiting his Grandpa's old home was so good
+      we couldn't let it go.
+    date: '08-01-2016'
+    raw_audio: 
   description: Let's go to a new place. Let's learn a new thing. And let's do it the
     hard way.
   audio_file: !ruby/hash:Hashie::Mash
@@ -749,7 +964,31 @@
     updated_at: '2017-10-28T12:26:10.208Z'
     name: 15 Learning To Ride The Bus
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/15-learning-to-ride-the-bus.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2626
+    title: '01.15'
+    slug: 01-2626
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:48:22.854Z'
+    updated_at: '2018-02-28T10:58:53.932Z'
+    name: '01.15'
+    photographer_name: Niilo Isotalo
+    photographer_url: https://unsplash.com/@niiloi
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.15-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/learning-to-ride-the-bus/id1069939740?i=1000376900286&mt=2
+  google_play_url: https://play.google.com/music/m/Dth2aebjhynypheidofffxnr3pe?t=Learning_To_Ride_The_Bus-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2397
@@ -758,21 +997,20 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:55:55.267Z'
-  updated_at: '2017-10-28T13:12:45.985Z'
+  updated_at: '2018-02-28T11:55:53.904Z'
   number: '01.14'
   name: Romping In The Bathroom
   date: '2016-09-07'
   stories: !ruby/array:Hashie::Array
   - !ruby/hash:Hashie::Mash
     id: 2488
-    title: Romping In The Bathroom
+    title: Romping In The Bathroom, Pt 1
     slug: romping-in-the-bathroom-2488
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:46.006Z'
-    updated_at: '2017-10-28T11:55:46.006Z'
-    name: Romping In The Bathroom
-    date: '08-01-2016'
+    updated_at: '2018-02-28T11:53:05.667Z'
+    name: Romping In The Bathroom, Pt 1
     storyteller: !ruby/hash:Hashie::Mash
       id: 2393
       title: Claire Bryson
@@ -782,16 +1020,19 @@
       created_at: '2017-09-03T13:54:55.870Z'
       updated_at: '2017-09-03T13:54:55.870Z'
       name: Claire Bryson
+    description: Claire is pretty cool. She follows all the latest fashion trends.
+      Some of those trends leave Claire more exposed than other.
+    date: '08-01-2016'
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2460
-    title: Romping In The Bathroom
+    title: Romping In The Bathroom, Pt 2
     slug: romping-in-the-bathroom-2460
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:43.727Z'
-    updated_at: '2017-10-28T11:55:43.727Z'
-    name: Romping In The Bathroom
-    date: 11-14-2015
+    updated_at: '2018-02-28T11:53:56.525Z'
+    name: Romping In The Bathroom, Pt 2
     storyteller: !ruby/hash:Hashie::Mash
       id: 2366
       title: Lora Staiger
@@ -801,6 +1042,10 @@
       created_at: '2017-09-03T13:41:40.108Z'
       updated_at: '2017-09-03T13:41:40.108Z'
       name: Lora Staiger
+    description: Lora's mom is so cool she made Lora an outfit for one Kindergarten
+      day. Lora learned a lot that day.
+    date: 11-14-2015
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2458
     title: Crack Of The Door
@@ -808,9 +1053,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:43.560Z'
-    updated_at: '2017-10-28T11:55:43.560Z'
+    updated_at: '2018-02-28T11:54:31.865Z'
     name: Crack Of The Door
-    date: 11-14-2015
     storyteller: !ruby/hash:Hashie::Mash
       id: 2394
       title: Warren Harrison
@@ -820,6 +1064,10 @@
       created_at: '2017-09-03T13:54:59.352Z'
       updated_at: '2017-09-03T13:54:59.352Z'
       name: Warren Harrison
+    description: '"Don''t let the door hit you in the ass" hits a little too close
+      to home for Warren.'
+    date: 11-14-2015
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2459
     title: No Bathroom Stalls
@@ -827,9 +1075,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:43.638Z'
-    updated_at: '2017-10-28T11:55:43.638Z'
+    updated_at: '2018-02-28T11:55:15.681Z'
     name: No Bathroom Stalls
-    date: 11-14-2015
     storyteller: !ruby/hash:Hashie::Mash
       id: 2371
       title: Eric Staiger
@@ -839,6 +1086,10 @@
       created_at: '2017-09-03T13:45:11.011Z'
       updated_at: '2017-09-03T13:45:11.011Z'
       name: Eric Staiger
+    description: Being exposed while doing one's dirty work is a trying experience
+      for Eric.
+    date: 11-14-2015
+    raw_audio: 
   description: Bathrooms and their stall doors. You know where this is going, don't
     you?
   audio_file: !ruby/hash:Hashie::Mash
@@ -851,7 +1102,31 @@
     updated_at: '2017-10-28T12:26:36.365Z'
     name: 14 Romping In The Bathroom
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/14-romping-in-the-bathroom.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2627
+    title: '01.14'
+    slug: 01-2627
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:48:46.671Z'
+    updated_at: '2018-02-28T10:58:07.282Z'
+    name: '01.14'
+    photographer_name: Richard Burns
+    photographer_url: https://unsplash.com/@rburns320
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.14-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/romping-in-the-bathroom/id1069939740?i=1000375059427&mt=2
+  google_play_url: https://play.google.com/music/m/Dj2ofnwkopiii7lt5u3h5xq4b3i?t=Romping_In_The_Bathroom-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2392
@@ -860,7 +1135,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:54:08.943Z'
-  updated_at: '2017-10-28T13:12:08.908Z'
+  updated_at: '2018-02-28T11:51:45.227Z'
   number: '01.13'
   name: College Night ... And Drunk Jimmy
   date: '2016-08-24'
@@ -872,9 +1147,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:45.853Z'
-    updated_at: '2017-10-28T11:55:45.853Z'
+    updated_at: '2018-02-28T11:51:05.688Z'
     name: Jaeger vs. Pants
-    date: 06-06-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2389
       title: Katie Harten
@@ -884,6 +1158,10 @@
       created_at: '2017-09-03T13:53:22.962Z'
       updated_at: '2017-09-03T13:53:22.962Z'
       name: Katie Harten
+    description: In the game of life, sometimes you win and you can keep your pants
+      on, and other times Jaeger wins.
+    date: 06-06-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2484
     title: Drunk Jimmy
@@ -891,9 +1169,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:45.692Z'
-    updated_at: '2017-10-28T11:55:45.692Z'
+    updated_at: '2018-02-28T11:50:29.479Z'
     name: Drunk Jimmy
-    date: 06-06-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2390
       title: Miranda Leurk
@@ -903,6 +1180,10 @@
       created_at: '2017-09-03T13:53:27.563Z'
       updated_at: '2017-09-03T13:53:27.563Z'
       name: Miranda Leurk
+    description: Jimmy was the house drunk, because Jimmy ran the house. Miranda does
+      not like Jimmy. Here's a story about Jimmy.
+    date: 06-06-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2483
     title: Cheesy Poofs Flooded My Bar
@@ -910,9 +1191,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:45.615Z'
-    updated_at: '2017-10-28T11:55:45.615Z'
+    updated_at: '2018-02-28T11:49:59.868Z'
     name: Cheesy Poofs Flooded My Bar
-    date: 06-06-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2391
       title: Dante Zannoni
@@ -922,6 +1202,9 @@
       created_at: '2017-09-03T13:53:32.571Z'
       updated_at: '2017-09-03T13:53:32.571Z'
       name: Dante Zannoni
+    description: Cheesy poof encounters can lead to many things, even flooding a bar.
+    date: 06-06-2016
+    raw_audio: 
   description: Three bartenders, each sharing one of their many memorable evenings
     behind the bar.
   audio_file: !ruby/hash:Hashie::Mash
@@ -934,7 +1217,31 @@
     updated_at: '2017-10-28T12:26:54.139Z'
     name: 13 College Night And Drunk Jimmy
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/13-college-night-and-drunk-jimmy.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2630
+    title: '01.13'
+    slug: 01-2630
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:49:22.431Z'
+    updated_at: '2018-02-28T10:53:45.066Z'
+    name: '01.13'
+    photographer_name: Matthew Fournier
+    photographer_url: https://unsplash.com/@mattyfours
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.13-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/college-night-and-drunk-jimmy/id1069939740?i=1000374532661&mt=2
+  google_play_url: https://play.google.com/music/m/Daahm5fycg3ix62h4lncji4tyiq?t=College_Night__And_Drunk_Jimmy-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2388
@@ -943,7 +1250,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:53:04.783Z'
-  updated_at: '2017-10-28T13:11:41.252Z'
+  updated_at: '2018-02-28T11:48:59.232Z'
   number: '01.12'
   name: Something Died Inside This Woman
   date: '2016-07-13'
@@ -955,9 +1262,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:45.301Z'
-    updated_at: '2017-10-28T11:55:45.301Z'
+    updated_at: '2018-02-28T11:47:40.141Z'
     name: Pit Toilets
-    date: 05-29-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2387
       title: Derek Vogel
@@ -967,6 +1273,12 @@
       created_at: '2017-09-03T13:52:19.025Z'
       updated_at: '2017-09-03T13:52:19.025Z'
       name: Derek Vogel
+    description: Doing your business in a pit toilet is something most of us have
+      had to deal with at some point in our lives. And most of us have fears of those
+      experiences. Fears that probably will never come true. Derek is like most of
+      us, except his fears came true.
+    date: 05-29-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2485
     title: Something Died Inside This Woman
@@ -974,9 +1286,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:45.776Z'
-    updated_at: '2017-10-28T11:55:45.776Z'
+    updated_at: '2018-02-28T11:48:26.933Z'
     name: Something Died Inside This Woman
-    date: 06-06-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2386
       title: Erin Fox
@@ -986,6 +1297,10 @@
       created_at: '2017-09-03T13:52:14.908Z'
       updated_at: '2017-09-03T13:52:14.908Z'
       name: Erin Fox
+    description: When you gotta go, you gotta go. And when you're going to explode,
+      you're going to explode.
+    date: 06-06-2016
+    raw_audio: 
   description: Two classic bathroom stories -- one with mystery, the other with too
     much detail!
   audio_file: !ruby/hash:Hashie::Mash
@@ -998,7 +1313,31 @@
     updated_at: '2017-10-28T12:20:09.804Z'
     name: 12 Something Died Inside This Woman
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/12-something-died-inside-this-woman.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2624
+    title: '01.12'
+    slug: 01-2624
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:48:01.725Z'
+    updated_at: '2018-02-28T10:55:08.129Z'
+    name: '01.12'
+    photographer_name: Ilnur Kalimullin
+    photographer_url: https://unsplash.com/@kalimullin
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.12-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this-woman/id1069939740?i=1000372454618&mt=2
+  google_play_url: https://play.google.com/music/m/Docm3hm7bljwrqau26zxy4szge4?t=Something_Died_Inside_This_Woman-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2385
@@ -1007,7 +1346,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:52:06.073Z'
-  updated_at: '2017-10-28T13:11:28.612Z'
+  updated_at: '2018-02-28T11:45:30.742Z'
   number: '01.11'
   name: The Hated Stranger
   date: '2016-06-29'
@@ -1019,9 +1358,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:45.538Z'
-    updated_at: '2017-10-28T11:55:45.538Z'
+    updated_at: '2018-02-28T11:45:05.589Z'
     name: The Hated Stranger
-    date: 06-06-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2384
       title: Sean Brendan Garner
@@ -1031,6 +1369,10 @@
       created_at: '2017-09-03T13:51:29.782Z'
       updated_at: '2017-09-03T13:51:29.782Z'
       name: Sean Brendan Garner
+    description: Sean has an enemy. An enemy of the state (well, his state). And when
+      he finally meets that enemy, he can only think of one thing to do.
+    date: 06-06-2016
+    raw_audio: 
   description: What do you do when you have only seconds to face your most hated enemy,
     a person you've never met?
   audio_file: !ruby/hash:Hashie::Mash
@@ -1043,7 +1385,31 @@
     updated_at: '2017-10-28T12:18:31.095Z'
     name: 11 The Hated Stranger
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/11-the-hated-stranger.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/casual-racism/id1069939740?i=1000368928123&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2623
+    title: '01.11'
+    slug: 01-2623
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:47:34.166Z'
+    updated_at: '2018-02-28T10:54:18.602Z'
+    name: '01.11'
+    photographer_name: Gabor Papp
+    photographer_url: https://unsplash.com/@pappgabor
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.11-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/the-hated-stranger/id1069939740?i=1000371658607&mt=2
+  google_play_url: https://play.google.com/music/m/Dke36emau4gunilvcn6zrefm2b4?t=The_Hated_Stranger-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2383
@@ -1052,21 +1418,20 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:51:08.772Z'
-  updated_at: '2017-10-28T13:11:19.069Z'
+  updated_at: '2018-02-28T11:46:18.332Z'
   number: '01.10'
   name: Casual Racism
   date: '2016-05-17'
   stories: !ruby/array:Hashie::Array
   - !ruby/hash:Hashie::Mash
     id: 2476
-    title: Casual Racism at Wal-Mart
+    title: What's That, Mommy?
     slug: casual-racism-at-wal-mart
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:45.068Z'
-    updated_at: '2017-10-28T11:55:45.068Z'
-    name: Casual Racism at Wal-Mart
-    date: 04-11-2016
+    updated_at: '2018-02-28T11:42:48.784Z'
+    name: What's That, Mommy?
     storyteller: !ruby/hash:Hashie::Mash
       id: 2382
       title: Will Johnson
@@ -1076,6 +1441,10 @@
       created_at: '2017-09-03T13:50:23.880Z'
       updated_at: '2017-09-03T13:50:23.880Z'
       name: Will Johnson
+    description: Those classic Kentucky Wal-Mart trips don't often provide children
+      a chance to learn about diversity in our modern culture. This one did.
+    date: 04-11-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2475
     title: White Power
@@ -1083,9 +1452,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.991Z'
-    updated_at: '2017-10-28T11:55:44.991Z'
+    updated_at: '2018-02-28T11:43:50.851Z'
     name: White Power
-    date: 04-11-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2366
       title: Lora Staiger
@@ -1095,6 +1463,10 @@
       created_at: '2017-09-03T13:41:40.108Z'
       updated_at: '2017-09-03T13:41:40.108Z'
       name: Lora Staiger
+    description: First dates are super awkward. Lora bottled up all those awkward
+      feelings until she finally let them spew on the bus ride home.
+    date: 04-11-2016
+    raw_audio: 
   description: Walmarts, especially the one in Fort Mitchell (Kentucky), are hubs
     of uncomfortable oddities, but are they as uncomfortable as late-night bus rides
     in Seattle?
@@ -1108,7 +1480,31 @@
     updated_at: '2017-10-28T12:16:49.869Z'
     name: 10 Casual Racism
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/10-casual-racism.mp3
+  image: !ruby/hash:Hashie::Mash
+    id: 2622
+    title: '01.10'
+    slug: 01-2622
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:47:33.553Z'
+    updated_at: '2018-02-28T10:55:31.759Z'
+    name: '01.10'
+    photographer_name: Dan Cook
+    photographer_url: https://unsplash.com/@dan_scape
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.10-squirrel_xlarge_crop.jpg
   itunes_url: https://itunes.apple.com/us/podcast/casual-racism/id1069939740?i=1000368928123&mt=2
+  google_play_url: https://play.google.com/music/m/Dwa6i3ndlolg3fluecpebemw4x4?t=Casual_Racism-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2381
@@ -1117,21 +1513,20 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:50:15.088Z'
-  updated_at: '2017-10-28T13:11:03.033Z'
+  updated_at: '2018-02-28T11:39:59.996Z'
   number: '01.09'
   name: Drugs That Rhyme With Cocaine
   date: '2016-05-03'
   stories: !ruby/array:Hashie::Array
   - !ruby/hash:Hashie::Mash
     id: 2473
-    title: Lake Drugs
+    title: 'Drugs At The Lake: A Story for Children'
     slug: lake-drugs
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.826Z'
-    updated_at: '2017-10-28T11:55:44.826Z'
-    name: Lake Drugs
-    date: 04-11-2016
+    updated_at: '2018-02-28T11:37:51.518Z'
+    name: 'Drugs At The Lake: A Story for Children'
     storyteller: !ruby/hash:Hashie::Mash
       id: 2380
       title: Aaron Tyree
@@ -1141,16 +1536,20 @@
       created_at: '2017-09-03T13:49:43.494Z'
       updated_at: '2017-09-03T13:49:43.494Z'
       name: Aaron Tyree
+    description: Aaron had an interesting adventure at the lake in his younger days.
+      To face and recount those moments can be difficult. So he wrote a story about
+      it. In the form of a children's book.
+    date: 04-11-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2474
-    title: Drugs That Rhyme With Cocaine
+    title: Party Like A Rock Star
     slug: drugs-that-rhyme-with-cocaine-2474
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.905Z'
-    updated_at: '2017-10-28T11:55:44.905Z'
-    name: Drugs That Rhyme With Cocaine
-    date: 04-11-2016
+    updated_at: '2018-02-28T11:39:07.166Z'
+    name: Party Like A Rock Star
     storyteller: !ruby/hash:Hashie::Mash
       id: 2379
       title: Jacob Trevino
@@ -1160,6 +1559,10 @@
       created_at: '2017-09-03T13:49:40.579Z'
       updated_at: '2017-09-03T13:49:40.579Z'
       name: Jacob Trevino
+    description: Not all musicians get to be rock stars. But everyone has the opportunity
+      to act like one.
+    date: 04-11-2016
+    raw_audio: 
   description: Drugs and alcohol can lead to being the worst friend ever. And it can
     be easier to relive those moments if they are told in the form of a children's
     book.
@@ -1173,7 +1576,31 @@
     updated_at: '2017-10-28T12:21:07.628Z'
     name: '09 Drugs That Rhyme With Cocaine'
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/09-drugs-that-rhyme-with-cocaine.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/drugs-that-rhyme-with-cocaine/id1069939740?i=367995685&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2620
+    title: '01.09'
+    slug: 01-2620
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:46:50.259Z'
+    updated_at: '2018-02-28T10:57:16.017Z'
+    name: '01.09'
+    photographer_name: Alexandre Godreau
+    photographer_url: https://unsplash.com/@alexandre_godreau
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.09-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/drugs-that-rhyme-with-cocaine/id1069939740?i=1000367995685&mt=2
+  google_play_url: https://play.google.com/music/m/Dxiu73mnqizmn25sxy5th56l7yy?t=Drugs_That_Rhyme_With_Cocaine-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2378
@@ -1182,7 +1609,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:49:10.460Z'
-  updated_at: '2017-10-28T13:10:42.011Z'
+  updated_at: '2018-02-28T11:35:50.790Z'
   number: '01.08'
   name: The Angriest Bagel On The Planet
   date: '2016-04-19'
@@ -1194,9 +1621,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.666Z'
-    updated_at: '2017-10-28T11:55:44.666Z'
+    updated_at: '2018-02-28T11:34:13.390Z'
     name: Banana Eye Contact
-    date: 04-11-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2377
       title: Rome Ntukogu
@@ -1206,16 +1632,19 @@
       created_at: '2017-09-03T13:48:40.091Z'
       updated_at: '2017-09-03T13:48:40.091Z'
       name: Rome Ntukogu
+    description: Have you ever made eye contact with someone while they were eating
+      a banana? It's not advisable.
+    date: 04-11-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2472
-    title: Dicks & Dairy Queen
+    title: Hairy Dairy Queen
     slug: dicks-and-dairy-queen
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.750Z'
-    updated_at: '2017-10-28T11:55:44.750Z'
-    name: Dicks & Dairy Queen
-    date: 04-11-2016
+    updated_at: '2018-02-28T11:33:34.039Z'
+    name: Hairy Dairy Queen
     storyteller: !ruby/hash:Hashie::Mash
       id: 2376
       title: Autumn Heisler
@@ -1225,6 +1654,11 @@
       created_at: '2017-09-03T13:48:29.511Z'
       updated_at: '2017-09-03T13:48:29.511Z'
       name: Autumn Heisler
+    description: The DQ always just makes everything okay, doesn't it? In Autumn's
+      case, she really needed everything to be okay. Because beach trips with little
+      bros aren't always the smoothest.
+    date: 04-11-2016
+    raw_audio: 
   - !ruby/hash:Hashie::Mash
     id: 2470
     title: The Angriest Bagel On The Planet
@@ -1232,9 +1666,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.580Z'
-    updated_at: '2017-10-28T11:55:44.580Z'
+    updated_at: '2018-02-28T11:31:46.591Z'
     name: The Angriest Bagel On The Planet
-    date: 04-11-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2377
       title: Rome Ntukogu
@@ -1244,7 +1677,12 @@
       created_at: '2017-09-03T13:48:40.091Z'
       updated_at: '2017-09-03T13:48:40.091Z'
       name: Rome Ntukogu
-  description: ''
+    description: Acquiring bagels is supposed to be a fun, casual, and relaxed experience.
+      But no, not for Rome.
+    date: 04-11-2016
+    raw_audio: 
+  description: Food can be awkward. It can cause people to act awkwardly. But it can
+    also save us from the uncomfortablest of situations.
   audio_file: !ruby/hash:Hashie::Mash
     id: 2569
     title: '08 The Angriest Bagel On The Planet'
@@ -1255,7 +1693,31 @@
     updated_at: '2017-10-28T12:21:26.054Z'
     name: '08 The Angriest Bagel On The Planet'
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/08-the-angriest-bagel-on-the-planet.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/angriest-bagel-on-planet/id1069939740?i=367148041&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2617
+    title: '01.08'
+    slug: 01-2617
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:41:14.308Z'
+    updated_at: '2018-02-28T10:41:23.524Z'
+    name: '01.08'
+    photographer_name: Vincent van Zalinge
+    photographer_url: https://unsplash.com/@vincentvanzalinge
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054038/01.08-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/the-angriest-bagel-on-the-planet/id1069939740?i=1000367148041&mt=2
+  google_play_url: https://play.google.com/music/m/Dhxffi5cd7i2wshtbjglrkmd37e?t=The_Angriest_Bagel_On_The_Planet-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2375
@@ -1264,7 +1726,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:48:19.253Z'
-  updated_at: '2017-10-28T13:08:21.856Z'
+  updated_at: '2018-02-28T11:39:46.148Z'
   number: '01.07'
   name: Lawn Turds
   date: '2016-04-05'
@@ -1276,9 +1738,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.231Z'
-    updated_at: '2017-10-28T11:55:44.231Z'
+    updated_at: '2018-02-28T11:30:28.893Z'
     name: Lawn Turds
-    date: 02-22-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2366
       title: Lora Staiger
@@ -1288,6 +1749,11 @@
       created_at: '2017-09-03T13:41:40.108Z'
       updated_at: '2017-09-03T13:41:40.108Z'
       name: Lora Staiger
+    description: One day Lora ate Taco Bell before a soccer match, and the match went
+      well. That made her eat Taco Bell before every soccer match, because ... superstition.
+      Yet, eating Taco Bell doesn't always lead to the best stomach scenarios.
+    date: 02-22-2016
+    raw_audio: 
   description: Sometimes uncomfortable things happen when you rely on Taco Bell to
     fulfill your superstitions.
   audio_file: !ruby/hash:Hashie::Mash
@@ -1300,7 +1766,31 @@
     updated_at: '2017-10-28T12:15:24.015Z'
     name: 07 Lawn Turds
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/07-lawn-turds.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/night-diving/id1069939740?i=364897212&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2628
+    title: '01.07'
+    slug: 01-2628
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:49:03.912Z'
+    updated_at: '2018-02-28T11:01:59.984Z'
+    name: '01.07'
+    photographer_name: Alexander Kustov
+    photographer_url: https://unsplash.com/@knuxus
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.07-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/lawn-turds/id1069939740?i=1000366315557&mt=2
+  google_play_url: https://play.google.com/music/m/D2xs5adv5xr6daz3hbkfhlwoe3u?t=Lawn_Turds-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2374
@@ -1309,7 +1799,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:47:03.659Z'
-  updated_at: '2017-10-28T13:08:13.086Z'
+  updated_at: '2018-02-28T11:25:40.042Z'
   number: '01.06'
   name: Night Diving
   date: '2016-03-15'
@@ -1321,9 +1811,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.144Z'
-    updated_at: '2017-10-28T11:55:44.144Z'
+    updated_at: '2018-02-28T11:25:15.496Z'
     name: Night Diving
-    date: 02-22-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2373
       title: Kathryn Sturm
@@ -1333,6 +1822,11 @@
       created_at: '2017-09-03T13:46:33.136Z'
       updated_at: '2017-09-03T13:46:33.136Z'
       name: Kathryn Sturm
+    description: Kathryn spent time in the British Virgin Islands completing her diving
+      certification. One of the last steps was to dive at night. Usually this sort
+      of task is uneventful, but not this time ...
+    date: 02-22-2016
+    raw_audio: 
   description: You never know what you might find when night diving in the British
     Virgin Islands.
   audio_file: !ruby/hash:Hashie::Mash
@@ -1345,7 +1839,31 @@
     updated_at: '2017-10-28T12:11:28.112Z'
     name: 06 Night Diving
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/06-night-diving.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/night-diving/id1069939740?i=364897212&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2621
+    title: '01.06'
+    slug: 01-2621
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:47:21.774Z'
+    updated_at: '2018-02-28T10:54:44.938Z'
+    name: '01.06'
+    photographer_name: Tyler Penner
+    photographer_url: https://unsplash.com/@7ylerpenner
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.06-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/night-diving/id1069939740?i=1000364897212&mt=2
+  google_play_url: https://play.google.com/music/m/D5v6yvatkzym467jtpxdmqjrzoq?t=Night_Diving-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2372
@@ -1354,7 +1872,7 @@
   template_name: Episode
   publish_at: 
   created_at: '2017-09-03T13:45:52.341Z'
-  updated_at: '2017-10-28T13:08:03.671Z'
+  updated_at: '2018-02-28T11:23:45.001Z'
   number: '01.05'
   name: How I Became Employee Of The Month At Arby's
   date: '2016-03-02'
@@ -1366,9 +1884,8 @@
     template_name: Story
     publish_at: 
     created_at: '2017-10-28T11:55:44.057Z'
-    updated_at: '2017-10-28T11:55:44.057Z'
+    updated_at: '2018-02-28T11:23:17.590Z'
     name: How I Became Employee Of The Month At Arby's
-    date: 02-22-2016
     storyteller: !ruby/hash:Hashie::Mash
       id: 2371
       title: Eric Staiger
@@ -1378,6 +1895,10 @@
       created_at: '2017-09-03T13:45:11.011Z'
       updated_at: '2017-09-03T13:45:11.011Z'
       name: Eric Staiger
+    description: It takes a grit and grind and roast beef and toilet cleaning to become
+      employee of the month at Arby's.
+    date: 02-22-2016
+    raw_audio: 
   description: Sometimes it takes dealing with a lot of shit to become Employee Of
     The Month at Arby's.
   audio_file: !ruby/hash:Hashie::Mash
@@ -1390,7 +1911,31 @@
     updated_at: '2017-10-28T12:09:23.608Z'
     name: 05 Arbys Employee Of The Month
     url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/05-arbys-employee-of-the-month.mp3
-  itunes_url: https://itunes.apple.com/us/podcast/how-i-became-employee-month/id1069939740?i=364044782&mt=2
+  image: !ruby/hash:Hashie::Mash
+    id: 2625
+    title: '01.05'
+    slug: 01-2625
+    template_name: Image
+    publish_at: 
+    created_at: '2018-02-28T10:48:02.778Z'
+    updated_at: '2018-02-28T10:56:28.715Z'
+    name: '01.05'
+    photographer_name: Radoslaw Prekurat
+    photographer_url: https://unsplash.com/@erprekurat
+    url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel.jpg
+    versions: !ruby/hash:Hashie::Mash
+      xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_xsmall.jpg
+      xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_xsmall_crop.jpg
+      small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_small.jpg
+      small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_small_crop.jpg
+      medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_medium.jpg
+      medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_medium_crop.jpg
+      large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_large.jpg
+      large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_large_crop.jpg
+      xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_xlarge.jpg
+      xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.05-squirrel_xlarge_crop.jpg
+  itunes_url: https://itunes.apple.com/us/podcast/how-i-became-employee-of-the-month-at-arbys/id1069939740?i=1000364044782&mt=2
+  google_play_url: https://play.google.com/music/m/D4bnmhph6ivw3dhaiceefou5sga?t=How_I_Became_Employee_Of_The_Month_At_Arbys-Squirrel_Stories
   quotes: !ruby/array:Hashie::Array []
 - !ruby/hash:Hashie::Mash
   id: 2370

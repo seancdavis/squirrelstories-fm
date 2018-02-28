@@ -24,7 +24,7 @@
     template_name: Episode
     publish_at: 
     created_at: '2017-09-03T14:00:59.649Z'
-    updated_at: '2017-10-28T13:14:49.197Z'
+    updated_at: '2018-02-28T12:04:58.107Z'
     number: '01.18'
     name: A Pissmass Carol
     date: '2017-01-04'
@@ -36,9 +36,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:47.570Z'
-      updated_at: '2017-10-28T11:55:47.570Z'
+      updated_at: '2018-02-28T12:03:19.199Z'
       name: Thanksgiving 2005
-      date: 12-05-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2405
         title: Tina Cisneros
@@ -48,6 +47,10 @@
         created_at: '2017-09-03T14:00:25.599Z'
         updated_at: '2017-09-03T14:00:25.599Z'
         name: Tina Cisneros
+      description: In the first of two tales, Tina takes us back to 2005 and recounts
+        Thanksgiving with her family.
+      date: 12-05-2016
+      raw_audio: 
     - !ruby/hash:Hashie::Mash
       id: 2506
       title: A Pissmass Carol
@@ -55,9 +58,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:47.727Z'
-      updated_at: '2017-10-28T11:55:47.727Z'
+      updated_at: '2018-02-28T12:04:37.304Z'
       name: A Pissmass Carol
-      date: 12-05-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2386
         title: Erin Fox
@@ -67,6 +69,10 @@
         created_at: '2017-09-03T13:52:14.908Z'
         updated_at: '2017-09-03T13:52:14.908Z'
         name: Erin Fox
+      description: Something is bound to go horribly wrong while trying to coordinate
+        the efforts of a class of small children.
+      date: 12-05-2016
+      raw_audio: 
     - !ruby/hash:Hashie::Mash
       id: 2505
       title: Thanksgiving 2010
@@ -74,9 +80,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:47.649Z'
-      updated_at: '2017-10-28T11:55:47.649Z'
+      updated_at: '2018-02-28T12:03:59.311Z'
       name: Thanksgiving 2010
-      date: 12-05-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2405
         title: Tina Cisneros
@@ -86,6 +91,10 @@
         created_at: '2017-09-03T14:00:25.599Z'
         updated_at: '2017-09-03T14:00:25.599Z'
         name: Tina Cisneros
+      description: Tina's back, for more Thanksgiving dinner, five years later, and
+        she's angstier than ever.
+      date: 12-05-2016
+      raw_audio: 
     description: The holidays mean school pageants and family time and drinking too
       much and peeing your pants.
     audio_file: !ruby/hash:Hashie::Mash
@@ -98,7 +107,31 @@
       updated_at: '2017-10-28T12:28:43.573Z'
       name: 18 A Pissmass Carol
       url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
-    itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+    image: !ruby/hash:Hashie::Mash
+      id: 2631
+      title: '01.18'
+      slug: 01-2631
+      template_name: Image
+      publish_at: 
+      created_at: '2018-02-28T10:49:23.775Z'
+      updated_at: '2018-02-28T11:02:23.253Z'
+      name: '01.18'
+      photographer_name: ''
+      photographer_url: ''
+      url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel.jpg
+      versions: !ruby/hash:Hashie::Mash
+        xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall.jpg
+        xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall_crop.jpg
+        small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small.jpg
+        small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small_crop.jpg
+        medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium.jpg
+        medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium_crop.jpg
+        large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large.jpg
+        large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large_crop.jpg
+        xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge.jpg
+        xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge_crop.jpg
+    itunes_url: https://itunes.apple.com/us/podcast/a-pissmass-carol/id1069939740?i=1000379624267&mt=2
+    google_play_url: https://play.google.com/music/m/D76ny2cfj7snqfaw2oc7jlu2ini?t=A_Pissmass_Carol-Squirrel_Stories
 - !ruby/hash:Hashie::Mash
   id: 2612
   title: 'Test #1'
@@ -124,7 +157,7 @@
     template_name: Episode
     publish_at: 
     created_at: '2017-09-03T14:00:12.588Z'
-    updated_at: '2017-10-28T13:14:24.323Z'
+    updated_at: '2018-02-28T12:02:43.836Z'
     number: '01.17'
     name: Abraham Lincoln and a Taxidermied Giraffe
     date: '2016-11-16'
@@ -136,9 +169,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:46.283Z'
-      updated_at: '2017-10-28T11:55:46.283Z'
+      updated_at: '2018-02-28T12:02:12.720Z'
       name: Abe Lincoln & A Taxidermied Giraffe
-      date: '08-01-2016'
       storyteller: !ruby/hash:Hashie::Mash
         id: 2419
         title: Sergio Garcia
@@ -148,6 +180,11 @@
         created_at: '2017-10-28T11:41:00.528Z'
         updated_at: '2017-10-28T11:41:00.528Z'
         name: Sergio Garcia
+      description: Sergio tends to find himself in the most unusual of scenarios.
+        Sergio likes to party. This time Sergio ends up in the middle of a music video,
+        and it gets weird.
+      date: '08-01-2016'
+      raw_audio: 
     - !ruby/hash:Hashie::Mash
       id: 2477
       title: Irish Cow Pastures
@@ -155,9 +192,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:45.145Z'
-      updated_at: '2017-10-28T11:55:45.145Z'
+      updated_at: '2018-02-28T12:01:16.584Z'
       name: Irish Cow Pastures
-      date: 04-11-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2373
         title: Kathryn Sturm
@@ -167,6 +203,10 @@
         created_at: '2017-09-03T13:46:33.136Z'
         updated_at: '2017-09-03T13:46:33.136Z'
         name: Kathryn Sturm
+      description: When it's time to meet someone for dinner, don't cut through the
+        cow pasture. Don't do it!
+      date: 04-11-2016
+      raw_audio: 
     description: We all receive injuries from time to time, but typically those injuries
       aren't caused by cows or by U.S. presidents.
     audio_file: !ruby/hash:Hashie::Mash
@@ -179,7 +219,31 @@
       updated_at: '2017-10-28T12:30:46.620Z'
       name: 17 Abraham Lincoln And A Taxidermied Giraffe
       url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/17-abraham-lincoln-and-a-taxidermied-giraffe.mp3
-    itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+    image: !ruby/hash:Hashie::Mash
+      id: 2629
+      title: '01.17'
+      slug: 01-2629
+      template_name: Image
+      publish_at: 
+      created_at: '2018-02-28T10:49:13.576Z'
+      updated_at: '2018-02-28T10:55:57.632Z'
+      name: '01.17'
+      photographer_name: Anthony Intraversato
+      photographer_url: https://unsplash.com/@anthonyintraversato
+      url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel.jpg
+      versions: !ruby/hash:Hashie::Mash
+        xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xsmall.jpg
+        xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xsmall_crop.jpg
+        small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_small.jpg
+        small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_small_crop.jpg
+        medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_medium.jpg
+        medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_medium_crop.jpg
+        large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_large.jpg
+        large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_large_crop.jpg
+        xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xlarge.jpg
+        xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.17-squirrel_xlarge_crop.jpg
+    itunes_url: https://itunes.apple.com/us/podcast/abraham-lincoln-and-a-taxidermied-giraffe/id1069939740?i=1000377972364&mt=2
+    google_play_url: https://play.google.com/music/m/Dc3tx23rgs63fgeoiino6xclrza?t=Abraham_Lincoln_and_a_Taxidermied_Giraffe-Squirrel_Stories
 - !ruby/hash:Hashie::Mash
   id: 2613
   title: 'Test #2'
@@ -205,7 +269,7 @@
     template_name: Episode
     publish_at: 
     created_at: '2017-09-03T14:00:59.649Z'
-    updated_at: '2017-10-28T13:14:49.197Z'
+    updated_at: '2018-02-28T12:04:58.107Z'
     number: '01.18'
     name: A Pissmass Carol
     date: '2017-01-04'
@@ -217,9 +281,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:47.570Z'
-      updated_at: '2017-10-28T11:55:47.570Z'
+      updated_at: '2018-02-28T12:03:19.199Z'
       name: Thanksgiving 2005
-      date: 12-05-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2405
         title: Tina Cisneros
@@ -229,6 +292,10 @@
         created_at: '2017-09-03T14:00:25.599Z'
         updated_at: '2017-09-03T14:00:25.599Z'
         name: Tina Cisneros
+      description: In the first of two tales, Tina takes us back to 2005 and recounts
+        Thanksgiving with her family.
+      date: 12-05-2016
+      raw_audio: 
     - !ruby/hash:Hashie::Mash
       id: 2506
       title: A Pissmass Carol
@@ -236,9 +303,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:47.727Z'
-      updated_at: '2017-10-28T11:55:47.727Z'
+      updated_at: '2018-02-28T12:04:37.304Z'
       name: A Pissmass Carol
-      date: 12-05-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2386
         title: Erin Fox
@@ -248,6 +314,10 @@
         created_at: '2017-09-03T13:52:14.908Z'
         updated_at: '2017-09-03T13:52:14.908Z'
         name: Erin Fox
+      description: Something is bound to go horribly wrong while trying to coordinate
+        the efforts of a class of small children.
+      date: 12-05-2016
+      raw_audio: 
     - !ruby/hash:Hashie::Mash
       id: 2505
       title: Thanksgiving 2010
@@ -255,9 +325,8 @@
       template_name: Story
       publish_at: 
       created_at: '2017-10-28T11:55:47.649Z'
-      updated_at: '2017-10-28T11:55:47.649Z'
+      updated_at: '2018-02-28T12:03:59.311Z'
       name: Thanksgiving 2010
-      date: 12-05-2016
       storyteller: !ruby/hash:Hashie::Mash
         id: 2405
         title: Tina Cisneros
@@ -267,6 +336,10 @@
         created_at: '2017-09-03T14:00:25.599Z'
         updated_at: '2017-09-03T14:00:25.599Z'
         name: Tina Cisneros
+      description: Tina's back, for more Thanksgiving dinner, five years later, and
+        she's angstier than ever.
+      date: 12-05-2016
+      raw_audio: 
     description: The holidays mean school pageants and family time and drinking too
       much and peeing your pants.
     audio_file: !ruby/hash:Hashie::Mash
@@ -279,4 +352,28 @@
       updated_at: '2017-10-28T12:28:43.573Z'
       name: 18 A Pissmass Carol
       url: https://sapwood.s3.amazonaws.com/production/properties/2/171028-080144/18-a-pissmass-carol.mp3
-    itunes_url: https://itunes.apple.com/us/podcast/something-died-inside-this/id1069939740?i=1000372454618&mt=2
+    image: !ruby/hash:Hashie::Mash
+      id: 2631
+      title: '01.18'
+      slug: 01-2631
+      template_name: Image
+      publish_at: 
+      created_at: '2018-02-28T10:49:23.775Z'
+      updated_at: '2018-02-28T11:02:23.253Z'
+      name: '01.18'
+      photographer_name: ''
+      photographer_url: ''
+      url: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel.jpg
+      versions: !ruby/hash:Hashie::Mash
+        xsmall: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall.jpg
+        xsmall_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xsmall_crop.jpg
+        small: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small.jpg
+        small_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_small_crop.jpg
+        medium: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium.jpg
+        medium_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_medium_crop.jpg
+        large: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large.jpg
+        large_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_large_crop.jpg
+        xlarge: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge.jpg
+        xlarge_crop: https://sapwood.s3.amazonaws.com/production/properties/2/180228-054259/01.18-squirrel_xlarge_crop.jpg
+    itunes_url: https://itunes.apple.com/us/podcast/a-pissmass-carol/id1069939740?i=1000379624267&mt=2
+    google_play_url: https://play.google.com/music/m/D76ny2cfj7snqfaw2oc7jlu2ini?t=A_Pissmass_Carol-Squirrel_Stories
