@@ -1,6 +1,8 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+system("bundle exec rake sync_sapwood")
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
@@ -212,8 +214,4 @@ configure :build do
   activate :gzip
   activate :asset_hash
   activate :minify_html
-end
-
-before_build do
-  system("bundle exec rake sync_sapwood")
 end
