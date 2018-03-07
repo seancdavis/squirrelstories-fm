@@ -24,9 +24,6 @@
     @include media-breakpoint-up(md) {
       width: 20rem;
     }
-    @include media-breakpoint-up(lg) {
-      width: 25rem;
-    }
   }
 
   .episode--overview {
@@ -35,9 +32,6 @@
     }
     @include media-breakpoint-up(md) {
       margin-left: 21rem;
-    }
-    @include media-breakpoint-up(lg) {
-      margin-left: 26rem;
     }
   }
 

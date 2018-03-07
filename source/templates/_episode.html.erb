@@ -6,14 +6,12 @@
       </a>
     </h2>
     <div class="clearfix">
-      <%= ix_img episode.image.try(:url), class: 'episode--image', ratio: 1.5, sizes: { sm: 15, md: 20, lg: 25 } %>
+      <%= ix_img episode.image.try(:url), class: 'episode--image', ratio: 1.5, sizes: { sm: 15, md: 20 } %>
       <div class="episode--overview">
         <p class="font-size-small">
           <a href="<%= episode_path(episode) %>"><strong>Episode <%= episode.number %></strong></a>
         </p>
-        <p>
-          <%= episode.description %>
-        </p>
+        <%= simple_format episode.description %>
         <p class="font-weight-bold font-size-small">
           <% storytellers = episode.stories.collect(&:storyteller).uniq %>
           <% storytellers.each do |storyteller| %>

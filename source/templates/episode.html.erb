@@ -11,9 +11,7 @@
           <p class="font-size-small">
             <strong>Episode <%= episode.number %></strong>
           </p>
-          <p>
-            <%= episode.description %>
-          </p>
+          <%= simple_format episode.description %>
           <p class="font-size-small mb-3 font-size-small text-gray-600">
             <%= Date.parse(episode.date).strftime('%b %d, %Y') %>
           </p>
