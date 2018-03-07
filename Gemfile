@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 2.7'
+gem 'middleman-minify-html'
 
-gem 'rake'
-
+gem 'builder'
 gem 'hashie'
 gem 'imgix'
-gem 'rest-client'
-gem 'middleman-minify-html'
 gem 'nokogiri'
+gem 'rake'
+gem 'rest-client'

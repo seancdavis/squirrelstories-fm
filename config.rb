@@ -46,6 +46,8 @@ ignore 'javascripts/components/*'
 ignore 'javascripts/utilities/*'
 ignore 'javascripts/vendor/*'
 
+page '/sitemap.xml', layout: false
+
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 

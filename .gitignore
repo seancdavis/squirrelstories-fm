@@ -8,3 +8,4 @@ node_modules/
 
 data/*
 !data/settings.yml
+!data/sitemap.yml
