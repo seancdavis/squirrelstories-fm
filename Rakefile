@@ -1,7 +1,11 @@
 require 'hashie'
-require 'rest-client'
 require 'json'
+require 'nokogiri'
+require 'rest-client'
+require 'rexml/document'
 require 'yaml'
+
+# ---------------------------------------- | Sync Sapwood Data
 
 desc 'Sync Sapwood API'
 task :sync_sapwood do
@@ -53,4 +57,32 @@ task :sync_sapwood do
   end
   write_collection('storytellers', storytellers)
 
+end
+
+# ---------------------------------------- | Build SVG Icon Sprite
+
+desc 'Combine all SVG icons into a single SVG'
+task :build_svg do
+  icons_dir = File.expand_path('source/images/icons', __dir__)
+
+  svg_content = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\
+<svg width=\"256px\" height=\"256px\" viewBox=\"0 0 256 256\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">"
+
+  Dir.glob("#{icons_dir}/*.svg").each do |file|
+    doc = Nokogiri::XML(File.read(file))
+    el = (doc.css('#Page-1 > g')[0] || doc.css('svg > g')[0])
+    content = el.to_s
+    icon_name = el['id']
+    svg_content += "<svg width=\"256px\" height=\"256px\" viewBox=\"0 0 256 256\" id=\"#{icon_name}\">\
+  #{content.gsub(/[a-z\-]+=\"[a-zA-Z0-9\-\#]+\"/, '')}\
+</svg>"
+  end
+  svg_content += '</svg>'
+
+  svg_content = REXML::Document.new(svg_content)
+  output = ''
+  svg_content.write(output, 2)
+
+  icons_file = File.expand_path('source/images/icons.svg', __dir__)
+  File.open(icons_file, 'w+') { |file| file.write(output) }
 end
