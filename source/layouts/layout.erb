@@ -38,6 +38,16 @@
     <%= stylesheet_link_tag 'main' %>
 
     <link rel="shortcut icon" type="image/x-icon" href="<%= image_path('favicon.ico') %>">
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "http://www.squirrelstories.fm",
+        "logo": "http://www.squirrelstories.fm<%= image_path('squirrel-stories-logo.png') %>",
+        "name": "Squirrel Stories"
+      }
+    </script>
   </head>
 
   <body>
