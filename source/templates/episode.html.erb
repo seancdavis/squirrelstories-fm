@@ -2,6 +2,36 @@
   <h1><%= episode.title %></h1>
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "RadioEpisode",
+  "name": "<%= episode.name %>",
+  "url": "https://www.squirrelstories.fm<%= episode_path(episode) %>",
+  "episodeNumber": "<%= episode.number %>",
+  "partOfSeason": "<%= episode.number.split('.').first.to_i %>",
+  "about": "<%= episode.description %>",
+  "accountablePerson": "Sean C Davis",
+  "audio": {
+    "contentUrl": "<%= episode.download_url %>",
+    "encodingFormat": "mp3",
+    "requiresSubscription": false
+  },
+  "author": {
+    "@type": "Person",
+    "email": "sean@squirrelstories.fm",
+    "homeLocation": "Cincinnati, Ohio",
+    "givenName": "Sean C Davis"
+  },
+  "copyrightHolder": "Sean C Davis",
+  "creator": "Sean C Davis",
+  "dateCreated": "<%= episode.date %>",
+  "dateModified": "<%= episode.date %>",
+  "datePublished": "<%= episode.date %>",
+  "image": "<%= ix_url(episode.image.try(:url), w: 1200, h: 1200, fit: 'crop') %>"
+}
+</script>
+
 <div class="container mt-4">
   <div class="row">
     <article class="episode col-md-10 offset-md-1 col-lg-8 offset-lg-2">
