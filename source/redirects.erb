@@ -1,0 +1,5 @@
+<% data.episodes.each do |episode| %>
+<% next if episode.number.split('.').first == '02' %>
+/episodes/<%= episode.number.split('.').last %>/<%= episode.slug %>	<%= episode_path(episode) %>
+/episodes/<%= episode.number.split('.').last %>/<%= episode.slug %>.html	<%= episode_path(episode) %>
+<% end %>
