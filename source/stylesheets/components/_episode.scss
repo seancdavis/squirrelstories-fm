@@ -41,7 +41,7 @@
 }
 
 
-.episode--stories-heading {
+.episode--section-heading {
   margin: 1.5rem auto;
   position: relative;
 
@@ -66,6 +66,11 @@
     width: 10rem;
     z-index: -1;
   }
+}
+
+
+.episode--story:last-child {
+  margin-bottom: 2.5rem;
 }
 
 

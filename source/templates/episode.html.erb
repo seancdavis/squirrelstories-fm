@@ -58,21 +58,29 @@
           </p>
         </div>
       </div>
-      <% if episode.stories.present? %>
-        <h3 class="episode--stories-heading text-center">Stories</h3>
+      <% if episode.show_notes.present? %>
+        <h3 class="episode--section-heading text-center">Notes</h3>
+        <%= episode.show_notes.html_safe %>
       <% end %>
-      <% episode.stories.each do |story| %>
-        <h4 class="episode--story-heading"><%= story.name %></h4>
-        <p class="episode--story--storyteller font-weight-bold">
-          <a href="<%= storyteller_path(story.storyteller) %>"><%= story.storyteller.name %></a>
-        </p>
-        <p class="episode--story--body"><%= story.description %></p>
-        <% unless story == episode.stories.last %>
-          <div class="line line--small mt-5 mb-4"></div>
-        <% end %>
+      <% if episode.stories.present? %>
+        <div class="episode--stories">
+          <h3 class="episode--section-heading text-center">Stories</h3>
+          <% episode.stories.each do |story| %>
+            <div class="episode--story">
+              <h4 class="episode--story-heading"><%= story.name %></h4>
+              <p class="episode--story--storyteller font-weight-bold">
+                <a href="<%= storyteller_path(story.storyteller) %>"><%= story.storyteller.name %></a>
+              </p>
+              <p class="episode--story--body"><%= story.description %></p>
+            </div>
+            <% unless story == episode.stories.last %>
+              <div class="line line--small my-4"></div>
+            <% end %>
+          <% end %>
+        </div>
       <% end %>
       <% if episode.quotes.present? %>
-        <div class="line line--small"></div>
+        <h3 class="episode--section-heading text-center">Quotes</h3>
         <div class="row font-italic text-center font-size-small" data-random-quotes="<%= episode.quotes.size %>">
           <% episode.quotes.each do |quote| %>
             <div class="col-sm-6 quote--random mt-3 mb-3">
