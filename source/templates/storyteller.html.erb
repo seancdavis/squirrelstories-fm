@@ -3,8 +3,11 @@
 </div>
 
 <div class="container mt-5">
-  <% storyteller.episodes.each do |episode| %>
+  <% episode_ids = [] %>
+  <% storyteller.episodes.uniq.each do |episode| %>
+    <% next if episode_ids.include?(episode.id) %>
     <%= partial 'templates/_episode', locals: { episode: episode } %>
+    <% episode_ids << episode.id %>
   <% end %>
 </div>
 
