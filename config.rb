@@ -207,6 +207,10 @@ helpers do
     "<img src=\"#{orig_src}\" srcset=\"#{srcset}\" sizes=\"#{sizes}\" class=\"#{opts[:class]}\">"
   end
 
+  def markdown(text)
+    Kramdown::Document.new(text).to_html
+  end
+
 end
 
 # Build-specific configuration

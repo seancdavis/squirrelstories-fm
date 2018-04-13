@@ -11,7 +11,7 @@
         <p class="font-size-small">
           <a href="<%= episode_path(episode) %>"><strong>Episode <%= episode.number %></strong></a>
         </p>
-        <%= simple_format episode.description %>
+        <%= simple_format markdown(episode.description).html_safe %>
         <p class="font-weight-bold font-size-small">
           <% storytellers = episode.stories.collect(&:storyteller).uniq %>
           <% storytellers.each do |storyteller| %>
