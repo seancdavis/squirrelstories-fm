@@ -5,7 +5,3 @@
 build/
 node_modules/
 .tmp
-
-data/*
-!data/settings.yml
-!data/sitemap.yml

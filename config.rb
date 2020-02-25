@@ -1,7 +1,8 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-system("bundle exec rake sync_sapwood")
+# Data has been cached, as Sapwood was shut down.
+# system("bundle exec rake sync_sapwood")
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
