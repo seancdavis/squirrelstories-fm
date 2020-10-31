@@ -1,67 +1,67 @@
 ---
-- !ruby/hash:Hashie::Mash
-  id: 2603
-  title: Share Your Story
-  slug: share-your-story
-  template_name: Page
-  publish_at: 
-  created_at: '2018-02-12T11:41:44.381Z'
-  updated_at: '2018-02-27T03:12:13.059Z'
-  name: Share Your Story
-  body: "<p class=\"font-size-large text-center\">\r\n  So, you have that one embarrassing,
-    goofy, or totally strange story you\r\n  love to share at parties, do you? Fantastic!\r\n</p>\r\n\r\n<p
-    class=\"font-size-large text-center\">\r\n  <strong>Here's how it works:</strong>\r\n</p>\r\n\r\n<ol>\r\n
-    \ <li>\r\n    First, record your story! (See below for audio tips.)\r\n  </li>\r\n
-    \ <li>\r\n    Next, upload the file to a file-sharing service. For smaller files\r\n
-    \   (&lt;50MB), services like <a href=\"https://www.dropbox.com\"\r\n    target=\"_blank\">Dropbox</a>
-    or <a href=\"https://drive.google.com\"\r\n    target=\"_blank\">Google Drive</a>
-    work well. For larger files, you can try a\r\n    service like <a href=\"https://wetransfer.com\"\r\n
-    \   target=\"_blank\">WeTransfer</a>, which lets you upload files up to 2GB for\r\n
-    \   free.\r\n  </li>\r\n  <li>\r\n    Once your file is uploaded, share a link
-    to the file with\r\n    sean@squirrelstories.fm. In that email, include your name,
-    email address,\r\n    story title, and a brief story description.\r\n  </li>\r\n
-    \ <li>\r\n    We'll have a listen to the story to see if it's a good fit for the\r\n
-    \   show.\r\n  </li>\r\n  <li>\r\n    If it is a good fit, it may be published
-    as part of an audio episode\r\n    within a season, a bonus episode for our patrons,
-    or even a written\r\n    episode for our blog that doesn't exist yet.\r\n  </li>\r\n
-    \ <li>\r\n    Before we publish the story, we will send you an email asking you
-    to agree\r\n    to the <a href=\"/release-agreement\">release agreement</a>.\r\n
-    \ </li>\r\n  <li>\r\n    We'll notify you once your story has been published.
-    (And if it is\r\n    only shared to patrons, we'll make sure you get a copy, too.)\r\n
-    \ </li>\r\n</ol>\r\n\r\n<p class=\"font-size-large text-center\">\r\n  <strong>Story
-    guidelines:</strong>\r\n</p>\r\n\r\n<ul>\r\n  <li>\r\n    Your story should be
-    truthful to the extent you can remember. We're\r\n    here for entertainment,
-    but we're looking for true stories.\r\n  </li>\r\n  <li>\r\n    By submitting
-    your story, you're submitting with it the <a\r\n    href=\"/release-agreement\">release
-    agreement</a>. So, you know, make\r\n    sure you're not breaking any laws by
-    telling this story.\r\n  </li>\r\n  <li>\r\n    While we may make edits to the
-    audio, we're not in the censorship\r\n    business. If you want to censor names
-    or language, that's your\r\n    responsibility. However, we do offer that your
-    story be published\r\n    without your name attached, but we likely will not change
-    the sound of\r\n    your voice.\r\n  </li>\r\n  <li>\r\n    Be confident and have
-    fun. The best stories come out when our\r\n    storytellers are relaxed and having
-    a good time (sometimes this means\r\n    a little liquid courage).\r\n  </li>\r\n</ul>\r\n\r\n<p
-    class=\"font-size-large text-center\">\r\n  <strong>Audio tips:</strong>\r\n</p>\r\n\r\n<ul>\r\n
-    \ <li>\r\n    How and where you record is totally up to you. There is background\r\n
-    \   noise in almost all of our stories, and that's OK. We just need to\r\n    hear
-    the storyteller clearly and consistently.\r\n  </li>\r\n  <li>\r\n    While you
-    can use any device to record (including your phone), we use\r\n    <a href=\"https://smile.amazon.com/dp/B003QKBVYK\"
-    target=\"_blank\">this\r\n    recorder</a> for ad hoc stories.\r\n  </li>\r\n
-    \ <li>\r\n    Any audio file format is acceptable. You're best to just leave the\r\n
-    \   file what it is by default after being exported from your phone or\r\n    audio
-    recorder.\r\n  </li>\r\n</ul>"
-  meta_description: Share your story with Squirrel Stories for a chance to be featured
-    on an upcoming episode!
-  template: Share
-  page_path: share-your-story
+# - !ruby/hash:Hashie::Mash
+#   id: 2603
+#   title: Share Your Story
+#   slug: share-your-story
+#   template_name: Page
+#   publish_at:
+#   created_at: '2018-02-12T11:41:44.381Z'
+#   updated_at: '2018-02-27T03:12:13.059Z'
+#   name: Share Your Story
+#   body: "<p class=\"font-size-large text-center\">\r\n  So, you have that one embarrassing,
+#     goofy, or totally strange story you\r\n  love to share at parties, do you? Fantastic!\r\n</p>\r\n\r\n<p
+#     class=\"font-size-large text-center\">\r\n  <strong>Here's how it works:</strong>\r\n</p>\r\n\r\n<ol>\r\n
+#     \ <li>\r\n    First, record your story! (See below for audio tips.)\r\n  </li>\r\n
+#     \ <li>\r\n    Next, upload the file to a file-sharing service. For smaller files\r\n
+#     \   (&lt;50MB), services like <a href=\"https://www.dropbox.com\"\r\n    target=\"_blank\">Dropbox</a>
+#     or <a href=\"https://drive.google.com\"\r\n    target=\"_blank\">Google Drive</a>
+#     work well. For larger files, you can try a\r\n    service like <a href=\"https://wetransfer.com\"\r\n
+#     \   target=\"_blank\">WeTransfer</a>, which lets you upload files up to 2GB for\r\n
+#     \   free.\r\n  </li>\r\n  <li>\r\n    Once your file is uploaded, share a link
+#     to the file with\r\n    sean@squirrelstories.fm. In that email, include your name,
+#     email address,\r\n    story title, and a brief story description.\r\n  </li>\r\n
+#     \ <li>\r\n    We'll have a listen to the story to see if it's a good fit for the\r\n
+#     \   show.\r\n  </li>\r\n  <li>\r\n    If it is a good fit, it may be published
+#     as part of an audio episode\r\n    within a season, a bonus episode for our patrons,
+#     or even a written\r\n    episode for our blog that doesn't exist yet.\r\n  </li>\r\n
+#     \ <li>\r\n    Before we publish the story, we will send you an email asking you
+#     to agree\r\n    to the <a href=\"/release-agreement\">release agreement</a>.\r\n
+#     \ </li>\r\n  <li>\r\n    We'll notify you once your story has been published.
+#     (And if it is\r\n    only shared to patrons, we'll make sure you get a copy, too.)\r\n
+#     \ </li>\r\n</ol>\r\n\r\n<p class=\"font-size-large text-center\">\r\n  <strong>Story
+#     guidelines:</strong>\r\n</p>\r\n\r\n<ul>\r\n  <li>\r\n    Your story should be
+#     truthful to the extent you can remember. We're\r\n    here for entertainment,
+#     but we're looking for true stories.\r\n  </li>\r\n  <li>\r\n    By submitting
+#     your story, you're submitting with it the <a\r\n    href=\"/release-agreement\">release
+#     agreement</a>. So, you know, make\r\n    sure you're not breaking any laws by
+#     telling this story.\r\n  </li>\r\n  <li>\r\n    While we may make edits to the
+#     audio, we're not in the censorship\r\n    business. If you want to censor names
+#     or language, that's your\r\n    responsibility. However, we do offer that your
+#     story be published\r\n    without your name attached, but we likely will not change
+#     the sound of\r\n    your voice.\r\n  </li>\r\n  <li>\r\n    Be confident and have
+#     fun. The best stories come out when our\r\n    storytellers are relaxed and having
+#     a good time (sometimes this means\r\n    a little liquid courage).\r\n  </li>\r\n</ul>\r\n\r\n<p
+#     class=\"font-size-large text-center\">\r\n  <strong>Audio tips:</strong>\r\n</p>\r\n\r\n<ul>\r\n
+#     \ <li>\r\n    How and where you record is totally up to you. There is background\r\n
+#     \   noise in almost all of our stories, and that's OK. We just need to\r\n    hear
+#     the storyteller clearly and consistently.\r\n  </li>\r\n  <li>\r\n    While you
+#     can use any device to record (including your phone), we use\r\n    <a href=\"https://smile.amazon.com/dp/B003QKBVYK\"
+#     target=\"_blank\">this\r\n    recorder</a> for ad hoc stories.\r\n  </li>\r\n
+#     \ <li>\r\n    Any audio file format is acceptable. You're best to just leave the\r\n
+#     \   file what it is by default after being exported from your phone or\r\n    audio
+#     recorder.\r\n  </li>\r\n</ul>"
+#   meta_description: Share your story with Squirrel Stories for a chance to be featured
+#     on an upcoming episode!
+#   template: Share
+#   page_path: share-your-story
 - !ruby/hash:Hashie::Mash
   id: 2604
   title: Story Release Agreement
   slug: story-release-agreement
   template_name: Page
-  publish_at: 
-  created_at: '2018-02-12T11:44:34.258Z'
-  updated_at: '2018-02-27T03:12:45.340Z'
+  publish_at:
+  created_at: "2018-02-12T11:44:34.258Z"
+  updated_at: "2018-02-27T03:12:45.340Z"
   name: Story Release Agreement
   body: "<p>\r\n  I hereby grant to Sean C Davis for Squirrel Stories, his subsidiaries,\r\n
     \ affiliates, agents, successors, and assigns the right and permission to\r\n
