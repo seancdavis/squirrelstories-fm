@@ -146,7 +146,7 @@ helpers do
   end
 
   def ix_client
-    @ix_client ||= Imgix::Client.new(host: 'sapwood.imgix.net', secure_url_token: 'qmNcr67W7y89zkKZ')
+    @ix_client ||= Imgix::Client.new(host: 'squirrelstories.imgix.net', secure_url_token: 'jsHWJGAR2M3FEnNb')
   end
 
   def ix_url(image_url, opts = {})
